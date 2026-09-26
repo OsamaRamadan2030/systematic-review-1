@@ -1,0 +1,324 @@
+{
+ "abstract_only": [
+  43,
+  45
+ ],
+ "by_country": {
+  "Canada": 1,
+  "India": 1,
+  "Indonesia": 1,
+  "Italy": 1,
+  "Norway/Sweden": 1,
+  "Philippines": 1,
+  "Saudi Arabia": 1,
+  "Sweden": 7,
+  "Taiwan": 1,
+  "USA": 12
+ },
+ "by_design": {
+  "NRS": 10,
+  "RCT": 2,
+  "SCD": 15
+ },
+ "by_function_learners": {
+  "BRL": 10,
+  "STT": 108,
+  "TTS": 459
+ },
+ "by_function_reports": {
+  "BRL": 1,
+  "STT": 7,
+  "TTS": 19
+ },
+ "ed_refs": {
+  "Braille acquisition": {
+   "+": [
+    "38"
+   ]
+  },
+  "Comprehension": {
+   "+": [
+    "31",
+    "32",
+    "33",
+    "34",
+    "39",
+    "42",
+    "43"
+   ],
+   "-": [
+    "46"
+   ],
+   "0": [
+    "35",
+    "40",
+    "41",
+    "44",
+    "45",
+    "47",
+    "48"
+   ]
+  },
+  "Curricular attainment": {
+   "+": [
+    "29",
+    "36"
+   ]
+  },
+  "Engagement and independence": {
+   "+": [
+    "42"
+   ],
+   "0": [
+    "47"
+   ]
+  },
+  "Reading efficiency": {
+   "+": [
+    "34",
+    "35",
+    "40",
+    "41",
+    "43"
+   ],
+   "0": [
+    "44"
+   ]
+  },
+  "Text length": {
+   "+": [
+    "26",
+    "28"
+   ],
+   "0": [
+    "27"
+   ]
+  },
+  "Text quality": {
+   "+": [
+    "25",
+    "28"
+   ],
+   "0": [
+    "26",
+    "27",
+    "49"
+   ]
+  },
+  "Transcription accuracy": {
+   "+": [
+    "49"
+   ],
+   "0": [
+    "26"
+   ]
+  },
+  "Unaided literacy skills": {
+   "+": [
+    "23;24",
+    "37"
+   ],
+   "0": [
+    "30",
+    "32",
+    "39"
+   ]
+  }
+ },
+ "ed_tally": {
+  "Braille acquisition": {
+   "+": 1
+  },
+  "Comprehension": {
+   "+": 7,
+   "-": 1,
+   "0": 7
+  },
+  "Curricular attainment": {
+   "+": 2
+  },
+  "Engagement and independence": {
+   "+": 1,
+   "0": 1
+  },
+  "Reading efficiency": {
+   "+": 5,
+   "0": 1
+  },
+  "Text length": {
+   "+": 2,
+   "0": 1
+  },
+  "Text quality": {
+   "+": 2,
+   "0": 3
+  },
+  "Transcription accuracy": {
+   "+": 1,
+   "0": 1
+  },
+  "Unaided literacy skills": {
+   "+": 2,
+   "0": 3
+  }
+ },
+ "learning_favourable_all_higher_risk": true,
+ "learning_outcomes": [
+  {
+   "dir": "+",
+   "domain": "Unaided literacy skills",
+   "ref": "23;24",
+   "risk": [
+    "higher",
+    "higher"
+   ]
+  },
+  {
+   "dir": "+",
+   "domain": "Curricular attainment",
+   "ref": "29",
+   "risk": [
+    "higher"
+   ]
+  },
+  {
+   "dir": "0",
+   "domain": "Unaided literacy skills",
+   "ref": "30",
+   "risk": [
+    "higher"
+   ]
+  },
+  {
+   "dir": "0",
+   "domain": "Unaided literacy skills",
+   "ref": "32",
+   "risk": [
+    "lower"
+   ]
+  },
+  {
+   "dir": "+",
+   "domain": "Curricular attainment",
+   "ref": "36",
+   "risk": [
+    "higher"
+   ]
+  },
+  {
+   "dir": "+",
+   "domain": "Unaided literacy skills",
+   "ref": "37",
+   "risk": [
+    "higher"
+   ]
+  },
+  {
+   "dir": "+",
+   "domain": "Braille acquisition",
+   "ref": "38",
+   "risk": [
+    "higher"
+   ]
+  },
+  {
+   "dir": "0",
+   "domain": "Unaided literacy skills",
+   "ref": "39",
+   "risk": [
+    "higher"
+   ]
+  }
+ ],
+ "map_cells": {
+  "BRL|Braille acquisition": [
+   "38"
+  ],
+  "STT|Unaided literacy skills": [
+   "23",
+   "24"
+  ],
+  "STT|Written expression": [
+   "25",
+   "26",
+   "27",
+   "28",
+   "49"
+  ],
+  "TTS|Comprehension": [
+   "31",
+   "32",
+   "33",
+   "34",
+   "35",
+   "39",
+   "40",
+   "41",
+   "42",
+   "43",
+   "44",
+   "45",
+   "46",
+   "47",
+   "48"
+  ],
+  "TTS|Curricular attainment": [
+   "29",
+   "36"
+  ],
+  "TTS|Engagement and independence": [
+   "42",
+   "47"
+  ],
+  "TTS|Reading efficiency": [
+   "34",
+   "35",
+   "40",
+   "41",
+   "43",
+   "44"
+  ],
+  "TTS|Unaided literacy skills": [
+   "30",
+   "32",
+   "37",
+   "39"
+  ]
+ },
+ "n_comparison": 93,
+ "n_disability": 577,
+ "n_total": 670,
+ "rating_class": {
+  "higher": 13,
+  "lower": 12,
+  "na": 2
+ },
+ "reports": 27,
+ "retained_levels": [
+  "access",
+  "learning"
+ ],
+ "retained_with_learning": [
+  "32"
+ ],
+ "sensitivity_retained": [
+  25,
+  31,
+  32,
+  33,
+  34,
+  35,
+  41,
+  42,
+  44,
+  46,
+  48,
+  49
+ ],
+ "series_max": 26,
+ "since_2018": 20,
+ "year_range": [
+  1999,
+  2026
+ ]
+}

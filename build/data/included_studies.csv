@@ -1,0 +1,28 @@
+ref,label,year,country,function,design_class,design,n_disability,n_comparison_no_disability,series,population,technology,comparator,tool,rating,rating_class,abstract_only,sensitivity_retained
+23,Raskind & Higgins,1999,USA,STT,NRS,Non-randomised controlled pretest–posttest,39,0,S23,Learning disabilities; 9-18 y,Discrete-speech STT writing practice (16 weeks),General computer instruction,ROBINS-I,Serious,higher,no,no
+24,Higgins & Raskind,1999,USA,STT,NRS,Non-randomised three-group comparison (extends [23]),13,0,S23,Learning disabilities; 9-18 y (13 added to cohort of [23]),Continuous- vs. discrete-speech STT,General computer instruction,ROBINS-I,Serious,higher,no,no
+25,MacArthur & Cavalier,2004,USA,STT,NRS,Counterbalanced within-participant,21,10,S25,Learning disabilities; high school,STT dictation,Handwriting; human scribe,ROBINS-I,Moderate,lower,no,yes
+26,Almgren Bäck et al.,2024,Norway/Sweden,STT,SCD,Modified multiple baseline,8,0,S26,Severe reading/writing difficulties; middle school,Structured STT instruction (25 sessions),Keyboarding baseline,WWC v5.0,Does not meet,higher,no,no
+27,Fälth et al.,2025,Sweden,STT,SCD,A–B,7,0,S27,Mild intellectual disability; 10-13 y,STT plus explicit writing instruction,Keyboard writing baseline,WWC v5.0,Does not meet,higher,no,no
+28,Sand et al.,2025,Sweden,STT,SCD,A–B with maintenance,4,0,S28,Mild intellectual disability; 10-13 y,Individualised STT intervention,Baseline writing,WWC v5.0,Does not meet,higher,no,no
+29,Bhola,2022,India,TTS,RCT,Randomised parallel-group,20,0,S29,Dyslexia; 6-12 y,TTS-supported teaching (4 months),Conventional teaching,RoB 2,High,higher,no,no
+30,Svensson et al.,2021,Sweden,TTS,NRS,Non-randomised controlled longitudinal,149,0,S30,Severe reading/writing difficulties; grades 4 and 8 and high school,TTS and STT apps (24 sessions),Treatment as usual,ROBINS-I,Serious,higher,no,no
+31,Keelor et al.,2023,USA,TTS,NRS,Counterbalanced within-participant (5 conditions),29,0,S31,Reading difficulties; 8-12 y,TTS with/without highlighting,Silent reading; oral reading; listening only,ROBINS-I,Moderate,lower,no,yes
+32,Young et al.,2019,USA,TTS,SCD,A–B–A–B withdrawal,4,0,S32,Learning disabilities; secondary,TTS-supported reading,Unsupported reading,WWC v5.0,Meets with reservations,lower,no,yes
+33,Sulaimon & Schaefer,2023,USA,TTS,SCD,A–B–A–B withdrawal,2,0,S33,Learning disabilities; grade 4,Read&Write Gold TTS,Unsupported reading,WWC v5.0,Meets with reservations,lower,no,yes
+34,Schmitt et al.,2019,USA,TTS,SCD,Adapted alternating treatments,4,0,S34,Reading learning disabilities; middle school,Continuous TTS; reading-pen TTS,Silent reading,WWC v5.0,Meets with reservations,lower,no,yes
+35,Alqahtani,2023,Saudi Arabia,TTS,SCD,Multiple baseline + alternating treatments,3,0,S35,Reading difficulties; grades 3-4,iPad TTS + question generation,Repeated reading + question generation,WWC v5.0,Meets with reservations,lower,no,yes
+36,Ebajay & Malabo,2026,Philippines,TTS,NRS,Non-equivalent matched groups,20,0,S36,Specific learning disabilities; grades 1-5,TTS-assisted mathematics instruction (4 weeks),Conventional instruction,ROBINS-I,Serious,higher,no,no
+37,Nuraini Herawati et al.,2022,Indonesia,TTS,SCD,A–B–A,1,0,S37,ADHD; grade 2,TTS-supported e-learning,Unsupported baseline,WWC v5.0,Does not meet,higher,no,no
+38,McCarthy et al.,2016,USA,BRL,SCD,Adapted alternating treatments,10,0,S38,Visual impairment; 4 y 11 mo to 14 y 11 mo,Teacher + adaptive AI Braille Tutor,Teacher instruction alone,WWC v5.0,Does not meet,higher,no,no
+39,Svensson et al.,2026,Sweden,TTS,SCD,Time-lagged A–B with follow-up,8,0,S39,Mild intellectual disability; 11-14 y,ClaroSpeak TTS (12 sessions),Independent reading baseline,WWC v5.0,Does not meet,higher,no,no
+40,Chen et al.,2026,Taiwan,TTS,NRS,Counterbalanced 3 × 2 mixed factorial,38,21,S40,Dyslexia or ADHD; junior high,Synchronised TTS + text,Silent reading,ROBINS-I,Serious,higher,no,no
+41,Grunér et al.,2018,Sweden,TTS,RCT,Randomised two-period crossover,49,0,S41,Reading disability; grades 3-9,Listening with TTS,Independent reading,RoB 2 (crossover),Some concerns,lower,no,yes
+42,Bonifacci et al.,2022,Italy,TTS,NRS,Within-participant repeated measures,20,50,S42,Dyslexia; school age,TTS reading,Self-paced silent reading,ROBINS-I,Moderate,lower,no,yes
+43,Moorman et al.,2010,USA,TTS,SCD,A–B–A–B withdrawal,2,0,S43,Specific learning disabilities; high school,TTS software,Unsupported reading,Not rated,Not assessable (abstract only),na,yes,no
+44,Meyer & Bouck,2014,USA,TTS,SCD,Multiple baseline across participants,3,0,S44,Reading disabilities; junior high,TTS,Unsupported reading,WWC v5.0,Meets with reservations,lower,no,yes
+45,Meyer & Bouck,2017,USA,TTS,SCD,Alternating treatments,4,0,S45,Reading learning disabilities; secondary,TTS; live adult read-aloud,Independent reading,Not rated,Not assessable (abstract only),na,yes,no
+46,Brunow & Cullen,2021,USA,TTS,SCD,Alternating treatments,4,0,S46,Learning disabilities; 16-17 y,TTS,Human reader,WWC v5.0,Meets with reservations,lower,no,yes
+47,Fälth et al.,2025,Sweden,TTS,SCD,Two-condition single-subject (A–B),5,0,S47,Mild intellectual disability,Listening with TTS,Independent reading,WWC v5.0,Does not meet,higher,no,no
+48,Silvestri et al.,2022,Canada,TTS,NRS,Counterbalanced within-participant,94,0,S48,Reading difficulties; grade 8,TTS,Reading without TTS,ROBINS-I,Moderate,lower,no,yes
+49,Kraft,2023,Sweden,STT,NRS,Counterbalanced within-participant,16,12,S49,Reading and writing difficulties; 10-13 y,Built-in automatic STT,Keyboard writing,ROBINS-I,Moderate,lower,no,yes

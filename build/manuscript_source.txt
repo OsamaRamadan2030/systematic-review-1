@@ -1,0 +1,261 @@
+% Source for the Healthcare (MDPI) manuscript. Built by build/build_manuscript.py.
+% Markup: ::directive lines; blank-line-separated plain paragraphs = body text.
+% Inline: **bold**, *italic*, ^sup^, ~sub~, [@key; @key] citations, [@INCLUDED] = all included reports.
+
+::title Assistive Speech and Braille Technologies for Children and Adolescents with Disabilities: A Systematic Review of Reading, Writing, and Learning Outcomes
+
+::abstract_head Highlights
+
+::hq What are the main findings?
+
+::bullet Across 27 reports (up to 26 studies and 577 learners with disabilities), text-to-speech and speech-to-text most consistently improved immediate access, including reading time, text length, and residual spelling errors. Effects on comprehension and text quality depended on the learner, the task, and the comparator.
+
+::bullet Favourable effects on durable learning (unaided literacy, curricular attainment, Braille mastery) came only from studies at high or serious risk of bias. No learner-level evaluation of automatic classroom captioning or optical Braille recognition was located, and certainty was very low for every outcome.
+
+::hq What are the implications of the main findings?
+
+::bullet Speech technologies should be provided as individually matched access tools and reviewed through a monitored trial against a learner-level goal. They should not be allocated by diagnosis alone or expected to remediate reading or writing.
+
+::bullet Assistive-technology services and funders need adequately powered trials that separate access effects from learning effects, and first evaluations of captioning and Braille technologies with the children who use them.
+
+::abstract_head Abstract
+
+::abstract **Background/Objectives:** Speech and Braille technologies are routinely provided to children with disabilities, but whether they improve functioning, not just technical access, is unclear. We synthesised learner-level outcomes of speech-to-text (STT), text-to-speech (TTS), automatic captioning, adaptive Braille-learning, and optical Braille recognition (OBR) technologies in school-age learners with disabilities. **Methods:** PubMed, Web of Science, Scopus, and APA PsycInfo were searched to 23 July 2026, with Google Scholar and citation searching (PROSPERO CRD420261513927). Randomised, non-randomised, within-participant, and single-case experimental studies were eligible. Risk of bias was assessed with RoB 2, ROBINS-I, and What Works Clearinghouse standards; synthesis used effect-direction coding without meta-analysis, and certainty was rated with GRADE. **Results:** Twenty-seven reports (≤26 studies; ≤577 learners with disabilities) were included. TTS improved reading rate, time, or effort in 5 of 6 reports, but comprehension favoured TTS in only 7 of 15, varying with grade, reading profile, and comparator; the largest controlled study (*n* = 149) found no between-group difference at one year. STT increased text length or reduced residual errors without consistent gains in text quality. One small study suggested that an adaptive Braille tutor speeds contraction mastery. Favourable effects on unaided skills or attainment came only from studies at high or serious risk of bias. No learner-level evaluation of automatic captioning or OBR was located. Certainty was very low for all outcomes. **Conclusions:** Speech technologies are best regarded as individually matched access tools rather than remedial interventions. Provision should follow monitored individual trials; rigorous trials are needed, particularly for captioning and Braille technologies.
+
+::keywords **Keywords:** assistive technology; text-to-speech; speech-to-text; Braille; automatic captioning; dyslexia; intellectual disability; visual impairment; ICF-CY; systematic review
+
+::line
+
+::h1 1. Introduction
+
+Almost one in ten children worldwide, an estimated 240 million, lives with a disability [@unicef2021]. For many of them, the main barrier to learning is access rather than capacity: difficulty hearing classroom talk, decoding print, producing written text, or acquiring Braille can conceal what a child knows and limit participation in school [@great2022]. The Convention on the Rights of Persons with Disabilities treats accessible communication as an entitlement [@crpd], and World Health Assembly resolution WHA71.8 commits Member States to improving access to assistive technology as an integral part of universal health coverage [@wha718; @great2022]. In the language of the International Classification of Functioning, Disability and Health for Children and Youth (ICF-CY), reading, writing, and receiving spoken and written messages are activities (codes d140, d145, d166, d170, d310, d325), school education is a participation domain (d820), and products for communication and education are environmental factors (e125, e130) that can act as facilitators [@icfcy]. The provision of literacy and communication technology is therefore a concern of paediatric rehabilitation, school health, and assistive-technology services, not of education alone [@great2022; @aap2016]. It is also a concern of health-system efficiency: a substantial proportion of assigned assistive products are underused or abandoned [@federici2016].
+
+Five technology functions dominate this field, and they address different barriers. Speech-to-text (STT) dictation converts a learner’s speech into written text and may bypass handwriting and spelling demands [@matre2024]. Text-to-speech (TTS) converts digital text into synthetic speech and may bypass decoding demands [@wood2018]. Automatic captioning converts a teacher’s or classmates’ speech into real-time text for deaf and hard-of-hearing learners [@kushalnagar2014]. Adaptive, artificial-intelligence (AI)-assisted Braille tutors provide practice and feedback during Braille acquisition [@latif2023], and optical Braille recognition (OBR) converts images of embossed Braille into print or speech [@kausar2021; @asfaw2024]. Most of these functions are now built into mainstream devices at little or no marginal cost, and AI has markedly improved their technical accuracy [@kausar2021; @asfaw2024; @millett2022]. As a result, they are increasingly recommended by default.
+
+Technical accuracy, however, is not a learner outcome. Recognition accuracy, word-error rate, and usability describe the device, whereas comprehension, written expression, attainment, independence, and participation describe the child [@lenker2003; @hoskin2024]. Assistive-technology outcome models also predict that benefit depends on the fit between the person, the technology, the task, and the environment [@lenker2003; @scherer2002]. A further distinction matters to services. A technology may produce an **access** effect, improving performance while it is in use, or a **learning** effect, improving skills that persist without it [@matre2024]. The two imply different goals, durations of use, and success criteria, but they are often reported together, and marketing claims seldom distinguish them.
+
+Previous reviews have examined these technologies separately. A meta-analysis of TTS and related read-aloud tools reported a modest mean benefit for reading comprehension with substantial heterogeneity [@wood2018]; a scoping review of STT for adolescents with learning difficulties found little high-quality experimental evidence [@matre2024]; a systematic review of technology for Braille literacy found a small and methodologically weak evidence base [@hoskin2024]; and a review of captioning combined with sign language located four experimental comparisons [@pavani2026]. To our knowledge, none has compared these functions within one functional-outcome framework, separated access from learning outcomes, distinguished multiple reports from independent studies, or applied design-specific risk-of-bias standards, including those for single-case experiments, together with a formal certainty assessment. Practitioners who prescribe these technologies, and the services and funders who pay for them, therefore lack a clear account of what effect to expect, for whom, and with what confidence.
+
+This review addressed that gap. Among school-age children and adolescents with disabilities, we asked what learner-level outcomes have been reported for STT, TTS, automatic captioning, adaptive Braille-learning, and OBR technologies, and how certain that evidence is. The objectives were to (i) map populations, technologies, designs, and outcomes against ICF-CY domains; (ii) synthesise findings by technology function and outcome, distinguishing access from learning effects; (iii) appraise risk of bias and rate the certainty of each technology–outcome evidence body; and (iv) identify evidence gaps that matter for assistive-technology provision and research.
+
+::h1 2. Materials and Methods
+
+::h2 2.1. Protocol, Registration, and Reporting
+
+The review was prospectively registered in PROSPERO (CRD420261513927) and is reported in accordance with PRISMA 2020, PRISMA 2020 for Abstracts, and PRISMA-S; the synthesis without meta-analysis is reported in accordance with SWiM [@prisma2020; @prismas; @swim]. The completed PRISMA 2020 checklist is provided as a separate file. Deviations from the registered protocol are listed in Table S4 (Panel B). Four elements were finalised or added after data extraction and are labelled as such wherever they appear: the nine synthesis groups, the mapping of outcomes to ICF-CY codes with the classification of outcomes as access or learning outcomes, the effect-direction plot, and a sensitivity synthesis restricted to lower-risk evidence. The review used published aggregate data only, so ethics approval and consent were not required. Children, families, and practitioners were not involved in the design or conduct of the review.
+
+::h2 2.2. Eligibility Criteria
+
+Eligibility was defined by population, intervention, comparator, outcome, and study design. The unit of inclusion was the report, and the unit of synthesis was the independent study.
+
+::bullet **Population.** Children or adolescents in primary or secondary education with visual impairment or blindness, deafness or hearing loss, dyslexia or another specific learning disability, a reading or writing disability, intellectual disability, attention-deficit/hyperactivity disorder (ADHD), or another explicitly identified disability affecting access to spoken or written classroom language. Disability had to be documented by a formal diagnosis, an individualised education programme or equivalent designation, or a standardised assessment against a stated cut-off; samples described only as “struggling” or “at risk” were excluded. Samples were eligible when the mean or median age was 5–18 years and no participant was older than 19 years; younger children were eligible only when enrolled in school within an otherwise eligible sample. Mixed samples were eligible only when data for eligible learners were reported separately.
+
+::bullet **Interventions.** Automatic STT for writing or dictation; automatic speech recognition generating real-time captions; TTS used for access or learning; AI-assisted Braille tutoring; or OBR used directly with learners. Multicomponent interventions were eligible when an eligible technology was central and the design allowed a comparison with an eligible control or baseline. Human-generated captioning and read-aloud systems using pre-recorded human speech were excluded.
+
+::bullet **Comparators.** No technology, usual instruction, an alternative accommodation or technology, or a prospectively measured baseline or comparison phase.
+
+::bullet **Outcomes.** At least one learner-level outcome: reading or listening comprehension; reading accuracy, rate, or effort; written productivity, accuracy, spelling, or quality; curricular attainment; Braille acquisition; or participation, engagement, independence, or task burden. Technical measures (for example, recognition accuracy or latency) were extracted only when reported alongside an eligible learner-level outcome.
+
+::bullet **Designs and reports.** Randomised controlled trials, non-randomised comparative studies, counterbalanced within-participant experiments, and single-case experimental designs with repeated measurement across phases, published as full-length peer-reviewed articles in English from database inception to 23 July 2026. Reviews, protocols, theses, conference abstracts, surveys, qualitative-only studies, uncontrolled usability evaluations, and uncontrolled pre–post studies were excluded.
+
+::h2 2.3. Information Sources and Search Strategy
+
+PubMed, Web of Science, and Scopus were searched on 22 July 2026 and APA PsycInfo on 23 July 2026, each from inception, without date limits. Strategies combined three concept blocks: school-age population and disability; speech or Braille technology; and comparative or experimental design. Complete strategies and yields are given in Table S1. Supplementary methods comprised a Google Scholar search on 23 July 2026 (signed-out browser session, relevance ranking, first 200 records screened), backward reference checking of included reports and relevant reviews, forward citation searching in Google Scholar and Scopus, targeted searches of publisher platforms, and later verification searches of the same supplementary sources. ERIC, CINAHL, dissertation databases, trial registries, and engineering or computing databases (for example, IEEE Xplore and the ACM Digital Library) were not searched, and the strategies were not peer reviewed using the PRESS checklist; the consequences are considered in Section 4.6.
+
+::h2 2.4. Study Selection and Linked Reports
+
+Records from all sources were combined in one reference library and de-duplicated, with residual duplicates removed manually. One reviewer (A.K.D.) screened titles and abstracts and then full texts against the eligibility criteria; no automation tool was used. Each excluded full text was assigned one principal reason using a fixed hierarchy: publication type or design; technical outcomes only; population or setting; intervention; no eligible comparator or phase structure; insufficient information. Reports were linked into studies by comparing authors, sites, recruitment periods, participant characteristics, sample sizes, and interventions. Reports describing overlapping cohorts were retained when they contributed distinct comparisons but were counted as one study (Table S4, Panel C). When overlap could be neither confirmed nor excluded, reports were counted separately and participant totals were reported as upper bounds.
+
+::h2 2.5. Data Extraction
+
+One reviewer (A.K.D.) extracted data into a structured matrix, followed by a second verification pass by the same reviewer against the source reports. Fields covered citation, country, design, setting, sample and age, disability classification, technology function, intervention content and dose, comparator or phase structure, outcome domains and instruments, time points, numerical results with variability, effect estimates with confidence intervals (CIs), test statistics, attrition, and implementation information. Missing standard deviations were not imputed, graphs were not digitised, and effect sizes were not reconstructed from incomplete statistics. For two reports the full text could not be obtained; because their published abstracts reported the population, design, comparison, and learner-level outcome, they were retained for description and mapping but were not appraised and were excluded from the sensitivity synthesis. Values that were missing, ambiguous, or internally inconsistent in the source reports are identified at the point of use (Table S2).
+
+::h2 2.6. Outcome Framework and Effect Measures
+
+Outcomes were first grouped into the five prespecified domains: reading and listening; writing; curricular attainment; Braille acquisition; and participation, engagement, independence, and burden. For presentation, each outcome was then mapped to ICF-CY activity and participation codes [@icfcy] and classified according to what it measured. **Access outcomes** were measured while the technology was in use (for example, comprehension of a passage read by TTS, or the number of errors left in an STT-produced text). **Learning outcomes** were measured without the technology or after a period of use (for example, unaided word reading, spelling, attainment, or Braille mastery). This classification was added after data extraction (Table S6).
+
+The prespecified effect measures were the mean difference or standardised mean difference for between-group continuous outcomes, the paired mean difference for within-participant outcomes, the risk ratio for binary outcomes, and the non-overlap index reported by the source authors for single-case data. CIs were reported when the source provided them or provided sufficient data to calculate them. Statistical significance was not treated as equivalent to functional or educational importance.
+
+::h2 2.7. Risk of Bias
+
+Tools were matched to design and applied to one prespecified target result per report. RoB 2 (including the crossover variant) was used for randomised studies and ROBINS-I for non-randomised and counterbalanced within-participant studies [@rob2; @robinsi]. Single-case experiments were rated against the What Works Clearinghouse (WWC) Procedures and Standards Handbook, version 5.0, as Meets Standards Without Reservations, Meets Standards With Reservations, or Does Not Meet Standards [@wwc]. Because WWC design standards do not constitute a complete risk-of-bias tool, selective outcome reporting, implementation fidelity, and unblinded outcome measurement were appraised separately. For ROBINS-I, the target trial and the prespecified confounding domains (age or grade, baseline literacy, disability severity, attention and language profile, prior technology experience, and co-interventions such as explicit instruction) are summarised in Table S3. Judgements were not converted into numerical scores. Appraisal was performed by one reviewer (A.K.D.). For summary displays, reports were classed as **lower risk** (RoB 2 some concerns; ROBINS-I moderate; WWC meets standards with reservations; no report reached the lowest category of any tool) or **higher risk** (RoB 2 high; ROBINS-I serious; WWC does not meet standards).
+
+::h2 2.8. Synthesis Methods
+
+Studies were grouped first by technology function and then by outcome domain, producing nine synthesis groups (Table S4, Panel A). Functions for which no eligible study was located were retained as explicit reporting categories and were described as gaps in the located evidence, not as evidence of no effect. Meta-analysis was not undertaken: populations, technology functions, tasks, comparators, instruments, exposure, and designs differed materially; only two reports provided an effect estimate with a CI; and single-case and group estimates are not commensurable. Heterogeneity was explored descriptively by learner profile, grade, comparator, and exposure, and by distinguishing access from learning outcomes.
+
+The synthesis followed SWiM [@swim] and Cochrane guidance on methods other than meta-analysis [@mckenzie2019]. Within each group, results were tabulated and described in terms of the magnitude, precision, consistency, and applicability of each contrast, with greatest interpretive weight given to lower-risk evidence. To display the direction of effects across heterogeneous metrics, an effect-direction plot was constructed [@thomson2013; @boon2021]. For each report and outcome domain, the direction was coded as favouring the technology, favouring the comparator, or showing no clear difference, mixed results, or conflicting results. Coding was based on the reported contrast rather than on statistical significance. For single-case designs, a direction was assigned when at least 70% of participants or outcomes in the domain moved the same way; otherwise the domain was coded as mixed [@boon2021]. The coding and its source statements are listed in Table S6. No sign test was applied, because the studies were few, small, and heterogeneous. A post hoc sensitivity synthesis was restricted to lower-risk reports.
+
+::h2 2.9. Certainty of Evidence
+
+Certainty was rated with GRADE for each populated technology–outcome evidence body [@grade]. Randomised evidence started at high certainty and non-randomised and single-case evidence at low certainty; when designs were mixed within a body, the randomised evidence set the starting level. Ratings were downgraded for risk of bias, inconsistency, indirectness, imprecision, and publication bias; no ratings were upgraded. Publication bias was judged qualitatively against the search restrictions (English-language and peer-reviewed reports only; no grey-literature, registry, or engineering sources). Findings are summarised in Table 2, and every downgrade is justified in Table S5.
+
+::h1 3. Results
+
+::h2 3.1. Study Selection
+
+The database searches identified 4025 records and the supplementary methods identified 270 (Figure 1). After removal of 1586 duplicates, 2709 records were screened, 136 reports were sought, 8 could not be retrieved, and 128 were assessed in full. Of these, 101 were excluded, most often because they reported technical outcomes only (*n* = 28) or had an ineligible publication type or design (*n* = 27). Twenty-seven reports were included [@INCLUDED]: 17 were identified through the databases and 10 through supplementary methods. Two reports described one cohort [@s23; @s24], so the reports represent at most 26 independent studies; overlap among four Swedish reports could not be excluded (Table S4, Panel C). Selected reports that appeared eligible but were excluded are listed with reasons in Table S4 (Panel D).
+
+::figure figures/Figure1_PRISMA_flow.png|6.3
+
+::figcap **Figure 1.** PRISMA 2020 flow diagram of study identification, screening, and inclusion.
+
+::h2 3.2. Characteristics of Included Studies
+
+The 27 reports were published between 1999 and 2026, and 20 were published in 2018 or later (Table 1; Table S2). Twelve came from the United States, seven from Sweden, one from Norway and Sweden, and one each from Canada, India, Indonesia, Italy, the Philippines, Saudi Arabia, and Taiwan. Only three were conducted in lower- or middle-income countries. Two reports were randomised [@s29; @s41], ten were non-randomised or counterbalanced within-participant comparisons, and fifteen were single-case experiments. Samples ranged from 1 to 149 learners. After removal of the confirmed overlap, the reports enrolled at most 577 learners with disabilities and 93 comparison peers without disabilities; one study also included seven teachers [@s38].
+
+Twenty-one reports enrolled learners with dyslexia, specific learning disabilities, or reading and writing difficulties, one of which also included learners with ADHD [@s40]. Four enrolled learners with mild intellectual disability [@s27; @s28; @s39; @s47], one enrolled a single learner with ADHD [@s37], and one enrolled Braille learners with visual impairment [@s38]. No included study enrolled deaf or hard-of-hearing learners. By function, seven reports (six studies; 108 learners with disabilities) evaluated STT, nineteen (459 learners) evaluated TTS or combined TTS and STT, and one (10 learners) evaluated an adaptive Braille tutor. Figure 2 maps this evidence against ICF-CY outcome domains. Evidence was concentrated on TTS and reading comprehension. It was sparse for learning outcomes and Braille, and absent for captioning, OBR, and participation, burden, stigma, harms, and abandonment.
+
+::figure figures/Figure2_evidence_gap_map.png|6.5
+
+::figcap **Figure 2.** Evidence and gap map of learner-level outcomes by technology function and ICF-CY outcome domain. Each bubble represents the reports contributing to a cell; its area scales with the number of reports, and its wedges show the mix of study designs. The value below each bubble is the number of learners with disabilities (upper bound). A report can contribute to more than one outcome domain. Shaded rows and columns indicate functions or outcome domains for which no eligible study was located.
+
+::end_section portrait
+
+::tabcap **Table 1.** Characteristics of the 27 included reports (up to 26 studies), ordered by technology function and design.
+
+::table table1
+
+::tabfoot A, access outcome (measured with the technology in use); ADHD, attention-deficit/hyperactivity disorder; AI, artificial intelligence; ID, intellectual disability; L, learning outcome (unaided or after a period of use); LD, learning disability; NRS, non-randomised or counterbalanced within-participant study; RCT, randomised controlled trial; RoB 2, Cochrane risk-of-bias tool for randomised trials; ROBINS-I, Risk Of Bias In Non-randomised Studies of Interventions; SCED, single-case experimental design; STT, speech-to-text; TTS, text-to-speech; WWC, What Works Clearinghouse. Values of *n* are learners with disabilities; peers without disabilities are shown in brackets. Reports [@s23] and [@s24] describe one overlapping cohort. Detailed characteristics and numerical results are given in Table S2, and appraisal rationales in Table S3.
+
+::end_section landscape
+
+::h2 3.3. Risk of Bias
+
+Tool-based judgements were assigned to 25 reports (Figure 3; Table S3); two reports available only as abstracts could not be rated [@s43; @s45]. Of the two randomised reports, one was at high risk of bias [@s29] and the crossover experiment raised some concerns [@s41]. Of the ten non-randomised or within-participant reports, five were at serious risk [@s23; @s24; @s30; @s36; @s40] and five at moderate risk [@s25; @s31; @s42; @s48; @s49]. Of the thirteen single-case reports that could be rated, six met WWC standards with reservations [@s32; @s33; @s34; @s35; @s44; @s46] and seven did not meet them [@s26; @s27; @s28; @s37; @s38; @s39; @s47]. No report reached the lowest risk category of any tool. Recurring problems were non-random allocation with residual confounding, attrition, unblinded outcome assessment, researcher-developed measures, analyses of multiple subgroups without adjustment for multiplicity, and single-case designs with fewer than three demonstrations of effect or too few baseline observations. Overall, 12 reports were classed as lower risk, 13 as higher risk, and 2 as not assessable.
+
+::figure figures/Figure3_risk_of_bias.png|6.5
+
+::figcap **Figure 3.** Risk-of-bias judgements by design: (**a**) RoB 2 for randomised reports; (**b**) ROBINS-I for non-randomised and counterbalanced within-participant reports; (**c**) WWC version 5.0 design standards for single-case reports. Judgements refer to the prespecified target result of each report. WWC ratings are the review authors’ application of the published standards, not official WWC determinations. Categories are tool-specific and are not directly comparable across panels.
+
+::h2 3.4. Synthesis of Learner-Level Outcomes
+
+Figure 4 displays the direction of every coded outcome, grouped by technology and separated into access and learning outcomes. The coding and its source statements are listed in Table S6.
+
+::figure figures/Figure4_effect_direction_plot.png|6.6
+
+::figcap **Figure 4.** Effect-direction plot of learner-level outcomes. Triangles indicate the direction of effect for each report and outcome domain, coded without regard to statistical significance. Marker size reflects the number of learners with disabilities, and fill reflects the risk-of-bias class. Outcomes to the left of the dashed line were measured with the technology in use (access); outcomes to the right were measured unaided or after a period of use (learning).
+
+::h3 3.4.1. Text-to-Speech: Access to Reading
+
+Fifteen reports compared comprehension with and without TTS or against an alternative accommodation. The direction favoured TTS in seven [@s31; @s32; @s33; @s34; @s39; @s42; @s43], was mixed or showed no clear difference in seven [@s35; @s40; @s41; @s44; @s45; @s47; @s48], and favoured the comparator in one, in which a human reader produced higher listening comprehension than TTS for all four students [@s46]. The mixed results followed identifiable learner and task characteristics. In the randomised crossover experiment (*n* = 49), TTS improved comprehension in grades 3–5 but not in grades 6–9 [@s41]. In the largest within-participant study (*n* = 94), only students with a dyslexic profile, whose listening comprehension exceeded their decoding, had a significant gain; this was reported as a 1.58-point difference in grade-equivalent score [@s48]. Comprehension improved with TTS for students with ADHD but not for students with dyslexia in a mixed-factorial experiment [@s40], and only learners with dyslexia alone, rather than those with additional language impairment, showed a statistically significant gain [@s31]. Synchronised highlighting added nothing to TTS alone [@s31], and TTS did not outperform repeated reading, although it took less than half the time [@s35].
+
+Reading efficiency showed a more consistent pattern. Reading rate, reading time, or effort favoured TTS in five of the six reports that measured it [@s34; @s35; @s40; @s41; @s43]; the exception found no difference in fluency or completion time [@s44]. In the randomised crossover experiment, reading rate improved with TTS in both grade groups, and this effect was not moderated by symptoms of inattention or hyperactivity [@s41]. For students with dyslexia, TTS maintained comprehension while reducing reading time and effort [@s40]. It also reduced mind wandering and increased time on task [@s42].
+
+::h3 3.4.2. Text-to-Speech and Combined Speech Technologies: Learning Outcomes
+
+Evidence that TTS use builds skills that persist without the technology was limited and inconsistent. The largest controlled study (*n* = 149 students in grades 4 and 8 and high school; serious risk of bias) provided 24 sessions of combined TTS and STT training. Both groups improved over time, but no between-group difference was detected after the intervention or at one-year follow-up, and about 30% of participants were unavailable at the final assessment [@s30]. Among single-case reports, oral reading fluency increased by the end of the TTS phases and Lexile scores improved in two of four students [@s32], clear decoding improvement occurred in one of eight learners with intellectual disability [@s39], and one incompletely reported case described better reading and spelling performance [@s37]. Two 20-participant group studies reported higher attainment after TTS-supported teaching: a mean post-test score of 28 versus 24 on an unvalidated general achievement test [@s29], and an adjusted mathematics effect of *F*(1,17) = 42.23, *p* < 0.001, in a report with internally inconsistent standard deviations [@s36]. Both were at high or serious risk of bias.
+
+::h3 3.4.3. Speech-to-Text: Access to Writing
+
+Five studies examined writing with STT [@s25; @s49; @s26; @s27; @s28]. Text length increased in two of the three single-case studies that measured it [@s26; @s28]; in the third, gains in text length ranged from substantial to absent across learners [@s27]. In a counterbalanced comparison of 28 children aged 10–13 years, composing with STT left fewer errors in the final text than keyboarding (*F*(1,52) = 14.92, *p* < 0.001, partial η^2^ = 0.22). The reduction was largest among learners with reading and writing difficulties (interaction *F*(1,52) = 8.88, *p* = 0.004), but judged text quality did not differ between conditions (*p* = 0.95) [@s49]. Text quality favoured STT in two of five studies: STT essays by high-school students with learning disabilities were rated higher than handwritten essays, although scribed essays were rated highest [@s25], and all four learners with intellectual disability produced more content units [@s28]. In the remaining three, quality was unchanged or varied across learners [@s26; @s27; @s49]. The three single-case studies embedded STT in structured, explicit, or individualised writing instruction delivered over multiple sessions, whereas the two group comparisons tested a single composing session. None therefore isolates a technology-only effect or a durable learning effect.
+
+::h3 3.4.4. Speech-to-Text: Learning Outcomes
+
+One study series, reported twice, examined unaided reading and spelling after 16 weeks of STT-supported writing practice with legacy discrete-speech software. Learners with learning disabilities improved more than controls in word recognition, spelling, reading comprehension, and phonological processing [@s23], and the expanded three-group report found advantages in word recognition and reading comprehension for both discrete- and continuous-speech STT [@s24]. Allocation was non-random, the comparison groups overlapped, and no effect estimates or CIs were reported.
+
+::h3 3.4.5. Adaptive Braille Learning
+
+One study evaluated an AI Braille tutor as a supplement to instruction from teachers of students with visual impairments [@s38]. Ten learners reached mastery of written Braille contractions in a mean of 7.00 sessions (range 1–12) with tutor support, compared with 9.58 sessions (range 3–16) with teacher instruction alone. Different contraction sets were used in each condition, the design did not meet WWC standards, and the authors described the difference as a trend. Independent Braille reading, broader literacy, and classroom attainment were not measured.
+
+::h3 3.4.6. Functions and Outcomes Without Eligible Evidence
+
+No eligible report evaluated automatic classroom captioning or OBR against a learner-level outcome, and no included study enrolled deaf or hard-of-hearing learners. No study measured participation in classroom discourse, correction burden, fatigue, stigma, privacy, adverse effects, or device abandonment. Because engineering, computing, and grey-literature sources were not searched, these are gaps in the evidence located by this review, and they should not be read as evidence that the technologies are ineffective.
+
+::h2 3.5. Sensitivity Synthesis and the Access–Learning Distinction
+
+Restricting the synthesis to the 12 lower-risk reports [@s25; @s49; @s41; @s31; @s42; @s48; @s32; @s33; @s34; @s35; @s44; @s46] left five of the seven evidence bodies empty: STT reading-related outcomes, general achievement, mathematics, spelling and pronunciation, and Braille acquisition. It also removed the largest controlled study [@s30]. Eleven of the 12 lower-risk reports measured only access outcomes, and the twelfth, which also measured unaided reading, showed a mixed pattern [@s32]. The conditional pattern for TTS comprehension and the more consistent reading-efficiency benefit persisted. Every favourable learning outcome in the review (unaided literacy, attainment, and Braille acquisition) therefore came from a report at high or serious risk of bias or not meeting WWC standards [@s23; @s24; @s29; @s36; @s37; @s38].
+
+::h2 3.6. Certainty of Evidence
+
+Certainty was very low for all seven populated technology–outcome bodies (Table 2; Table S5). The most frequent reasons for downgrading were risk of bias, inconsistency across learner profiles and comparators, indirectness arising from multicomponent interventions and short exposure, and imprecision due to small samples and absent CIs.
+
+::end_section portrait
+
+::tabcap **Table 2.** Summary of findings and certainty of evidence (GRADE) by technology–outcome evidence body.
+
+::table table2
+
+::tabfoot CI, confidence interval; MD, mean difference; NRS, non-randomised or within-participant study; RCT, randomised controlled trial; SCED, single-case experimental design; STT, speech-to-text; TTS, text-to-speech. *n*, learners with disabilities (upper bounds). ⊕◯◯◯, very low certainty: the true effect is likely to be substantially different from the estimate. Downgrades (levels in brackets): RoB, risk of bias; Inc, inconsistency; Ind, indirectness; Imp, imprecision. Publication bias was suspected but not separately downgraded. Full evidence profile: Table S5.
+
+::end_section landscape
+
+::h1 4. Discussion
+
+::h2 4.1. Principal Findings
+
+This review found that speech technologies for children and adolescents with disabilities are better supported as **access tools** than as **remedial interventions**, and that the evidence for either use is of very low certainty. With TTS in use, reading became faster or less effortful in five of six reports, but comprehension improved in fewer than half, and the benefit depended on who was reading, what they were reading, and what TTS was compared with. With STT in use, learners produced longer texts and left fewer spelling errors, but the quality of their writing improved in only two of five studies. Claims that these technologies build durable skills, such as unaided reading, spelling, attainment, or Braille mastery, rested entirely on studies at high or serious risk of bias. The largest and longest controlled study found no advantage over usual support after one year [@s30]. Two functions, automatic classroom captioning and OBR, had no eligible learner-level evaluation at all, even though both are the subject of active technical development [@kausar2021; @asfaw2024; @millett2022].
+
+::h2 4.2. Comparison with Previous Evidence
+
+The conditional TTS findings are consistent with the modest and heterogeneous mean effect on comprehension reported in the earlier meta-analysis (*d* = 0.35, 95% CI 0.14–0.56) [@wood2018]. This review adds three observations. First, separating reading efficiency from comprehension shows that the more reliable benefit of TTS is to reading time and effort, which is itself a meaningful functional outcome for learners who otherwise read slowly and with fatigue. Second, several newer studies identify plausible modifiers of the comprehension benefit, namely grade, reading profile, attention, and comparator [@s31; @s40; @s41; @s48]. Third, a human reader can outperform synthetic speech [@s46], so TTS should not be presumed equivalent to the human read-aloud accommodations it often replaces. For STT, the results support the distinction drawn in the scoping review between STT as a compensatory aid and STT as an instructional technology [@matre2024]. A counterbalanced comparison showed precisely this compensatory pattern: fewer residual errors with unchanged text quality [@s49]. The Braille findings reproduce the conclusion of the earlier systematic review, that technology for Braille literacy has been evaluated in few, small, and weak studies [@hoskin2024]. The absence of learner-level captioning evidence is consistent with the very small number of experimental captioning studies located by a recent review [@pavani2026].
+
+::h2 4.3. Why Responses Vary: Matching the Technology to the Barrier
+
+The heterogeneity is coherent when read through the lens of person–technology matching [@scherer2002; @lenker2003]. TTS removes the decoding barrier but does not supply vocabulary, background knowledge, oral-language comprehension, or sustained attention. It should therefore help most when listening comprehension exceeds decoding, which is the pattern observed for the dyslexic profile and for dyslexia without language impairment [@s31; @s48]. STT removes the transcription barrier but does not plan, organise, or revise a text. It should therefore increase output and accuracy before it improves quality, which is again the observed pattern [@s26; @s49]. One possibility is that older students, who have more practised reading strategies and face longer texts, gain less from a fixed synthetic voice [@s41]. These mechanisms were not tested as mediators in the included studies and should be treated as hypotheses. They are, however, testable, and they imply that assessment of the child’s specific functional barrier, rather than the diagnostic label, should drive the choice of technology.
+
+The same logic explains why favourable technical performance does not guarantee benefit. A recognition engine with a low word-error rate in a laboratory may still impose correction burden in a noisy classroom, in a regional accent, or for a child who cannot yet detect errors [@millett2022]. None of the included studies measured burden, fatigue, stigma, or abandonment, although these are well-recognised determinants of whether assistive products continue to be used [@federici2016; @nordstrom2019].
+
+::h2 4.4. Implications for Rehabilitation, School Health, and Assistive-Technology Services
+
+The evidence does not support universal prescription, and it does not support withholding these technologies. It supports individualised provision with verification. For practitioners who recommend or fund speech technologies, including occupational therapists, speech and language therapists, audiologists, vision rehabilitation specialists, school nurses, and special educators, the findings point to a structured, monitored trial rather than provision by diagnosis. The following steps are a pragmatic safeguard derived from the pattern of findings, not an effect estimate.
+
+::numbered Identify the specific functional barrier (for example, decoding, transcription, or access to spoken instruction) and define a measurable learner-level goal, such as comprehension of grade-level text, a target text length with few residual errors, or completion of a task within a set time.
+
+::numbered Match the technology function to that barrier. The pattern of results suggests TTS for learners whose listening comprehension exceeds their decoding, and STT for learners whose ideas exceed their transcription.
+
+::numbered Teach the technology explicitly, including navigation, pacing, dictation, and error detection and correction, because most favourable STT results came from instructional packages.
+
+::numbered Compare performance with and without the technology on equivalent tasks over several sessions, recording both the functional outcome and the learner’s effort, independence, and preference.
+
+::numbered Decide on continued use jointly with the learner and family, and review the decision at transitions in age, curriculum, or device.
+
+At the service and policy level, commissioning decisions should weigh learner-level outcomes above advertised recognition accuracy, and should budget for training and follow-up rather than for devices alone [@great2022]. Equity also deserves attention. Twenty-four of the 27 reports came from high-income countries and none evaluated captioning for deaf or hard-of-hearing learners, so the populations and settings in which access gaps are largest [@unicef2021; @great2022] are those least represented in the evidence.
+
+::h2 4.5. Priorities for Research
+
+Table 3 summarises the evidence gaps and the study designs needed to close them. Three priorities stand out. First, adequately powered parallel-group or cluster-randomised trials should prespecify whether they test an access effect or a learning effect, designate a primary functional outcome, and use factorial or dismantling designs to separate the technology from the instruction that accompanies it. Second, the plausible modifiers identified here, including reading profile, grade, attention, and language, should be tested prospectively rather than through post hoc subgroup analyses. Pooling individual participant data from within-participant experiments would be an efficient way to do this. Third, automatic captioning and Braille technologies need their first learner-level evaluations, co-designed with deaf, hard-of-hearing, and blind young people and their teachers. Across all functions, a core outcome set spanning function, participation, burden, acceptability, privacy, harms, abandonment, and cost would make future studies comparable.
+
+::tabcap **Table 3.** Evidence gaps and recommended research designs.
+
+::table table3
+
+::tabfoot ICF-CY, International Classification of Functioning, Disability and Health for Children and Youth; OBR, optical Braille recognition; STT, speech-to-text; TTS, text-to-speech; WWC, What Works Clearinghouse.
+
+::h2 4.6. Strengths and Limitations
+
+The review has several strengths. It prespecified learner-level eligibility and separated technology functions rather than pooling dissimilar tools. It distinguished reports from independent studies and avoided double counting of the confirmed overlapping cohort. It applied design-specific appraisal, including single-case standards, and rated certainty for each technology–outcome body. By separating access from learning outcomes within an ICF-CY framework, it turned a heterogeneous literature into an interpretable pattern.
+
+The limitations of the evidence are substantial. Most studies were small, brief, non-randomised, or single-case. No report reached the lowest risk-of-bias category, only two reports provided an effect estimate with a CI, and several contained internally inconsistent or incompletely reported data [@s36; @s37; @s39]. Many interventions combined technology with instruction.
+
+The review process also has important limitations. Screening, extraction, and appraisal were each conducted by a single reviewer, with a verification pass by the same reviewer rather than independent duplicate assessment, which increases the risk of selection, extraction, and judgement errors. The search did not include ERIC, CINAHL, dissertation, trial-registry, or engineering and computing databases, and the strategies were not peer reviewed. Ten of the 27 included reports were found through supplementary rather than database searching, which indicates that the database strategies were not fully sensitive and that eligible studies, particularly education-indexed and recent studies, may have been missed. Restriction to English-language, peer-reviewed reports may have introduced language and publication bias. Two reports could be assessed only from their abstracts [@s43; @s45], and possible overlap among four Swedish cohorts could not be resolved. The synthesis groups, the ICF-CY mapping, the access–learning classification, the effect-direction plot, and the sensitivity synthesis were defined after data extraction; they are therefore labelled as post hoc and reported transparently. For these reasons, the evidence gaps for captioning and OBR should be read as gaps in the located evidence, and the conclusions should be updated as new trials appear.
+
+::h1 5. Conclusions
+
+In school-age children and adolescents with disabilities, text-to-speech and speech-to-text are best supported as access tools. They made reading faster and less effortful and made writing longer and more accurate for many, but not all, learners. Evidence that they build lasting literacy skills, and all evidence for adaptive Braille tutors, comes from studies with serious methodological limitations, and automatic classroom captioning and optical Braille recognition have not yet been evaluated with the children who would use them. The certainty of all findings is very low. Services should therefore match these technologies to each child’s specific functional barrier, teach their use, and confirm benefit through a monitored individual trial. Researchers should prioritise adequately powered trials that distinguish access from learning effects and should undertake the first learner-level evaluations of captioning and Braille technologies.
+
+::back **Supplementary Materials:** The following supporting information can be downloaded at the journal website: Table S1: Search strategies and yields by information source; Table S2: Detailed characteristics and principal findings of the included reports; Table S3: Design-specific risk-of-bias and single-case appraisal; Table S4: Synthesis groups, protocol deviations, report linkage, and selected excluded reports; Table S5: GRADE evidence profile; Table S6: Outcome classification (ICF-CY domain; access or learning) and effect-direction coding. The completed PRISMA 2020 checklist is provided as a separate file.
+
+::back **Author Contributions:** Conceptualization, A.K.D. and N.A.A.; methodology, A.K.D.; investigation, A.K.D.; data curation, A.K.D.; formal analysis, A.K.D.; writing—original draft preparation, A.K.D.; writing—review and editing, A.K.D. and N.A.A.; supervision, N.A.A. All authors have read and agreed to the published version of the manuscript.
+
+::back **Funding:** This research was funded by the King Salman Center for Disability Research through Excellence Research Center grant number KSCDR-ERC-2024-01.
+
+::back **Institutional Review Board Statement:** Not applicable. This review analysed published aggregate data and involved no human participants.
+
+::back **Informed Consent Statement:** Not applicable.
+
+::back **Data Availability Statement:** All data supporting this review are contained within the article and its Supplementary Materials, including the extraction, appraisal, and effect-direction coding tables. No new primary data were generated.
+
+::back **Acknowledgments:** During the preparation of this manuscript, the authors used Claude (Anthropic) to restructure and edit the text, to verify bibliographic metadata, and to generate figures from the authors’ extracted data. The authors reviewed and edited all output and take full responsibility for the content of this publication.
+
+::back **Conflicts of Interest:** The authors declare no conflicts of interest.
+
+::h1 Abbreviations
+
+::pni The following abbreviations are used in this manuscript:
+
+::table abbrev
+
+::h1 References
+
+::references

@@ -201,6 +201,8 @@ def three_line_table(doc, header, rows, widths, inline, style="MDPI_4.2_table_bo
             merged = tr.cells[0].merge(tr.cells[-1])
             fill(merged, row[0], sum(widths), bold=True, left=True)
             set_cell_shading(merged, "F2F2F2")
+            for para in merged.paragraphs:  # keep a subgroup header on the same page as its first row
+                para.paragraph_format.keep_with_next = True
             continue
         for j, (cell, text) in enumerate(zip(tr.cells, row)):
             fill(cell, text, widths[j], left=j in align_left_cols)

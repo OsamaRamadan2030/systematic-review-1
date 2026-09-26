@@ -13,8 +13,8 @@ from docx_common import normalise, Inline, add_runs, set_cell_borders, set_cell_
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 OUT = os.path.join(ROOT, "submission_healthcare")
-TITLE = ("Assistive Speech and Braille Technologies for Children and Adolescents with Disabilities: "
-         "A Systematic Review of Reading, Writing, and Learning Outcomes")
+TITLE = ("Access or Learning? A Systematic Review of Speech and Braille Assistive Technologies "
+         "for Children and Adolescents with Disabilities")
 FONT = "Palatino Linotype"
 
 
@@ -105,7 +105,7 @@ PRISMA = [
     ["Certainty assessment", "15", "Describe any methods used to assess certainty (or confidence) in the body of evidence for an outcome.", "Section 2.9."],
     ["RESULTS"],
     ["Study selection", "16a", "Describe the results of the search and selection process, ideally using a flow diagram.", "Section 3.1; Figure 1."],
-    ["", "16b", "Cite studies that might appear to meet the inclusion criteria but were excluded, and explain why.", "Section 3.1; Table S4 (Panel D)."],
+    ["", "16b", "Cite studies that might appear to meet the inclusion criteria but were excluded, and explain why.", "Section 3.1; Table S4 (Panels D and E)."],
     ["Study characteristics", "17", "Cite each included study and present its characteristics.", "Section 3.2; Table 1; Table S2."],
     ["Risk of bias in studies", "18", "Present assessments of risk of bias for each included study.", "Section 3.3; Figure 3; Table S3."],
     ["Results of individual studies", "19", "For all outcomes, present summary statistics for each group and an effect estimate with precision, where available.", "Sections 3.4.1–3.4.5; Figure 4; Tables S2 and S6 (precision reported where source data allowed)."],
@@ -191,8 +191,9 @@ COVER = [
           "the WHO International Classification of Functioning, Disability and Health for Children and Youth (ICF-CY), "
           "and it presents the result as an evidence and gap map."),
     ("b", "It separates **access** effects (performance while the technology is in use) from **learning** effects (skills "
-          "that persist without it). This distinction reveals a clear and practically important pattern. Text-to-speech "
-          "reliably reduced reading time and effort, and speech-to-text increased text length and reduced residual errors, "
+          "that persist without it). This distinction reveals a clear and practically important pattern, reflected in the title. "
+          "Text-to-speech reduced reading time or effort in five of six reports, and speech-to-text increased text length "
+          "and reduced residual errors, "
           "whereas every favourable effect on durable skills or attainment came from studies at high or serious risk of bias."),
     ("b", "It applies design-specific appraisal to randomised, non-randomised, and single-case studies (RoB 2, ROBINS-I, and "
           "What Works Clearinghouse standards), grades certainty with GRADE, and displays all 27 reports in an effect-direction plot."),
@@ -208,7 +209,9 @@ COVER = [
           "PRISMA-S, and SWiM; the completed PRISMA 2020 checklist, including the checklist for abstracts, is provided. All "
           "extraction, appraisal, certainty, and effect-direction coding tables are included as Supplementary Materials. "
           "Limitations are stated plainly in the manuscript, including single-reviewer screening, extraction, and appraisal, "
-          "and the search sources that were not covered."),
+          "and the search sources that were not covered. A post-search check before submission identified five potentially "
+          "eligible reports that were not included; they are listed as studies awaiting classification, and all five are "
+          "consistent with the review’s conclusions."),
     ("h", "Declarations"),
     ("p", "The manuscript is original, has not been published, and is not under consideration elsewhere. An earlier version "
           "was submitted to *Children* (MDPI) and was declined without external review; it has since been substantially "

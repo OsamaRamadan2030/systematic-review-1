@@ -196,6 +196,13 @@ def prepare_template(doc):
     assert texts[0].strip() == "Systematic Review", texts[0]
     assert "Speech and Braille" in texts[1]
     assert "Correspondence" in texts[8], texts[8]
+    # MDPI affiliation format: no position titles, no trailing full stops
+    for k in kept[4:8]:
+        ts = list(k.iter(qn("w:t")))
+        for t in ts:
+            if t.text:
+                t.text = t.text.replace("Dean, Makkah National College", "Makkah National College")
+                t.text = t.text.replace("Riyadh, Saudi Arabia.", "Riyadh, Saudi Arabia")
     # remove the Children journal logo from the first-page header (keep the MDPI logo)
     removed = 0
     for ref in sect_first.findall(qn("w:headerReference")):
@@ -235,6 +242,8 @@ def build():
     def para(kind, text, bold=False):
         p = doc.add_paragraph(style=STYLE[kind])
         add_runs(p, inline.parse(text, {"b": True} if bold else None))
+        if kind == "tabcap":  # keep a table caption on the same page as its table
+            p.paragraph_format.keep_with_next = True
         return p
 
     src = [l for l in open(SRC, encoding="utf-8").read().splitlines() if not l.startswith("%")]

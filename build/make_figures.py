@@ -465,9 +465,87 @@ def main():
     s["map_cells"] = evidence_map(studies, ed)
     ed_plot(studies, ed)
     rob_figure(studies)
+    graphical_abstract(s)
     with open(os.path.join(DATA, "summary.json"), "w") as fh:
         json.dump(s, fh, indent=1, sort_keys=True)
     print(json.dumps(s, indent=1, sort_keys=True))
+
+
+
+# ---------------------------------------------------------------- Graphical abstract
+def graphical_abstract(summary):
+    """MDPI graphical abstract (landscape, >= 1100 x 560 px); every number comes from summary.json."""
+    t = summary["ed_tally"]
+    fr = summary["by_function_reports"]
+    fig = plt.figure(figsize=(11, 5.6), dpi=200)
+    ax = fig.add_axes([0, 0, 1, 1])
+    ax.set_xlim(0, 110)
+    ax.set_ylim(0, 56)
+    ax.axis("off")
+    BLUE, ORANGE, GREY = "#2a78d6", "#eb6834", "#52514e"
+    ax.text(55, 52.5, "Access or learning? Speech and Braille assistive technologies for children and adolescents with disabilities",
+            ha="center", va="center", fontsize=13.5, fontweight="bold", color=INK)
+    ax.text(55, 49, f"Systematic review: {summary['reports']} reports, ≤{summary['series_max']} studies, "
+            f"≤{summary['n_disability']} learners with disabilities; RoB 2, ROBINS-I, WWC standards; GRADE",
+            ha="center", va="center", fontsize=10.5, color=INK2)
+
+    def panel(x, w, title, col):
+        ax.add_patch(FancyBboxPatch((x, 9.5), w, 35, boxstyle="round,pad=0.3,rounding_size=1.5",
+                                    fc="white", ec=col, lw=1.6))
+        ax.add_patch(FancyBboxPatch((x, 40.5), w, 4, boxstyle="round,pad=0.3,rounding_size=1.5",
+                                    fc=col, ec=col, lw=1.6))
+        ax.text(x + w / 2, 42.5, title, ha="center", va="center", fontsize=11.5, fontweight="bold", color="white")
+
+    # panel 1: what was evaluated
+    panel(2, 30, "Technologies evaluated", GREY)
+    rows = [("Text-to-speech / mixed", fr.get("TTS", 0)), ("Speech-to-text", fr.get("STT", 0)),
+            ("Adaptive Braille tutor", fr.get("BRL", 0)), ("Automatic captioning", 0),
+            ("Optical Braille recognition", 0)]
+    for i, (lab, k) in enumerate(rows):
+        y = 36.5 - i * 4.7
+        ax.text(4, y, lab, fontsize=10.5, va="center", color=INK)
+        ax.text(30, y, f"{k} report{'s' if k != 1 else ''}", fontsize=10.5, va="center", ha="right",
+                color=INK if k else "#e34948", fontweight="bold")
+    ax.text(17, 12.2, "No learner-level evaluation of\ncaptioning or Braille recognition", ha="center",
+            va="center", fontsize=9.5, color="#e34948", style="italic")
+
+    # panel 2: access
+    panel(36, 35, "ACCESS  (technology in use)", BLUE)
+    items = [("Reading rate, time or effort (TTS)", t["Reading efficiency"].get("+", 0), sum(t["Reading efficiency"].values())),
+             ("Reading comprehension (TTS)", t["Comprehension"].get("+", 0), sum(t["Comprehension"].values())),
+             ("Text length (STT)", t["Text length"].get("+", 0), sum(t["Text length"].values())),
+             ("Fewer residual errors (STT)", t["Transcription accuracy"].get("+", 0), sum(t["Transcription accuracy"].values())),
+             ("Text quality (STT)", t["Text quality"].get("+", 0), sum(t["Text quality"].values()))]
+    for i, (lab, k, n) in enumerate(items):
+        y = 36 - i * 4.9
+        ax.text(38, y, lab, fontsize=10, va="center", color=INK)
+        bx = 59.2
+        for j in range(n):
+            ax.add_patch(Rectangle((bx + j * 0.52, y - 1.1), 0.42, 2.2, fc=BLUE if j < k else "#dcdad4", ec="none"))
+        ax.text(bx + n * 0.52 + 0.5, y, f"{k}/{n}", fontsize=9.5, va="center", color=INK2)
+    ax.text(53.5, 11.8, "Bars: reports favouring the technology / reports measuring it", ha="center", va="center",
+            fontsize=8.8, color=INK2, style="italic")
+
+    # panel 3: learning
+    panel(75, 33, "LEARNING  (unaided, lasting)", ORANGE)
+    txt = [("Favourable learning effects came", True), ("only from studies at high or", True),
+           ("serious risk of bias", True), ("", False),
+           ("Largest controlled study (n = 149):", False), ("no between-group difference", False),
+           ("at 1-year follow-up", False)]
+    for i, (line, bold) in enumerate(txt):
+        ax.text(91.5, 37 - i * 3.4, line, fontsize=10.5, ha="center", va="center", color=INK,
+                fontweight="bold" if bold else "normal")
+    ax.text(91.5, 11.8, "Certainty (GRADE): very low for all outcomes", ha="center", va="center", fontsize=9.5,
+            color="#e34948", fontweight="bold")
+
+    ax.add_patch(FancyBboxPatch((2, 1.2), 106, 5.4, boxstyle="round,pad=0.3,rounding_size=1.2",
+                                fc="#f4f3f0", ec="none"))
+    ax.text(55, 3.9, "Implication: use speech technologies as individually matched ACCESS tools — match them to the "
+            "child’s functional barrier,\nteach their use, and confirm benefit with a monitored individual trial",
+            ha="center", va="center", fontsize=10.3, color=INK, fontweight="bold", linespacing=1.4)
+    for ext in ("png",):
+        fig.savefig(os.path.join(FIG, f"Graphical_Abstract.{ext}"), dpi=200)
+    plt.close(fig)
 
 
 if __name__ == "__main__":

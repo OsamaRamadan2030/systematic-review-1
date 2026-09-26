@@ -106,6 +106,7 @@ def main():
     def cap(text):
         p = doc.add_paragraph(style="MDPI_4.1_table_caption")
         p.paragraph_format.left_indent = 0
+        p.paragraph_format.keep_with_next = True
         add_runs(p, inline.parse(text))
 
     def foot(text):
@@ -114,8 +115,8 @@ def main():
         add_runs(p, inline.parse(text))
 
     para("MDPI_1.2_title", "Supplementary Materials")
-    para("MDPI_3.2_text_no_indent", "Assistive Speech and Braille Technologies for Children and Adolescents with Disabilities: "
-         "A Systematic Review of Reading, Writing, and Learning Outcomes")
+    para("MDPI_3.2_text_no_indent", "Access or Learning? A Systematic Review of Speech and Braille Assistive Technologies "
+         "for Children and Adolescents with Disabilities")
     para("MDPI_3.2_text_no_indent", "Reference numbers in these tables correspond to the reference list of the main manuscript. "
          "Contents: Table S1, search strategies; Table S2, detailed characteristics and findings; Table S3, risk-of-bias and "
          "single-case appraisal; Table S4, synthesis groups, protocol deviations, report linkage, and selected excluded reports; "
@@ -166,8 +167,10 @@ def main():
          "main manuscript displays the overall judgements.")
 
     # ---------------- S4 (rewritten)
-    cap("**Table S4.** Synthesis groups, protocol deviations and post hoc elements, report linkage, and selected excluded reports.")
+    cap("**Table S4.** Synthesis groups, protocol deviations and post hoc elements, report linkage, selected excluded reports, and "
+        "studies awaiting classification.")
     A = lambda t: remap(t)
+    K = lambda key: f"[{NUM[key]}]"
     s4 = [
         ["Panel A. Synthesis groups and feasibility of meta-analysis"],
         ["G1 STT: unaided reading-related outcomes " + A("[23,24]"), "Learning disabilities; STT writing practice vs. general computer instruction.", "One overlapping series; narrative synthesis.", "No comparable estimate or CI."],
@@ -182,7 +185,7 @@ def main():
         ["Panel B. Protocol deviations and elements defined after data extraction"],
         ["Registration", "Prospective registration in PROSPERO.", "Registered as CRD420261513927.", "Identifier reported consistently in all files."],
         ["Information sources", "PubMed, Web of Science, Scopus, APA PsycInfo, Google Scholar.", "Run as planned; ERIC, CINAHL, and engineering databases were not searched.", "Reported as a limitation (Section 4.6) and in publication-bias judgements (Table S5)."],
-        ["Additional identification", "Supplementary methods (Section 2.3).", remap("Ten of 27 included reports came from supplementary methods. Two [41,42] were identified by verification searching and seven [43–49] by later targeted searching; all were assessed against the prespecified criteria before synthesis."), "Indicates that eligible evidence may have been missed; conclusions are framed accordingly."],
+        ["Additional identification", "Supplementary methods (Section 2.3).", remap("Ten of 27 included reports came from supplementary methods. Two [41,42] were identified by verification searching and seven [43–49] by later targeted searching; all were assessed against the prespecified criteria before synthesis. A post-search check (26 September 2026) identified five further potentially eligible reports (Panel E), which were not synthesised."), "Indicates that eligible evidence may have been missed; conclusions are framed accordingly."],
         ["Synthesis groups", "Grouping by technology function and outcome.", "Nine groups finalised after data extraction (Panel A).", "Labelled as finalised after extraction."],
         ["Outcome classification", "Five prespecified outcome domains.", "Outcomes additionally mapped to ICF-CY codes and classified as access or learning outcomes (Table S6).", "Post hoc; used for presentation and interpretation, not for eligibility."],
         ["Effect-direction plot", "Structured tabulation and narrative synthesis (SWiM).", "Effect direction coded per report and outcome domain, without statistical significance (Figure 4; Table S6).", "Post hoc visual summary; no sign test applied."],
@@ -205,6 +208,22 @@ def main():
         ["Keelor (2017); Young (2017)", A("Doctoral dissertations linked to included journal reports."), A("Excluded: theses; journal reports [31] and [32] retained."), "No double counting."],
         [A("Reviews [5,6,12,14]"), "Evidence syntheses or conceptual reviews.", "Excluded: not primary studies.", "Used for background and reference checking."],
         [A("Technical reports [7–10,15]"), "Captioning or Braille system accuracy or usability without an eligible learner-level comparison.", "Excluded: technical-only outcome or no eligible comparator.", "Does not establish ineffectiveness."],
+        ["Panel E. Studies awaiting classification (identified by the post-search check, 26 September 2026)"],
+        ["Quinlan (2004) " + K("quinlan2004"), "Within-participant experiment: narratives composed by handwriting and by STT, with and without advance planning; less fluent and fluent writers aged 11–14 years.",
+         "Awaiting classification; abstract-level information only.",
+         "STT access: longer texts (+) and fewer surface errors (+) for less fluent writers; quality not improved (0). Same direction as included STT evidence."],
+        ["Higgins & Raskind (2005) " + K("higgins2005"), "Within-participant comparison: silent reading with vs. without a reading pen (optical character recognition with speech synthesis); 30 students with reading disabilities aged 10–18 years.",
+         "Awaiting classification; abstract-level information only.",
+         A("TTS access: comprehension higher with the pen (+). Would add one favourable comprehension comparison; same research group as [23,24], so possible participant overlap would need checking.")],
+        ["Izzo et al. (2009) " + K("izzo2009"), "Reversal design across 10 curriculum units: TTS screen reader introduced and withdrawn; high-school students with disabilities in an online transition curriculum.",
+         "Awaiting classification; abstract-level information only.",
+         "TTS access: unit-quiz and reading-comprehension scores higher with TTS (+). Would add one favourable comprehension comparison."],
+        ["Kambouri et al. (2023) " + K("kambouri2023"), "STT (Dragon) used on set tasks for 16–18 weeks; handwritten text assessed before and after, and STT text compared with handwritten text at post-test; 30 children with special educational needs and disabilities in three settings (UK).",
+         "Awaiting classification; eligibility depends on whether the post-test STT vs. handwriting comparison meets the within-participant design criterion.",
+         "STT access: STT text better than handwritten text at post-test (+). Learning: handwritten text improved before–after (+), but without a control group. Consistent with favourable learning effects arising only from higher-risk designs."],
+        ["Flütsch Keravec et al. (2026) " + K("fluetsch2026"), "Controlled 18-week intervention: one STT group vs. two handwriting groups; 107 Grade-5 students with dyslexia (Switzerland).",
+         "Awaiting classification; published after the search closed.",
+         "STT access: longer and more accurate texts with STT (+). STT learning: no transfer to handwritten text production or writing motivation (0). Would make STT learning evidence inconsistent."],
     ]
     grp = {i for i, r in enumerate(s4) if len(r) == 1}
     three_line_table(doc, ["Panel/item", "Population, evidence, or planned method", "Decision or completed method",
@@ -212,7 +231,8 @@ def main():
     foot("CI, confidence interval; GRADE, Grading of Recommendations Assessment, Development and Evaluation; ICF-CY, "
          "International Classification of Functioning, Disability and Health for Children and Youth; STT, speech-to-text; "
          "SWiM, Synthesis Without Meta-analysis; TTS, text-to-speech; WWC, What Works Clearinghouse. Panel D lists selected "
-         "boundary decisions; it is not a list of all 101 full-text exclusions.")
+         "boundary decisions; it is not a list of all 101 full-text exclusions. Panel E is based on published abstracts; the directions "
+         "shown are provisional, were not used in the synthesis, and are discussed in Section 4.6 of the main manuscript.")
 
     # ---------------- S5 GRADE evidence profile (moved from the main text)
     cap("**Table S5.** GRADE evidence profile by technology–outcome evidence body.")

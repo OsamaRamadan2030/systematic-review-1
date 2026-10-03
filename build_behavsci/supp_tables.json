@@ -1,0 +1,628 @@
+[
+[
+[
+"Source, recorded date and yield",
+"Recorded strategy"
+],
+[
+"PubMed\n22 July 2026\nRecords retrieved: n = 437",
+"(child*[tiab] OR adolescen*[tiab] OR pupil*[tiab] OR student*[tiab] OR \"school age\"[tiab] OR \"Child\"[Mesh] OR \"Adolescent\"[Mesh]) AND (braille[tiab] OR blind*[tiab] OR deaf[tiab] OR \"hard of hearing\"[tiab] OR dyslex*[tiab] OR \"Learning Disabilities\"[Mesh] OR \"Intellectual Disability\"[Mesh] OR ADHD[tiab]) AND (\"speech-to-text\"[tiab] OR \"text-to-speech\"[tiab] OR \"Speech Recognition Software\"[Mesh] OR captioning[tiab] OR dictation[tiab] OR (braille[tiab] AND (recognition[tiab] OR tutor*[tiab] OR learn*[tiab] OR \"artificial intelligence\"[tiab]))) AND (randomi*[tiab] OR quasi-experiment*[tiab] OR \"control group\"[tiab] OR \"single-case\"[tiab] OR \"single-subject\"[tiab] OR \"multiple baseline\"[tiab] OR intervention[tiab])"
+],
+[
+"Web of Science\n22 July 2026\nRecords retrieved: n = 1,286",
+"TS=((child* OR adolescen* OR pupil* OR student* OR \"school-age\" OR classroom) AND (braille OR \"visual impair*\" OR blind* OR deaf OR \"hard of hearing\" OR dyslexi* OR \"learning disab*\" OR \"reading disab*\" OR \"intellectual disab*\" OR ADHD) AND (\"speech-to-text\" OR \"text-to-speech\" OR \"speech recognition\" OR ASR OR captioning OR dictation OR (braille AND (recognition OR OCR OR tutor* OR learn* OR \"artificial intelligence\"))) AND (randomi* OR \"controlled trial\" OR quasi-experiment* OR \"single-case\" OR \"single-subject\" OR \"multiple baseline\" OR intervention))"
+],
+[
+"Scopus\n22 July 2026\nRecords retrieved: n = 1,704",
+"TITLE-ABS-KEY((child* OR adolescen* OR pupil* OR student* OR \"school-age\" OR classroom) AND (braille OR \"visual impairment\" OR blind* OR deaf OR \"hard of hearing\" OR dyslex* OR \"learning disabilit*\" OR \"intellectual disabilit*\" OR ADHD) AND (\"speech-to-text\" OR \"text-to-speech\" OR \"speech recognition\" OR ASR OR captioning OR dictation OR (braille AND (recognition OR OCR OR tutor* OR learn* OR \"artificial intelligence\"))) AND (randomi* OR quasi-experiment* OR \"controlled trial\" OR \"control group\" OR \"single-case\" OR \"single-subject\" OR \"multiple baseline\" OR intervention))"
+],
+[
+"APA PsycInfo\n23 July 2026\nRecords retrieved: n = 598",
+"(child* OR adolescen* OR pupil* OR student* OR \"school age\") AND (braille OR \"visual impairment\" OR blind* OR deaf* OR \"hard of hearing\" OR dyslexi* OR \"learning disabilit*\" OR \"intellectual disabilit*\" OR ADHD) AND (\"speech-to-text\" OR \"text-to-speech\" OR \"speech recognition\" OR captioning OR dictation OR (braille AND (recognition OR tutor* OR \"artificial intelligence\"))) AND (randomi* OR quasi-experiment* OR \"controlled trial\" OR \"single-case design\" OR \"single-subject\" OR \"multiple baseline\" OR intervention)"
+],
+[
+"Google Scholar\n23 July 2026\nRecords retrieved: n = 200",
+"(\"speech-to-text\" OR \"text-to-speech\" OR \"Braille recognition\" OR \"Braille Tutor\" OR \"automatic captioning\") AND (children OR adolescents OR students) AND (disability OR dyslexia OR deaf OR blind OR \"intellectual disability\") AND (trial OR experimental OR \"single case\" OR intervention). The first 200 records were screened as a supplementary search."
+]
+],
+[
+[
+"Report and design",
+"Participants",
+"Technology and comparator",
+"Outcomes and findings"
+],
+[
+"Ahlgrim-Delzell et al. (2016)\nRandomized trial blocked by teacher; eight monthly measurements",
+"31 learners in kindergarten–grade 8: 17 treatment, 14 control; 13 also had autism. Chronological ages not reported.",
+"Eight-month Early Reading Skills Builder with GoTalk Now phoneme blending through TTS and systematic instruction versus Structured usual literacy/sight-word instruction using the same iPad app and prompting procedures",
+"Proximal curriculum-based phoneme identification, blending and decoding/picture matching\nMean total scores (SD) increased from 34.29 (14.50) to 54.12 (18.91) with the intervention and from 32.86 (17.48) to 37.00 (19.60) with control. The reported advantage concerns the multicomponent curriculum; an isolated TTS effect was not established."
+],
+[
+"Almgren Bäck et al. (2024); Norway and Sweden\nModified, partially staggered multiple-baseline single-case study",
+"8 learners with severe reading/writing difficulties (4 per country)",
+"Structured STT instruction (25 individual sessions of approximately 30 min), with TTS introduced for revision; keyboarding baseline",
+"Text length, sentence construction, writing accuracy, punctuation, vocabulary diversity, and maintenance\nSeven of eight learners increased text productivity; accuracy was generally maintained or improved. Responses differed by learner and outcome; one participant had only one usable baseline observation."
+],
+[
+"Alqahtani (2023); Saudi Arabia\nMultiple-baseline plus alternating-treatments single-case study",
+"3 students in grades 3–4 with reading difficulties",
+"iPad TTS plus question generation versus repeated reading plus question generation",
+"Reading comprehension and session duration\nTwo of three students improved; one showed a small advantage for repeated reading. Mean session duration was 5.45 min with iPad TTS and 12.73 min with repeated reading."
+],
+[
+"Bhola (2022); India\nRandomised parallel-group pretest–posttest study as reported",
+"20 learners with dyslexia, 6–12 years (10 per group)",
+"TTS-supported teaching for 4 months; conventional teaching",
+"Researcher-developed 50-item Hindi/English academic-achievement test\nPosttest mean 28 (SD 3.61) with TTS versus 24 (SD 4.52) with conventional teaching (t = 2.186, p < 0.05). Randomization was stated, but sequence/concealment details and outcome validation were incomplete. Assistance during testing was unclear."
+],
+[
+"Brunow and Cullen (2021); USA\nAlternating-treatments single-case study",
+"4 students with learning disabilities, 16–17 years",
+"Text-to-speech versus a human reader applied to grade-level required reading",
+"Listening comprehension (excerpt and multiple-choice quizzes)\nMean listening-comprehension scores were higher under the human reader than under text-to-speech for all four students. The authors concluded that TTS may support learners with learning disabilities as a supplement to explicit instruction but was less effective than a human reader for listening comprehension."
+],
+[
+"Camardese et al. (2014)\nRandomized comparison of multicomponent e-reader package; mixed methods",
+"60 learners with IEPs, grades 5–8; 30 Kindle and 30 print. Chronological ages not reported.",
+"Kindle with TTS, font and dictionary options; 30 min three times weekly for 12 weeks versus Same reading materials in printed books",
+"Reading fluency and comprehension; descriptive user and teacher perceptions\nThe report presented grade-specific changes and group plots, without an extractable numerical treatment contrast. Favorable user and teacher perceptions did not establish a comparative effect of TTS."
+],
+[
+"Chen et al. (2026); Taiwan\nCounterbalanced 3 × 2 mixed-factorial experiment",
+"59 enrolled: dyslexia 19, ADHD 19, typical readers 21; comprehension n = 59; eye tracking n = 47 (16, 14, 17 respectively).",
+"TTS audio plus displayed text without synchronized word highlighting versus silent reading",
+"Reading comprehension and eye-tracking measures\nComprehension group-by-condition interaction F(2,56) = 4.29, p < .05, η² = .13; ADHD within-group F(1,18) = 7.00, p < .05, η² = .28. Detailed dyslexia time/speed comparisons were not statistically significant; the abstract’s stronger effort-reduction claim is not adopted."
+],
+[
+"Cuifolo et al. (2025)\nBrief experimental analysis; original figure shows three cycles comparing handwriting, handwriting+graphic organizer, STT and STT+graphic organizer, followed by extended STT+organizer assessment.",
+"Reported n = 1; High-school student with TBI; chronological age unreported in accessible primary material.",
+"STT alone and STT plus graphic organizer. versus Handwriting with or without graphic organizer.",
+"Aided total words written and rubric-based writing quality.\nThe combined STT and graphic-organizer condition produced the greatest writing output and quality. Numerical effects and unaided transfer were not established by the accessible material."
+],
+[
+"Dolan et al. (2005)\nCounterbalanced within-participant comparison; form and order assigned across four randomly composed groups; three-week study.",
+"Reported n = 10; Grades 11–12, IEP-designated learning disability; chronological ages unreported.",
+"CAST eReader synthetic TTS with optional highlighting in computer-delivered history/civics test. versus Paper-and-pencil parallel form; both formats present item sets singly and avoid separate answer sheets.",
+"Aided curricular assessment accuracy and descriptive preferences; no durable learning outcome.\nOverall accuracy was 65.3% with computer-based TTS versus 58.7% on paper (p = .12). For passages longer than 100 words, accuracy was 76.7% versus 55.0% (p = .05); shorter-passage results were inconclusive (58.0% versus 60.0%; p = .39). The reported effect-size metric was r, transformed from Cohen's d."
+],
+[
+"Ebajay and Malabo (2026); Philippines\nNon-equivalent matched-group pretest–posttest study",
+"20 students with specific learning disabilities in grades 1–5 (10 per group)",
+"NaturalReader-assisted mathematics instruction for 4 weeks; conventional instruction",
+"Researcher-reported mathematics achievement\nThe original author extraction reports an adjusted posttest group effect F(1,17) = 42.226, p < .001, partial η² = .713. These detailed statistics were not independently verified against full text during revision. The publisher abstract supports a favorable direction. Inconsistent posttest SDs are not reproduced; assistance during testing remains unclear."
+],
+[
+"Fälth, Björklund, et al. (2025); Sweden\nA–B single-case study",
+"7 learners with mild intellectual disability, 10–13 years",
+"STT plus teacher modelling, checklists, and individualised writing instruction; independent keyboard writing baseline; 5 baseline and 10 intervention assessments",
+"Text length, punctuation, sentence completeness, narrative structure, and coherence\nText-length percentage-exceeding-the-median (PEM) values ranged from 30% to 100%; text-quality PEM values ranged from 10% to 100%. Improvement was substantial for some learners and limited or absent for others."
+],
+[
+"Fälth, Nilsson, et al. (2025); Sweden\nSingle-subject two-condition comparison",
+"5 students with mild intellectual disability",
+"Independent reading versus listening with text-to-speech, using short accessible texts",
+"Comprehension; descriptive teacher-log independence; uncontrolled pre–post reading, decoding and listening tests\nComprehension PEM ranged 8–75%; phase medians A→B were 81→80, 68→90, 9→8, 60→57 and 88→52%. These PEM values did not measure independence. Raw pre–post literacy gains were uncontrolled. Possible cohort overlap remains."
+],
+[
+"Flütsch Keravec et al. (2026)\nNonrandomized three-group pre/post comparison plus within-participant handwriting/STT contrasts in the STT group",
+"118 Grade 5 students enrolled; 107 analyzed: STT plus instruction 36, handwriting plus instruction 36, usual-instruction control 35. Mean ages in months (SD): STT 135.36 (6.89), handwriting 134.64 (5.45), control 136.77 (7.97); ranges unreported. Professional dyslexia diagnosis with persistent reading/writing performance at least 1.5 SD below expectations. Eleven exclusions/dropouts; outcome denominators vary.",
+"STT plus video-based self-regulated writing instruction for 18 school weeks, 50 minutes weekly, following 5–6 training sessions of 30–40 minutes. versus Same writing instruction using handwriting; usual classroom handwriting; paired five-minute handwritten compositions within STT group",
+"Unaided handwritten text quality/length Handwriting fluency Reading fluency Writing motivation Immediate modality-specific word production and proportion of correct writing sequences\nNo group-by-time advantage was demonstrated for unaided writing quality, text length, handwriting fluency, reading fluency or motivation. At post-test, 33 STT users produced a mean of 74.12 words in five minutes with STT versus 33.55 by hand (p < .001; d = .78). Correct-writing-sequence percentages were 80.77% versus 46.04% (p < .001). These paired results demonstrate assisted performance, not equivalence or unaided learning."
+],
+[
+"Frankel and Brownstein (2016)\nWithin-participant comparison with randomized presentation-order versions",
+"22 learners, grades 8–12, ages 14–19: 10 blind and 12 with low vision; mean age not reported.",
+"ClearSpeak/MathPlayer and Window-Eyes synthetic mathematical speech with lexical end markers, pauses or speed changes versus Alternative synthetic-speech configurations",
+"Aided identification of algebraic expression structure and perceived helpfulness\nFor two radical expressions, correct identification with explicit end-root wording was 82% and 95%, compared with 50% and 68% using extended pauses and 59% and 86% using speed changes. For longer fractional expressions, mean correctness across four configurations ranged from .81 to .88, without a statistically detectable difference."
+],
+[
+"Franklin et al. (2026)\nSingle-subject alternating-treatments design",
+"Reported n = 3; Three adolescents with cerebral palsy; exact ages and participant-level characteristics not available in retrieved journal abstract.",
+"Speech-to-text assistive-technology accommodation versus Handwriting control",
+"Total words written Words spelled correctly Correct writing sequences\nAll three adolescents produced higher counts of total words, correctly spelled words and correct writing sequences with STT than handwriting. The authors described large effects for the two participants with the most impaired handwriting; exact estimates were unavailable."
+],
+[
+"Garrett et al. (2011)\nAlternating treatments STT versus word processing; primary dissertation describes randomized counterbalanced presentation and two-session effective-treatment replication",
+"Primary companion dissertation: five students, ages 15, 15, 17, 17 and 18, Grades 9–12, receiving orthopedic-impairment services. Two spina bifida, one Duchenne muscular dystrophy, one cerebral palsy and one spinal muscular atrophy. Journal abstract does not state the count; exact report linkage remains unconfirmed.",
+"Speech-recognition first-draft writing; primary dissertation identifies Dragon NaturallySpeaking 7 Preferred with Microsoft Word 2003 and initial training. versus Keyboard word-processing first-draft writing; primary dissertation disables spellcheck/autocorrect in both conditions",
+"First-draft fluency Accuracy Text length Error types Recall of intended meaning\nThe journal abstract reports greater first-draft fluency and length for all participants with STT, but lower accuracy than word processing. The primary dissertation supports the same directions; its numerical estimates were not substituted for unavailable journal results."
+],
+[
+"Gonzalez (2014)\nRandomized-order within-participant comparison",
+"17 learners with documented reading disabilities and IEPs: 10 in Grade 3 and 7 in Grade 4; 12 boys and 5 girls. Chronological ages unreported. District IQ–achievement discrepancy criterion; at least one year below grade level.",
+"Full-text TTS with word highlighting; selective word-pronunciation TTS with vocabulary definitions versus Printed books without support; selective vocabulary/pronunciation support",
+"Immediate oral retelling and multiple-choice comprehension after supported or unsupported reading; researcher read comprehension questions aloud. Access outcomes, not unaided learning.\nFull-text TTS produced higher immediate oral-retelling scores than printed text or selective vocabulary and pronunciation support. The omnibus multiple-choice comprehension comparison was inconclusive (p = .052)."
+],
+[
+"Grunér et al. (2018); Sweden\nRandomised two-period crossover experiment",
+"49 schoolchildren with reading disability, grades 3–5 and 6–9",
+"Listening to a text with TTS versus reading the same text independently, with conditions switched between periods; inattention and hyperactivity symptoms rated with the Strengths and Difficulties Questionnaire (SDQ)",
+"Reading comprehension and reading rate; moderation by inattention/hyperactivity symptoms\nReading rate improved with TTS in both grade groups and was not moderated by ADHD symptoms. Comprehension improved with TTS in grades 3–5 but not in grades 6–9; higher symptom scores were associated with less comprehension improvement in the younger group and greater improvement in the older group."
+],
+[
+"Higgins and Raskind (2000); USA\nExpanded nonrandomised three-group comparison",
+"52 learners with learning disabilities, 9–18 years; includes the 39 participants in (Raskind & Higgins, 1999) plus 13 continuous-speech STT users",
+"Continuous-speech STT versus discrete-speech STT versus general computer instruction",
+"Word recognition, spelling, and reading comprehension\nBoth STT groups improved word recognition and reading comprehension relative to control; the discrete-speech group also improved spelling. This report is not an independent replication of (Raskind & Higgins, 1999)."
+],
+[
+"Higgins and Raskind (2005)\nPaired within-participant aided versus unaided reading comparison after familiarization",
+"30 participants with reading disabilities, ages 10–18. Separate enrollment/analysis denominators, attrition and diagnostic ascertainment unavailable in the original abstract.",
+"Quicktionary Reading Pen II: optical character recognition plus synthetic speech and dictionary functions; instruction followed by two weeks of practice versus Silent reading without assistance",
+"Reading comprehension during aided/unaided test conditions\nThe publisher abstract reports better reading comprehension with the reading pen than without assistance in the paired comparison (p < .0001). Means, variability and an effect-size estimate were unavailable."
+],
+[
+"Izzo et al. (2009)\nRepeated-phase single-case evaluation introducing and withdrawing TTS across curriculum units; separate uncontrolled pre/post reading-screening outcome",
+"Nine secondary-school students enrolled; seven analyzed after two exclusions for absenteeism. Grades 9–12; ages unreported. One TBI, one autism, three cognitive disability, one emotional disability and one learning disability.",
+"CLiCk, Speak TTS, the sole activated assistive feature within EnvisionIT; available during intervention reading and quizzes. Approximately 14 weeks, three 80-minute classes weekly. versus Same curriculum without TTS during baseline/withdrawal phases",
+"Curriculum unit-quiz scores Passage comprehension under aided/unaided phases AIMSweb Maze pre/post classification (uncontrolled ancillary outcome)\nMean unit-quiz scores were 5.06 with TTS versus 4.07 without it; five of seven learners improved and two declined. Mean comprehension scores were 6.98 versus 4.85; six improved and one was unchanged. Reading-screening classifications did not change in the separate uncontrolled pre/post comparison."
+],
+[
+"Keelor et al. (2018)\nWithin-participant five-condition experiment; secondary predictor analysis",
+"29 children aged 8–12 with reading difficulties; exact journal eligibility threshold unavailable in abstract.",
+"Text-to-speech with and without highlighting versus Silent reading, oral reading, listen-only",
+"Aided comprehension and exploratory predictors\nLanguage and reading measures predicted comprehension in TTS conditions, whereas executive-function measures predicted comprehension during silent reading and listen-only conditions. The abstract does not establish causal moderation of TTS effects."
+],
+[
+"Keelor et al. (2023); USA\nCounterbalanced within-participant five-condition experiment",
+"29 learners with reading difficulties, 8–12 years",
+"Silent reading, oral reading, listening only, TTS without highlighting, and TTS with highlighting",
+"Multiple-choice reading comprehension\nBoth TTS conditions had higher comprehension than silent reading. No statistically detectable additional highlighting benefit was established. Different within-profile p values do not establish effect modification. Keelor (2018) is a provisionally linked companion report."
+],
+[
+"Keelor et al. (2020)\nWithin-participant six-condition comparison; passages randomized across conditions",
+"10 children, ages 8–11 (mean 9.36, SD 1.07), 2 boys and 8 girls; scores at or below the 25 th percentile on two reading subtests; recruited from a remedial summer program at a private school for learning disabilities.",
+"TTS without highlighting at 150 wpm; TTS with highlighting at 150 or 225 wpm versus Silent reading, oral reading and synthetic audio-only listening; latter is not technology-absent",
+"Immediate comprehension: three multiple-choice questions per passage, read aloud by the researcher.\nMean comprehension was 2.4 of 3 in each TTS condition, compared with 1.6 during silent reading, 2.2 during oral reading and 1.9 with synthetic audio-only listening. These descriptive differences do not establish equivalence between TTS features or unaided learning."
+],
+[
+"Kraft (2023); Sweden\nCounterbalanced within-participant comparison",
+"28 children aged 10–13 years: 16 with reading and writing difficulties identified by standardised spelling or decoding cut-offs; 12 reference peers without such difficulties",
+"Expository text composition using built-in automatic STT (word processor, spell-checker disabled) versus keyboard writing; order and topic counterbalanced; one text per condition after brief training",
+"Revisions at different levels, spelling and STT errors left in the final text, and text quality by comparative judgment\nEligible subgroup n = 16: mean residual errors per 100 words 5 (SD 4) with STT versus 13 (SD 8) with keyboarding; mean length 92.00 (47.56) versus 79.38 (46.35); mean comparative-quality scores 51.94 (9.82) versus 49.75 (14.59). Pooled model statistics also include 12 reference peers and are not subgroup-only estimates."
+],
+[
+"MacArthur and Cavalier (2004); USA\nCounterbalanced within-participant comparison",
+"31 high-school students; 21 with learning disabilities and 10 peers without learning disabilities",
+"Essay production by handwriting, STT dictation, and human scribing",
+"Essay quality and word-error rate\nAmong students with learning disabilities, STT essays were rated higher than handwritten essays; scribed essays were rated highest. STT word-error rates were below 10%."
+],
+[
+"McCarthy et al. (2016); USA\nAdapted alternating-treatments/crossover single-case study with mixed-methods components",
+"10 Braille learners with visual impairment, age 4 years 11 months to 14 years 11 months; 7 teachers",
+"Teacher instruction plus adaptive AI Braille Tutor versus teacher instruction alone, using different contraction sets within learners",
+"Identification/reading of targeted Braille contractions; sessions to mastery; usability\nMean sessions to mastery 7.00 (range 1–12) with tutor support versus 9.58 (3–16) with teacher instruction. Mastery required correct identification in three consecutive sessions. Different target sets were used; authors described a trend, not a powered confirmatory effect. Broad transfer was not established."
+],
+[
+"Meyer and Bouck (2014); USA\nMultiple-baseline-across-participants single-case study",
+"3 junior-high students with reading disabilities",
+"Text-to-speech versus unsupported reading of grade-level expository text",
+"Oral reading fluency, reading comprehension, task-completion time, and social validity\nThe authors reported no clear effect on fluency, comprehension or task time. Participants nevertheless reported perceived benefit and valued independence. A null result is not evidence of equivalence, and no unverified inferential test is attributed to the report."
+],
+[
+"Meyer and Bouck (2017); USA\nAlternating-treatments single-case study",
+"4 secondary students with reading learning disabilities",
+"Live adult read-aloud, text-to-speech, and independent reading of expository text",
+"Reading comprehension of expository text and task-completion time\nThe publisher abstract reports that neither live nor TTS read-aloud raised comprehension to sufficient proficiency and neither accommodation was superior. This is not proof that neither ever improved relative to baseline. Task time was measured but its direction is unavailable in the accessible abstract."
+],
+[
+"Moorman et al. (2010); USA\nA–B–A–B withdrawal single-case study",
+"2 high-school students with specific learning disabilities",
+"Text-to-speech software versus unsupported independent reading of expository passages",
+"Reading rate and reading comprehension\nThe ERIC record abstract reports increases in reading rate and improved comprehension for both participants. The full text was unavailable, so extraction is limited to abstract-level findings; phase-level values and a WWC rating could not be established."
+],
+[
+"Noakes et al. (2019)\nSingle-case experimental comparison; alternating-treatments label corroborated by related dissertation primary abstract but not retrieved journal methods.",
+"Reported n = 3; Three African American male students in grades 4,8,9 receiving formal special-education services under TBI designation. Exact ages not stated in the retrieved journal preview.",
+"Speech-to-text assistive-technology accommodation versus Handwriting control",
+"Total words written Words spelled correctly Correct writing sequences\nAll three learners produced higher total-word, correctly spelled-word and correct-sequence counts with STT than handwriting. The authors reported 100% nonoverlap across outcomes; exact phase values and the effect-size computation were not independently verified."
+],
+[
+"Nuraini Herawati et al. (2022); Indonesia\nA–B–A single-case study",
+"Two Grade 2 learners with ADHD reported in the source discussion; separate participant trajectories are not shown.",
+"TTS-supported e-learning versus unsupported baseline phases",
+"Reading/spelling and pronunciation-related performance\nHigher intervention and withdrawal-phase performance was reported. The undefined outcome scale, incomplete individual trajectories, A–B–A structure and multicomponent instruction prevent reliable estimation or attribution. Final A 2 has four observations; an inadequate-final-baseline assertion is not retained."
+],
+[
+"Ogut et al. (2025)\nObservational NAEP 2017 block analysis; logistic marginal effects, inverse-probability weighting (IPW), doubly robust (DR) adjustment.",
+"2,790 SWDs overall (rounded). Table 6 reports 40,080 student-item observations, not children; extended-time user/nonuser subsets 7,770/16,590 observations. Endpoint participant denominator not separately recoverable.",
+"Computer-generated TTS during mathematics assessment versus TTS use: at least one sentence read after activation; nonuse reference.",
+"Mathematics item correctness\nOverall disability-group estimates were inconclusive across logit, inverse-probability weighting and doubly robust models. For pupils not using extended time, reported positive associations were 2.4–2.7 percentage points; the logit and doubly robust estimates met p < .05, whereas the weighted estimate met only p < .10. Estimates for extended-time users were inconclusive."
+],
+[
+"Park et al. (2017)\nComparative experimental study according to journal abstract; linked precursor describes teacher-level random allocation",
+"164 Grade 9 learners; journal abstract does not establish disability. Strongly linked primary precursor specifies baseline Gates–MacGinitie reading score 1.0–6.9 grade equivalents. Inclusion remains provisional pending final journal reconciliation.",
+"TTS software, approximately 10 weeks; mean 582 minutes. Strongly linked precursor identifies Kurzweil 3000. versus Control condition in comparative study; final journal group sizes and exact control procedures unverified",
+"Unaided reading vocabulary and comprehension\nThe publisher abstract reports favorable unaided vocabulary and reading-comprehension outcomes after approximately ten weeks of TTS use, with covariate adjustment. Exact journal effect estimates were not verified, and precursor estimates were not substituted."
+],
+[
+"Raskind and Higgins (1999); USA\nNonrandomised controlled pretest–posttest study",
+"39 learners with learning disabilities, 9–18 years (STT n = 19; control n = 20)",
+"Discrete-speech STT for self-selected and class writing, 50 min/week for 16 weeks; general computer instruction",
+"Word recognition, spelling, reading comprehension, and reading-related cognitive processes\nGreater improvement with STT in word recognition (p < 0.0001), spelling (p < 0.002), reading comprehension (p < 0.01), and phonological processing (p < 0.04)."
+],
+[
+"Sand et al. (2025); Sweden\nA–B single-case study with maintenance",
+"4 learners with mild intellectual disability, 10–13 years",
+"Individualised STT intervention; 3 baseline, 15 intervention, and 3-month maintenance observations",
+"Words, sentences, and content units produced; unaided word decoding; unaided and assisted maintenance writing\nAll four learners increased words, sentences, and content during intervention; reported nonoverlap-of-all-pairs values ranged from 0.93 to 1.00. The three-point baseline limits causal inference. Unaided decoding changed 8→6, 58→53, 23→28 and 18→20 correct words. Table 2 labels baseline/maintenance whereas Methods describes immediate posttesting. Three-month maintenance included two unaided handwriting/keyboard sessions followed by STT; it was not solely assisted."
+],
+[
+"Schmitt et al. (2019); USA\nAdapted alternating-treatments single-case study",
+"4 middle-school students with reading learning disabilities",
+"Continuous TTS, discontinuous reading-pen TTS, and silent reading",
+"Reading-comprehension accuracy and rate\nContinuous TTS produced the strongest performance for three of four learners. The abstract contradicts itself about the fourth learner’s reading-pen rate; the assertion that the pen was slowest in all four is omitted. Indices .70 and .99 lack a sufficiently identified metric and are not treated as standardized effects."
+],
+[
+"Schneider et al. (2013)\nMultiple-phase alternating treatments: baseline handwriting; handwriting/word processing/STT comparison; preferred accommodation; SRSD instruction; SRSD plus handwriting versus SRSD plus STT; final combined-treatment phase.",
+"Four children in Grades 4, 4, 5 and 6; chronological ages unreported. Clinical Asperger syndrome diagnoses, special-education services and parent-reported writing underachievement.",
+"Dragon NaturallySpeaking Preferred 2008; two 30-minute STT training sessions and 10-minute practice. SRSD instruction in two 30-minute sessions. versus Handwriting; WordPad keyboarding; SRSD plus handwriting.",
+"Three-minute total words, story parts, correct-word-sequence percentage; aided homework generalization and acceptability\nSTT yielded longer and more complete stories than handwriting or keyboarding. Combined STT and writing-strategy instruction produced the highest story-completeness scores, while accuracy varied little. Homework and acceptability findings concerned continued use of aids, not unaided transfer."
+],
+[
+"Silió and Barbetta (2010)\nMultiple baseline across participants; randomly and equally assigned cohorts A and B (three each).",
+"Six Hispanic boys in Grade 5 with specific learning disabilities; chronological ages unreported in the abstract.",
+"Cohort A: word prediction followed by word prediction plus TTS. Cohort B: TTS followed by TTS plus word prediction. Software not independently confirmed. versus 15-minute word-processing-only baseline; each single-technology phase followed by the combined package.",
+"writing fluency syntax spelling accuracy overall organization\nThe abstract describes little change with TTS alone and favorable narrative-writing outcomes with word prediction, alone or combined with TTS, in six fifth-grade boys with learning disabilities. Numerical effects were unavailable."
+],
+[
+"Silvestri et al. (2022); Canada\nWithin-participant counterbalanced comparison",
+"94 grade-8 students with reading difficulties",
+"Reading with versus without text-to-speech; participants classified into Simple View of Reading cognitive profiles",
+"Reading comprehension, analysed by cognitive profile\nOnly students with a dyslexic profile, whose listening comprehension exceeded their decoding skill, had a statistically significant within-profile comprehension gain with TTS, reported as a 1.58-point grade-equivalent score difference. The remaining profiles did not have statistically significant within-profile gains; between-profile heterogeneity was not established. A published corrigendum is listed with the source references; its existence is not treated as a new study."
+],
+[
+"Staels and Van den Broeck (2015)\nRandomized 2 × 2 factorial: TTS versus independent silent reading, with unaided testing 3 or 7 days later. Four cells; exact cell counts unavailable. Story order was Latin-square counterbalanced.",
+"65 Grade 4–5 learners, ages 9 years 4 months–11 years 8 months (mean 9 years 11 months); 41 boys and 24 girls. Thirty had diagnosed dyslexia; 35 had reading difficulty. All met the prespecified standardized reading threshold, not all a formal dyslexia diagnosis.",
+"Kurzweil 3000 whole-text synthetic speech with synchronized word highlighting; eight short Dutch stories; practice in the preceding week. versus Same computer-displayed stories read silently without TTS.",
+"Unaided orthographic choice, naming accuracy/speed and spelling at 3 or 7 days; comprehension attention checks at ceiling\nAdjusted orthographic-choice scores favored independent reading: 5.33 of 8 versus 4.69 with TTS, F(1, 57) = 4.03, p = .0496, partial η² = .066. Naming and spelling showed no significant TTS differences. This was a task-specific short-term learning result."
+],
+[
+"Sulaimon and Schaefer (2023); USA\nA–B–A–B withdrawal single-case study",
+"2 fourth-grade students with learning disabilities",
+"Read&Write Gold 11 TTS versus unsupported reading",
+"Percentage of 10 comprehension questions answered correctly; usability\nThe original author extraction gives phase means of 42%, 80%, 43%, 73% for one participant and 40%, 73%, 23%, 73% for the other across A 1, B 1, A 2, B 2. The publisher abstract supports improved assisted comprehension, but these exact phase means were not independently verified against full text during revision. Both participants reported ease of use."
+],
+[
+"Svensson et al. (2026); Sweden\nTime-lagged A–B single-case study with follow-up",
+"8 learners with mild intellectual disability; ages 11–14 in the narrative and 12–14 in the participant table.",
+"ClaroSpeak Plus TTS; usually 4 baseline and 12 intervention sessions. According to the participant table, five of the eight learners had fewer than four baseline observations (3, 2, 1, 1, and 1), and three completed 11 rather than 12 intervention sessions; the source narrative states four such learners, and the participant-level value is used throughout this review.",
+"Text comprehension, retelling, oral language output, decoding, and approximately 1.5-year follow-up\nAll eight learners comprehended more content while listening than while reading independently; one showed clear improvement in decoding. The A–B structure does not isolate practice, text, and maturation effects."
+],
+[
+"Svensson et al. (2021); Sweden\nNonrandomised controlled longitudinal study",
+"149 students with severe reading/writing difficulties in grades 4, 8, or high school",
+"Twenty-four sessions using TTS and STT applications; treatment as usual",
+"Reading, listening comprehension, motivation, and related standardised measures\nBoth groups improved over time, but no overall between-group superiority was detected after intervention or at 1-year follow-up. Approximately 30% of participants were unavailable at the final assessment. Follow-up perceptions of independence, motivation and continued use were descriptive, with separate survey denominators."
+],
+[
+"Wei (2024)\nSecondary observational comparative analysis, 2017 NAEP Grade-8 mathematics; adjusted hierarchical models; self-selected TTS use.",
+"2,750 SWDs (reported rounded counts): 1,650 granted extended time, 1,100 not granted it. Exact endpoint-complete participant denominator not reported separately. School enrolment establishes educational age group; maximum age not provided.",
+"Computer-generated TTS during mathematics assessment versus Per-item TTS use versus nonuse, and frequency; computer-generated female voice. Fifteen-item block; item 3 used as calculation-skill covariate.",
+"Mathematics item correctness and response time\nBinary TTS use was not significantly associated with correctness in disability subgroups with or without extended time (β = .10 and .04). Use frequency was positively associated with correctness only in the extended-time subgroup (β = .008; p < .05). Binary use was associated with longer log-transformed response time in both subgroups (β = .47 and .58; p < .001)."
+],
+[
+"Wood et al. (2020)\nMultiple-probe across participants.",
+"Reported n = 3; Elementary-school learners with moderate intellectual disability; chronological ages unavailable.",
+"Technology-supported science e-texts read using TTS, with constant time delay and least-prompt instruction for generating and answering questions. versus Prospectively measured baseline within multiple-probe design; exact baseline package unavailable.",
+"Comprehension/question generation and transfer to a Grade 3 general-education classroom.\nAll three learners answered comprehension questions using recall or independent e-text searching and replay. Question-generation skills improved and transferred to a general-education setting while the technology remained available."
+],
+[
+"Young et al. (2019); USA\nA–B–A–B withdrawal single-case study",
+"4 secondary students with learning disabilities",
+"TTS-supported versus unsupported reading of instructional passages",
+"Reading comprehension, oral reading fluency, Lexile score, and 4-week maintenance\nAll four had higher comprehension in TTS phases. Maintenance concerns three completers; one learner exited during the second intervention phase. Oral reading fluency increased by the end of accommodation phases; two of four had higher Lexile scores. Unaided pre–post gains do not inherit the causal control of the assisted withdrawal comparison."
+]
+],
+[
+[
+"Report",
+"Source access",
+"Source-based limitations"
+],
+[
+"Ahlgrim-Delzell et al. (2016)",
+"Full original article examined. Online-first pagination: pp. 3–7, including eligibility, allocation, intervention and Table 5.",
+"Both groups used the app, and software, phonics content and teaching were not separated. Outcomes were proximal, researcher-developed measures. Inconsistent ANOVA degrees of freedom, F statistics and p values limit interpretation of the reported inference."
+],
+[
+"Almgren Bäck et al. (2024); Norway and Sweden",
+"Original full text checked through an author-deposited copy.",
+"Limited distinct intervention-onset timings and an incomplete baseline for one learner weaken replicated causal demonstration. STT, instruction and TTS revision support form a package. Accuracy depends on the measure used. A published overarching protocol exists; absence of a registry identifier does not establish absence of a protocol."
+],
+[
+"Alqahtani (2023); Saudi Arabia",
+"Original publisher abstract checked; full text unavailable during revision.",
+"Both conditions included question generation and differed in task procedures, so shorter sessions do not isolate a general TTS efficiency effect. Full phase data, sequencing and observation reliability were unavailable for independent appraisal. Findings varied across three learners."
+],
+[
+"Bhola (2022); India",
+"Original journal full text and numerical tables checked.",
+"Sequence generation and allocation concealment were not described. The researcher-developed achievement measure lacks sufficient reported validation, and assistance during testing is unclear. The small sample limits precision; these features do not automatically establish a formal high-risk category. No durable follow-up was reported."
+],
+[
+"Brunow and Cullen (2021); USA",
+"Original publisher abstract and author institutional record checked; full text unavailable during revision.",
+"The human-reader comparison concerns supported listening comprehension. Full condition sequences, observation counts, agreement, participant-level estimates and fidelity could not be independently checked. Generic carryover concerns alone do not justify a formal design-standard category."
+],
+[
+"Camardese et al. (2014)",
+"Full journal article examined: pp. 11–12 for methods and quantitative results; pp. 15–18 for technology use and limitations.",
+"Random group assignment was reported, but allocation concealment and analysis were insufficiently described. The e-reader combined TTS with other features. Group plots did not provide a recoverable numerical treatment contrast with precision."
+],
+[
+"Chen et al. (2026); Taiwan",
+"Original open full text checked.",
+"Counterbalancing controls order to some extent, but brief tasks and multiple exploratory comparisons restrict certainty and applicability. Comprehension included 59 learners; eye tracking included 47, requiring separate missing-data consideration. Eye measures are indirect indicators of effort. Multiplicity alone does not demonstrate selective result reporting."
+],
+[
+"Cuifolo et al. (2025)",
+"Original publisher abstract and Figure 1 examined; full journal Methods and Results were unavailable.",
+"Detailed procedures, chronological age, software, dose, numerical estimates and maintenance findings were unavailable. The strongest condition combined STT and a graphic organizer, limiting attribution to STT alone."
+],
+[
+"Dolan et al. (2005)",
+"Full original publisher PDF examined: PDF pp. 9–14 for methods and pp. 16–19 for results.",
+"The small sample, bundled changes in test format and optional TTS use limit attribution. The abstract and results report 10 participants, but the recruitment and exclusion description implies nine. Randomization details were limited, and the analyzed denominator remains uncertain."
+],
+[
+"Ebajay and Malabo (2026); Philippines",
+"Original publisher abstract checked; final full text unavailable during revision.",
+"Non-equivalent groups leave residual confounding. The researcher-developed mathematics outcome and unclear assistance at testing limit interpretation as unaided learning. The supplied extraction flags inconsistent standard deviations, which could not be resolved from the accessible abstract; affected numerical estimates were not independently verified."
+],
+[
+"Fälth, Björklund, et al. (2025); Sweden",
+"Original full text checked through an author-deposited copy.",
+"A single baseline-to-intervention transition per learner cannot separate treatment from time, practice or concurrent instruction. STT was combined with teacher support. The source prose and table give different quality nonoverlap ranges; table values were retained. Participant overlap with related Swedish reports remains uncertain."
+],
+[
+"Fälth, Nilsson, et al. (2025); Sweden",
+"Original published full text checked through an author-deposited copy.",
+"One unreplicated phase transition limits causal attribution. Baseline-to-intervention medians and late-phase trends imply different directions; neither should silently replace the other. Unaided pre–post gains lack a controlled comparison. Independence was qualitative, not measured by comprehension nonoverlap indices. Cohort overlap remains unresolved."
+],
+[
+"Flütsch Keravec et al. (2026)",
+"Full original article examined: pp. 5–7 and Table 1 for participants and intervention; pp. 8–9 for measurement and analysis; pp. 10–11 and Tables 2–6 for outcomes. Published online 3 May 2026.",
+"Self-selected groups, 11 exclusions or dropouts, outcome-specific missingness and outlier removal limit inference. Interrater text-quality correlation was .55 in 30 checked texts. A prose reversal of modality effects conflicts with Table 4; extraction follows the table. Table 3 contains inconsistent statistics and a text-length denominator discrepancy. The scope of the stated multiplicity threshold across research questions is unclear."
+],
+[
+"Frankel and Brownstein (2016)",
+"Full original report examined: pp. 4–7 and Table 1 for design; pp. 15–17 and Table 5 for results and conclusions.",
+"The small, task-specific sample had repeated exposure and assistance during testing. Analyses did not consistently account for within-person dependence. Unaided learning and school attainment were not evaluated."
+],
+[
+"Franklin et al. (2026)",
+"Original publisher abstract and bibliographic record examined; full journal text was unavailable.",
+"Detailed methods, exact ages and numerical effect estimates were unavailable. Counts of correct words or sequences do not establish a higher accuracy proportion. Unaided learning and long-term maintenance were not verified."
+],
+[
+"Garrett et al. (2011)",
+"Original 2011 journal abstract and full 2007 primary dissertation examined. Dissertation evidence: pp. 66–72 and Table 1 for participants; pp. 76–78 for software; pp. 83–92 for procedures; pp. 93 onward for results. Journal numerical findings and exact report linkage remain unverified.",
+"The likely companion dissertation supports eligibility and design, but its exact dataset identity with the journal report is unconfirmed. Findings concern unedited first drafts; correction time and unaided acquisition were not evaluated. The dissertation inconsistently describes training-group sizes despite reporting five participants overall."
+],
+[
+"Gonzalez (2014)",
+"Full original journal article examined, pp. 111–125. Participant criteria are on p. 115; results and Table 3 are on p. 117.",
+"The small convenience sample and differences between books or media may confound comparisons. Sequence-generation details and assessor masking were unclear. Retelling agreement was acceptable (kappa = .777), but these immediate outcomes do not establish durable learning."
+],
+[
+"Grunér et al. (2018); Sweden",
+"Original publisher abstract checked; full text unavailable during revision.",
+"Random first-condition assignment is stated, but sequence generation, carryover control, masking and exact estimates could not be independently checked without the full report. Grade- and symptom-related findings should not be treated as a validated rule for selecting learners."
+],
+[
+"Higgins and Raskind (2000); USA",
+"Original publisher abstract checked; full methods unavailable during revision.",
+"The continuous-speech cohort was added in a later semester; cohort and time differences may influence comparisons. Thirty-nine participants were already reported in Raskind and Higgins (1999). Full methods and result-level precision were unavailable for independent checking."
+],
+[
+"Higgins and Raskind (2005)",
+"Original publisher abstract on p. 31 examined; full journal text was unavailable. The Winter 2005 issue record supports the bibliographic year.",
+"Disability ascertainment, test equivalence, condition order, missingness and scoring procedures were unavailable. The comparison assesses assisted reading comprehension, not unaided acquisition. The reading pen recognizes conventional print; it is not an optical Braille device."
+],
+[
+"Izzo et al. (2009)",
+"Full original article examined: pp. 11–12 and Table 1 for participants; pp. 12–14 for procedures; pp. 15–16 and Table 2 for outcomes and fidelity.",
+"Changing curriculum units, text difficulty and short phases limit attribution. Two of nine enrolled students were excluded for absenteeism. Methods and Results disagree on whether comprehension tests contained five or ten items, preventing percentage conversion. Prose overstates consistency of improvement and fidelity; extraction follows Table 2 and reported ranges. Chronological ages were unreported."
+],
+[
+"Keelor et al. (2018)",
+"Original publisher abstract and metadata examined; full journal text was unavailable. The original 2017 dissertation abstract supports provisional linkage with Keelor et al. (2023).",
+"Journal Methods and exact eligibility thresholds were unavailable. Cohort linkage remains provisional. Predictor associations cannot establish causal treatment moderators; this report contributes linked descriptive evidence rather than an independent replication."
+],
+[
+"Keelor et al. (2023); USA",
+"Original publisher abstract and linked primary dissertation information checked; final journal full text unavailable.",
+"Full journal methods and exact subgroup estimates were unavailable for independent verification. No significant highlighting difference does not establish equivalence. Companion-report linkage and possible overlap with the separate 2020 report restrict independent replication claims; apparent profile differences require an interaction analysis."
+],
+[
+"Keelor et al. (2020)",
+"Full original publisher article examined, pp. 19–35. Participant criteria are on p. 22, conditions on p. 23, comprehension measurement on p. 24, and reported contrasts in Table 3.",
+"Ten participants answered only three questions per condition. Multiple comparisons, unclear condition order and masking, and inconsistent summary statistics limit inference. The source's aggregate 'No TTS' condition includes synthetic audio-only listening. Possible overlap with the authors' other reports remains unresolved."
+],
+[
+"Kraft (2023); Sweden",
+"Original full text checked.",
+"One short text per condition and limited prior STT experience constrain generalization. Condition-revealing transcription errors may affect masking despite independent quality assessment. Pooled inferential tests include reference peers and must be distinguished from eligible-subgroup descriptive findings."
+],
+[
+"MacArthur and Cavalier (2004); USA",
+"Original publisher abstract checked; full text unavailable during revision.",
+"Comparisons concern assisted essay production, not transfer to unaided skills. The available abstract does not permit independent assessment of condition ordering, masking, measurement reliability, missingness or the precise disability-subgroup contrasts."
+],
+[
+"McCarthy et al. (2016); USA",
+"Original published full text checked through an author-deposited copy.",
+"Different target-contraction sets and limited replication allow item difficulty and instruction to influence sessions to mastery. Assessment measured identification/reading of trained contractions; it does not establish transfer to untrained or sustained Braille literacy. The descriptive comparison does not isolate a general tutor effect."
+],
+[
+"Meyer and Bouck (2014); USA",
+"Original publisher abstract checked; full text unavailable during revision.",
+"Full phase data, measurement reliability, precision and missing observations could not be checked. A reported lack of effect does not establish equivalence or absence of selective reporting. Participant overlap with the 2017 report is unresolved."
+],
+[
+"Meyer and Bouck (2017); USA",
+"Original publisher abstract checked; final journal full text unavailable. Related dissertation findings were not substituted.",
+"The abstract does not resolve the independent-reading contrast or supply numerical phase findings and the proficiency threshold. Failure to reach proficiency is not equivalent to no improvement. Task time was measured but its findings are unavailable. Possible overlap with the 2014 report remains unresolved."
+],
+[
+"Moorman et al. (2010); USA",
+"Primary author-provided abstract indexed in ERIC checked; full text unavailable.",
+"The available abstract does not supply phase observations, numerical contrasts, observation agreement or sufficient measurement detail. Reported reading rate cannot be classified as unaided oral-reading fluency without the full methods. Eligibility and findings remain provisional."
+],
+[
+"Noakes et al. (2019)",
+"Original publisher first-page preview and abstract on p. 656 examined; full journal Methods and Results were unavailable.",
+"Detailed phase data, rates, chronological ages and appraisal information were unavailable. Counts of correct words or sequences are not accuracy proportions or evidence of independently learned spelling. Durable unaided improvement was not verified."
+],
+[
+"Nuraini Herawati et al. (2022); Indonesia",
+"Original journal PDF and plotted results checked.",
+"Four baseline, twelve intervention and four withdrawal observations provide insufficient replicated condition changes for a strong causal demonstration. The discussion reports two learners but separate trajectories are unclear. Undefined score scales and a package including teacher modelling and repetition prevent reliable numerical attribution to TTS or inference of durable learning."
+],
+[
+"Ogut et al. (2025)",
+"Full original published article examined: pp. 20–21 and Tables 1–2 for samples; pp. 24–27 for methods; p. 25 and Table 6 for estimates; pp. 28–30 for interpretation and limitations.",
+"Self-selection and unmeasured disability severity or prior skill remain despite adjustment. Cohorts overlap with Wei (2024). Student-item observations are not participant counts, and endpoint-specific participant denominators were not recoverable. These associations do not establish causal accommodation effects or unaided learning."
+],
+[
+"Park et al. (2017)",
+"Original journal abstract and a strongly linked primary precursor examined; final journal full text was unavailable. Inclusion remains provisional pending reconciliation with the final report.",
+"Final journal population, allocation, analysis details and exact effects remain unavailable. The precursor supports a standardized reading-selection threshold but is not a substitute for journal-level extraction or appraisal."
+],
+[
+"Raskind and Higgins (1999); USA",
+"Original publisher abstract checked; full methods unavailable during revision.",
+"Nonrandom allocation limits causal attribution. The cohort overlaps with Higgins and Raskind (2000), so the reports are not independent replications. Full allocation, attrition, measurement and analysis details could not be independently checked."
+],
+[
+"Sand et al. (2025); Sweden",
+"Original full text checked through an author-deposited copy; later correction of follow-up conditions incorporated.",
+"A short baseline and unreplicated phase change limit causal inference. Three-month assessment included both manual-writing and STT probes. Unaided decoding changed in both directions; its timing differs between the methods and table labels. Possible overlap with related Swedish cohorts remains unresolved."
+],
+[
+"Schmitt et al. (2019); USA",
+"Original publisher and PubMed abstracts checked; full text unavailable during revision.",
+"Phase observations, sequencing, agreement and possible treatment interference require the full report. The abstract contradicts itself about the fourth learner’s reading-pen rate. Its reported indices lack a clearly identified metric in accessible content and cannot be treated as standardized effects."
+],
+[
+"Schneider et al. (2013)",
+"Full original article examined: p. 103 for participants; pp. 104–106 for measurement, design and Table 1; p. 110 for generalization and Table 2; pp. 111–112 for limitations.",
+"Four participants had differing familiarity with STT and keyboarding. Strategy instruction was added in a later phase, confounding comparisons with time and order. Condition sequences allowed up to three consecutive stories in one format; assessor masking was unreported. One participant's phase means excluded an outlier. Homework probes retained the aids."
+],
+[
+"Silió and Barbetta (2010)",
+"Original publisher abstract examined; full journal article, pp. 17–32, was unavailable. The related 2008 dissertation abstract was identified but was not substituted for journal findings.",
+"Later addition of components confounds combined-package effects with phase and order. Diagnostic ascertainment, exact ages, phase lengths, measurement reliability, fidelity, masking, attrition and numerical results were not verified from full text. A TTS-specific contribution cannot be isolated."
+],
+[
+"Silvestri et al. (2022); Canada",
+"Original publisher abstract and corrigendum checked; full study unavailable during revision.",
+"Different significance levels across cognitive profiles do not establish treatment-effect heterogeneity. A corrigendum changes signs in Table 2. Full corrected numerical results, ordering procedures and a formal moderation analysis could not be independently checked."
+],
+[
+"Staels and Van den Broeck (2015)",
+"Full original article examined in its early-online version: pp. 3–4 for participants, pp. 4–5 for design, p. 6 for outcomes and pp. 7–8 for results. Final issue pagination is 39–50; cited internal pages refer to the early-online version.",
+"Allocation sequence, concealment, assessor masking and a prespecified analysis plan were insufficiently documented. Outcomes concerned trained items after three or seven days. Spelling reliability was low (.28 for whole words; .19 for target letters). Multiple outcomes and an isolated p = .0496 result limit broad conclusions about literacy harm."
+],
+[
+"Sulaimon and Schaefer (2023); USA",
+"Original publisher abstract checked; full text unavailable during revision.",
+"The abstract confirms the reversal design, but exact phase lengths, stability, observation agreement, outcome reliability and usability findings could not be independently checked. The two-learner sample limits applicability; no formal design-standard rating is assigned from the abstract."
+],
+[
+"Svensson et al. (2026); Sweden",
+"Original open full text checked.",
+"The phase structure lacks adequately replicated causal demonstrations; five of eight learners had fewer than four baseline observations. Narrative and tables differ on ages, baseline counts and intervention exposure. Text comparability and cohort overlap remain uncertain. Unaided decoding findings must be separated from aided comprehension."
+],
+[
+"Svensson et al. (2021); Sweden",
+"Original full text checked through an author-deposited copy.",
+"Deterministic balancing was not random allocation and cannot exclude residual confounding. Of 149 allocated learners, 143 provided baseline data and 104 remained at final assessment. Combined TTS/STT instruction does not isolate either component. Descriptive independence and use reports are distinct from comparative participation outcomes."
+],
+[
+"Wei (2024)",
+"Full original journal article examined: pp. 287–289 for methods, p. 293 and Table 4 for estimates, and p. 294 for limitations.",
+"Confounding by indication, self-selected use and prior familiarity limit causal interpretation. Cohorts overlap with Ogut et al. (2025) and other 2017 NAEP reports. The findings concern assessment performance, not independent learning."
+],
+[
+"Wood et al. (2020)",
+"Original publisher abstract and bibliographic record examined; full journal Methods and Results were unavailable.",
+"The contribution of TTS cannot be separated from systematic instruction. Exact baseline content and numerical estimates were unavailable. Generalization retained the technology-supported package and does not establish unaided literacy transfer."
+],
+[
+"Young et al. (2019); USA",
+"Original published full text checked through an author-deposited copy.",
+"Repeated phases support aided-comprehension comparisons, but unaided fluency and Lexile changes were uncontrolled pre–post observations and cannot inherit that design strength. One learner left during the second intervention phase; only three completed maintenance. Maturation and concurrent instruction remain alternative explanations for unaided change."
+]
+],
+[
+[
+"Amendment",
+"Decision and consequence"
+],
+[
+"Age reporting",
+"Explicit primary/secondary enrolment accepted when ages incompletely reported. Reported age restrictions still applied; absent ages are not imputed."
+],
+[
+"Comparative designs",
+"Within-person comparisons need not be counterbalanced to enter, but order threats are appraised. Observational use/nonuse comparisons are retained as associations when eligible subgroup outcomes are separable."
+],
+[
+"Technology contrast",
+"Packages require a central eligible technology or function; studies changing only ancillary instruction while holding technology constant are excluded. Prerecorded human-speech simulations remain outside scope."
+],
+[
+"Outcome grouping",
+"Post-extraction distinction among assisted performance, unaided skills, unclear test-assistance, and proximal acquisition."
+],
+[
+"Appraisal and confidence",
+"Unsupported aggregate tool ratings, cross-tool sensitivity subset, formal mixed-outcome GRADE labels and direction-vote graphics removed. Structured critical appraisal and qualitative limitations replace them."
+],
+[
+"Searches",
+"Actual ERIC search plus targeted source checks added on 2 October 2026, retaining the July publication cutoff. Historical and supplementary flows remain separate."
+],
+[
+"Registration",
+"Reported PROSPERO identifier retained with unverified timing. No prospective-registration claim or fabricated dated protocol."
+]
+],
+[
+[
+"Reports",
+"Treatment"
+],
+[
+"Raskind and Higgins (1999); Higgins and Raskind (2000)",
+"39 participants overlap; expanded report adds 13. Retain distinct comparisons without claiming independent replication."
+],
+[
+"Keelor et al. (2018, 2023)",
+"Provisionally linked to one 29-child experiment through the original dissertation and matching conditions; companion publication adds no independent cohort."
+],
+[
+"Keelor et al. (2020) and other Keelor reports",
+"Possible overlap unresolved; no participant sums."
+],
+[
+"Wei (2024); Ogut et al. (2025)",
+"Overlapping 2017 NAEP data. Report-specific rounded samples and item observations are not additive."
+],
+[
+"Fälth, Björklund, et al. (2025); Sand et al. (2025); Svensson et al. (2026); Fälth, Nilsson, et al. (2025)",
+"Shared Swedish research context/ethics identifier; independence not established."
+],
+[
+"Meyer and Bouck (2014, 2017)",
+"Different sample counts/designs; independence remains unresolved."
+],
+[
+"Garrett, Noakes, Park and other linked primary documents",
+"Dissertations/precursors support source verification where specified; not additional included journal reports and not interchangeable numerical sources."
+]
+]
+]

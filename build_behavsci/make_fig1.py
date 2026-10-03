@@ -69,8 +69,8 @@ f=box(L1+1.1,2.08,4.2,0.46,"Unique candidate reports assessed for eligibility (n
 for bx in (d5,e):
     xm=bx[0]+bx[2]/2; xt=min(max(xm,f[0]+0.3),f[0]+f[2]-0.3)
     ax.plot([xm,xm,xt],[bx[1],2.68,2.68],color=EDGE,lw=0.8); arr(xt,2.68,xt,f[1]+f[3])
-f2=box(R2+0.12,2.62,SW-0.2,0.7,"Reports excluded (n = 7):\nPopulation (n = 4)\nIntervention (n = 2)\nDesign (n = 1)",ha="left",fs=6.5)
-f3=box(R2+0.12,1.86,SW-0.2,0.46,"Reports awaiting\nclassification (n = 9)")
+f2=box(R2+0.12,2.62,SW-0.2,0.7,"Reports excluded (n = 8):\nPopulation (n = 4)\nIntervention (n = 3)\nDesign (n = 1)",ha="left",fs=6.5)
+f3=box(R2+0.12,1.86,SW-0.2,0.46,"Reports awaiting\nclassification (n = 8)")
 xs=f[0]+f[2]; ym=f[1]+f[3]/2; ax.plot([xs,R2-0.05],[ym,ym],color=EDGE,lw=0.8)
 ax.plot([R2-0.05,R2-0.05],[f3[1]+f3[3]/2,f2[1]+f2[3]/2],color=EDGE,lw=0.8)
 arr(R2-0.05,f2[1]+f2[3]/2,f2[0],f2[1]+f2[3]/2); arr(R2-0.05,f3[1]+f3[3]/2,f3[0],f3[1]+f3[3]/2)

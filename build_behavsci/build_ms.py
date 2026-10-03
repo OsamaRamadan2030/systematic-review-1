@@ -2,6 +2,7 @@ import os, re, shutil, zipfile
 from xml.sax.saxutils import escape
 from common import runs, para
 from studies import STUDIES
+from appraisal import APPRAISAL, SHORT
 
 TPL = '/tmp/claude-0/-home-user/2103ce1e-8532-53e8-b5f1-3fd222fe29cd/scratchpad/w/tpl'
 OUT = '/home/user/build/out'
@@ -69,9 +70,9 @@ def table1():
         grp = [s for s in STUDIES if s[2] == cat]
         rows.append(f'{DES[cat]} (n = {len(grp)})')
         for s in sorted(grp, key=lambda s: s[0].replace('ä','a').replace('ü','u')):
-            rows.append([s[0].replace(', ', ' (', 1).replace(', 20', ' (20') + ')' if False else s[0], s[3], s[4], s[5], f'{s[6]}: {s[7]}', s[8], f'{s[9]}/{s[10]}'])
-    widths = [1700, 1700, 1000, 1850, 2766, 650, 800]
-    hdr = ['Report', 'Design', 'n', 'Participants', 'Technology: contrast', 'Out-come', 'Phase/\nsource']
+            rows.append([s[0], s[3], s[4], s[5], f'{s[6]}: {s[7]}', s[8], f'{s[9]}/{s[10]}', SHORT[APPRAISAL[s[0]][2]]])
+    widths = [1560, 1560, 950, 1700, 2546, 600, 750, 800]
+    hdr = ['Report', 'Design', 'n', 'Participants', 'Technology: contrast', 'Out-come', 'Phase/\nsource', 'Risk of bias']
     return table(widths, hdr, rows, 0, 15)
 
 T2 = [
@@ -83,6 +84,17 @@ T2 = [
  ("Adaptive Braille tutoring", "One report: mean sessions to mastery of targeted contractions 7.00 with tutor vs. 9.58 with teacher instruction alone.", "Different target sets, small sample, and untested transfer; not a general literacy effect."),
  ("Participation and implementation", "Preferences, social validity, and descriptive reports of independence and continued use.", "No comparative effect on validated participation, burden, harms, abandonment, or cost."),
  ("Captioning and OBR", "No included learner-level comparative report.", "Restricted search coverage and unclassified reports preclude a definitive evidence-gap conclusion."),
+]
+
+T3 = [
+ ("STT increases assisted written output", "11 reports; greater output in most", "6 (Almgren Bäck et al., 2024; Fälth, Björklund, et al., 2025; Flütsch Keravec et al., 2026; Kraft, 2023; Sand et al., 2025; Schneider et al., 2013); greater output in all, variable across learners in one", "1 (Kraft, 2023): longer texts with STT (92 vs. 79 words)", "Direction unchanged"),
+ ("STT accuracy and quality vary", "8 reports; mixed", "4 (Almgren Bäck et al., 2024; Flütsch Keravec et al., 2026; Kraft, 2023; Schneider et al., 2013); fewer errors, higher proportion correct, or maintained accuracy in three; little difference in one", "1 (Kraft, 2023): fewer residual errors, similar quality", "Direction unchanged"),
+ ("TTS assisted comprehension varies", "20 reports; favorable, null, and comparator-favoring", "8 (e.g., Chen et al., 2026; Dolan et al., 2005; Fälth, Nilsson, et al., 2025; Gonzalez, 2014; Young et al., 2019); favorable, inconclusive, and unfavorable", "1 (Chen et al., 2026): interaction; benefit in ADHD subgroup only", "Direction unchanged; human-reader comparison lost"),
+ ("TTS shortens reading or task time", "4 reports (Alqahtani, 2023; Grunér et al., 2018; Moorman et al., 2010; Wei, 2024)", "1 (Wei, 2024): TTS use associated with longer response time", "None", "Not supported; unconfirmed"),
+ ("Transfer to unaided skills is not established", "6 reports; 3 favorable, 2 null, 1 unfavorable", "3 (Flütsch Keravec et al., 2026; Staels & Van den Broeck, 2015; Svensson et al., 2021); 2 null, 1 unfavorable", "1 (Staels & Van den Broeck, 2015): unfavorable", "Strengthened"),
+ ("Packages improve proximal outcomes", "3 reports", "2 (Ahlgrim-Delzell et al., 2016; McCarthy et al., 2016)", "None", "Direction unchanged; low confidence"),
+ ("Speech settings affect mathematical access", "1 report", "1 (Frankel & Brownstein, 2016)", "1 (Frankel & Brownstein, 2016)", "Unchanged"),
+ ("Assessment TTS use: associations inconclusive", "2 reports", "2 (Ogut et al., 2025; Wei, 2024)", "None", "Unchanged; low confidence"),
 ]
 
 def figure1():
@@ -107,11 +119,15 @@ for block in re.split(r'\n\s*\n', body_src):
     elif block == '[TABLE1]':
         X.append(para('MDPI41tablecaption', '**Table 1.** Characteristics of the 47 included reports, grouped by design.', '<w:keepNext/><w:ind w:left="0"/>'))
         X.append(table1())
-        X.append(para('MDPI43tablefooter', 'n, number of participants as reported (eligible subgroup or analyzed sample where specified). Outcome: primary measurement condition; A, assisted (technology available); U, unaided (controlled comparison without the technology); P, proximal acquisition of trained content; X, measurement condition unclear. Phase: 1, July 2026 searches; 2, October 2026 supplementary searches. Source: F, extraction verified against the full journal article; L, verification limited to the abstract, preview, figure, or a linked primary document. Linked reports share participants (Table S5). AAC, augmentative and alternative communication; BRL, adaptive Braille tutor. Further abbreviations are listed at the end of the article. Full details are given in Table S2.', '<w:ind w:left="0"/>'))
+        X.append(para('MDPI43tablefooter', 'n, number of participants as reported (eligible subgroup or analyzed sample where specified). Outcome: primary measurement condition; A, assisted (technology available); U, unaided (controlled comparison without the technology); P, proximal acquisition of trained content; X, measurement condition unclear. Phase: 1, July 2026 searches; 2, October 2026 supplementary searches. Source: F, extraction verified against the full journal article; L, verification limited to the abstract, preview, figure, or a linked primary document. Risk of bias (Table S3): RoB 2 for randomized and within-participant group comparisons (SC, some concerns; H, high; NI, insufficient information); ROBINS-I for nonrandomized and observational comparisons (Ser, serious; NI, insufficient information); What Works Clearinghouse single-case design standards (DNM, does not meet; CBD, cannot be determined). Linked reports share participants (Table S5). AAC, augmentative and alternative communication; BRL, adaptive Braille tutor. Further abbreviations are listed at the end of the article. Full details are given in Table S2.', '<w:ind w:left="0"/>'))
     elif block == '[TABLE2]':
         X.append(para('MDPI41tablecaption', '**Table 2.** Outcome-specific findings and limits of interpretation.', '<w:keepNext/><w:ind w:left="0"/>'))
         X.append(table([2200, 4133, 4133], ['Outcome', 'Observed pattern', 'Interpretive limit'], [list(r) for r in T2], 0, 17))
         X.append(para('MDPI43tablefooter', 'Rows may draw on overlapping reports and populations. No pooled effect, total participant count, formal certainty rating, or vote count is implied.', '<w:ind w:left="0"/>'))
+    elif block == '[TABLE3]':
+        X.append(para('MDPI41tablecaption', '**Table 3.** Sensitivity of the principal conclusions to verification depth and risk of bias.', '<w:keepNext/><w:ind w:left="0"/>'))
+        X.append(table([2100, 2350, 2350, 2050, 1616], ['Conclusion', 'All included reports', 'Full-text-verified reports only', 'Reports at no more than some concerns', 'Effect of restriction'], [list(r) for r in T3], 0, 16))
+        X.append(para('MDPI43tablefooter', 'Counts are reports, not independent studies; linked reports are listed in Table S5. Reports whose outcome measurement condition was unclear (Bhola, 2022; Camardese et al., 2014; Ebajay & Malabo, 2026; Nuraini Herawati et al., 2022) do not contribute to these conclusions.', '<w:ind w:left="0"/>'))
     else:
         X.append(para('MDPI31text', block))
 

@@ -8,7 +8,7 @@ Upload order in the MDPI system:
 |---|---|
 | `01_Manuscript_Clean.docx` | Manuscript (MDPI Behavioral Sciences template; Figure 1 and Tables 1–2 embedded) |
 | `figures/Figure1_PRISMA_flow.tiff` (or `.png`/`.pdf`) | Figure 1, 600 dpi |
-| `02_Supplementary_Materials.docx` | Supplementary material (Tables S1–S6) |
+| `02_Supplementary_Materials.docx` | Supplementary material (Tables S1–S7) |
 | `03_PRISMA_SWiM_PRISMA-S_Checklists.docx` | Supplementary material / PRISMA checklist |
 | `00_Cover_Letter.docx` | Cover letter |
 

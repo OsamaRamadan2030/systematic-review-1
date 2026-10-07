@@ -18,6 +18,7 @@ Agreement and collaborative adjustment characterised many episodes in all three 
 
 **Table 4. Themes, subthemes and contributing accounts**
 
+<!-- widths: 2000, 3626, 850, 850, 1700 -->
 | Theme | Subtheme | Women | Nurses | Physiotherapists |
 |---|---|:-:|:-:|:-:|
 | 1. "One step at a time": readiness appraised activity by activity | 1.1 "Sitting is one thing, standing is another": staged activities as tests of readiness | ● | ● | ● |
@@ -219,7 +220,7 @@ Reported mobilisation decisions were seldom final. Pauses, deferrals and adaptat
 
 Some nurses described pauses and stops as producing information that shaped the next attempt: timing analgesia beforehand, sitting for longer, slowing the sit-to-stand, using a chair before walking, or asking a second person to assist. Recording the reason for a pause, not just the fact of it, was central to how they described reconsideration:
 
-> "The first time she nearly fainted, I sat her back, legs up, checked her. I didn't write 'refused'. I wrote 'dizzy on standing, BP [low], retry after fluids and analgesia'. The second time we did it slowly, longer sitting first, and she walked to the bathroom." (N01, 5–10 years)
+> "The first time she nearly fainted, I sat her back, legs up, checked her. I didn't write 'refused'. I wrote 'dizzy on standing, BP [low], retry after fluids and analgesia' … The second time we did it slowly, longer sitting first, and she walked to the bathroom." (N01, 5–10 years)
 
 Women described whether a pause felt like failure or like progress as depending on whether a next step had been named. Starting the next attempt from the last stage the woman had managed recast the pause as a step forward:
 
@@ -357,4 +358,4 @@ The descriptors shown in quotations (parity, urgency category, anaesthesia where
 
 1. **Numbering.** Objectives are auto-numbered 2–4, and "Methods" appears as "5." while its subsections are numbered 2.x. Objectives should be numbered 1–3, and Methods should be Section 2.
 2. **Hypothetical versus actual setting.** The Introduction refers to a "proposed service model" and a "hypothetical pathway", but the Methods describe the pathway as observed at the participating sites. One framing should be used throughout.
-3. **Clinical attachments.** The Methods list attachments in nursing assessment, but no participant characteristic or site profile describes catheter or infusion removal practices. If attachments feature in the findings (as in 3.3.1), Supplementary Table S3 should cover them.
+3. **Clinical attachments.** The Methods list attachments in nursing assessment, but nothing in Sections 1–2 describes catheter or infusion practices, although attachments feature in the findings (3.3.1). The supplementary Table S3 provided with this exercise now covers them, including the gap between written procedure and reported practice.

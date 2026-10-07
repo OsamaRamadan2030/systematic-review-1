@@ -8,29 +8,29 @@
 
 ### 3.1 Overview of the interpretation
 
-The 37 participants (18 women, 12 maternity nurses and seven physiotherapists) gave 164 analysed mobilisation episodes: 71 from women, 63 from nurses and 30 from physiotherapists. The interpretation is organised into three themes and nine subthemes (Table 4). Taken together, they answer the question in the title: across these accounts, readiness was not something the woman possessed or the nurse measured. It was a provisional, activity-specific appraisal built from several contributors: bodily sensations, clinical signs, recovery from labour and anaesthesia, newborn-care demands, the support available and the woman's own willingness.
+The 37 participants (18 women, 12 maternity nurses and seven physiotherapists) gave 164 analysed mobilisation episodes: 71 from women, 63 from nurses and 30 from physiotherapists. The episodes covered first nurse-assisted out-of-bed mobilisation and later progression during the admission, from bed-edge sitting and first standing to walking to the bathroom, the corridor and the neonatal unit. The interpretation is organised into three themes and nine subthemes (Table 4). Taken together, they answer the question in the title: across these accounts, readiness was not something the woman possessed or the nurse measured. It was a provisional, activity-specific appraisal built from several contributors: bodily sensations, clinical signs, recovery from labour and anaesthesia, newborn-care demands, the support available and the woman's own willingness.
 
 *Whose* readiness counted in a reported action depended less on professional status than on whether an appraisal became *legible* at the moment of decision. A woman's report carried weight when it was specific, when someone had asked for it, when it could be tied to an observable sign, and when it reached the professional without being reshaped by language barriers or relatives. Whether a decision was reconsidered then depended on whether the reasons for a pause or deferral were carried forward across time, shifts and disciplines, or lost at each handover.
 
-Most episodes described agreement or collaborative adjustment rather than conflict. Differing appraisals clustered in three situations: when a woman was willing but a clinical threshold or attachment prevented movement; when clinical signs were reassuring but the woman was unwilling; and when reasons for an earlier pause had not been carried forward.
+Agreement and collaborative adjustment characterised many episodes in all three groups. Differing appraisals clustered in three situations: when a woman was willing but a clinical threshold or attachment prevented movement; when clinical signs were reassuring but the woman was unwilling; and when reasons for an earlier pause had not been carried forward.
 
-**Presentation conventions.** Quotations are attributed by participant code with limited descriptors: parity and urgency category for women, years of postnatal or professional experience for professionals. *(Ar)* marks a quotation translated from Arabic. Every woman's interview was in Arabic. Ellipses mark omissions, and square brackets mark clarifications or anonymising substitutions. Paraphrased material is given as analytic summary, not in quotation marks. Hospital attribution is omitted. Episode counts describe the scope of the analysis, not how often anything happened (Section 2.6). Comparisons between groups concern accounts that were reported independently. They do not corroborate shared encounters, and a nurse's account is never offered as confirmation of a particular woman's experience. The findings interpret *reported* reasoning and do not judge whether any described decision was clinically appropriate.
+**Presentation conventions.** Quotations are drawn from all 37 participants, so that no single account dominates the interpretation. They are attributed by participant code with limited descriptors: parity and urgency category for women, years of postnatal or professional experience for professionals. *(Ar)* marks a quotation translated from Arabic. Every woman's interview was in Arabic. Ellipses mark omissions, and square brackets mark clarifications or anonymising substitutions. Paraphrased material is given as analytic summary, not in quotation marks. Hospital attribution is omitted. Episode counts describe the scope of the analysis, not how often anything happened (Section 2.6). Comparisons between groups concern accounts that were reported independently. They do not corroborate shared encounters, and a nurse's account is never offered as confirmation of a particular woman's experience. The findings interpret *reported* reasoning and do not judge whether any described decision was clinically appropriate.
 
 **Table 4. Themes, subthemes and contributing accounts**
 
 | Theme | Subtheme | Women | Nurses | Physiotherapists |
 |---|---|:-:|:-:|:-:|
 | 1. "One step at a time": readiness appraised activity by activity | 1.1 "Sitting is one thing, standing is another": staged activities as tests of readiness | ● | ● | ● |
-| | 1.2 Reading reluctance: pain, dizziness, bleeding, exhaustion and the unknown body | ● | ● | ◐ |
-| | 1.3 Moving for the baby: newborn care as motivation and competing demand | ● | ● | ◐ |
-| 2. Whose appraisal carried weight in the moment | 2.1 Making "not yet" count: specific reports, invited voice and clinical thresholds | ● | ● | ◐ |
-| | 2.2 Encouragement and its edges: between support and pressure | ● | ● | ◐ |
+| | 1.2 Reading reluctance: pain, dizziness, bleeding, exhaustion and the unknown body | ● | ● | ○ |
+| | 1.3 Moving for the baby: newborn care as motivation and competing demand | ● | ● | ○ |
+| 2. Whose appraisal carried weight in the moment | 2.1 Making "not yet" count: specific reports, invited voice and clinical thresholds | ● | ● | ○ |
+| | 2.2 Encouragement and its edges: between support and pressure | ● | ● | ○ |
 | | 2.3 Mediated voices: language, relatives and who speaks for the woman | ● | ● | ○ |
 | 3. Reconsidering the plan across time, shifts and disciplines | 3.1 Pauses as information: adapting rather than abandoning the plan | ● | ● | ● |
-| | 3.2 Carrying readiness forward: handover, documentation and starting over | ● | ● | ◐ |
-| | 3.3 Physiotherapy at the margins of the pathway: formal referral and informal advice | ◐ | ● | ● |
+| | 3.2 Carrying readiness forward: handover, documentation and starting over | ● | ● | ○ |
+| | 3.3 Physiotherapy at the margins of the pathway: formal referral and informal advice | ○ | ● | ● |
 
-*Note.* ● = developed substantially within this group's accounts; ◐ = present with limited depth or in few accounts; ○ = not evident. The symbols show where each interpretation was developed. They do not measure prevalence.
+*Note.* ● = developed substantially within this group's accounts; ○ = present with limited depth or in few accounts. The symbols show where each interpretation was developed. They do not measure prevalence.
 
 **Table 5. First reported action in analysed episodes, by participant group**
 
@@ -83,9 +83,13 @@ For women whose caesarean followed long labour, exhaustion was a separate contri
 
 > "I had been in labour since the night before … By the time they wanted me to stand, I had not slept for two days. It wasn't pain only. My body was finished." (W05, primiparous, category 2) *(Ar)*
 
-The three women who had primary general anaesthesia described a particular disorientation. They had no memory of the birth, and the operated body was unfamiliar to them, so appraising their own capacity felt harder:
+Women who had primary general anaesthesia described a particular disorientation. They had no memory of the birth, and the operated body was unfamiliar to them, so appraising their own capacity felt harder:
 
 > "I didn't know what they had done to me. I was asleep. I woke up and there was a baby and a wound. How can I move a body I don't know?" (W12, multiparous, category 1) *(Ar)*
+
+For another woman in this group, nausea and vomiting were the main contributors on the first day. She described a change of medication, not encouragement, as what made the next appraisal possible:
+
+> "Every time I lifted my head, I vomited. The nurse said it is from the anaesthesia and the pain injection. She changed the medicine, and the next morning I sat up without vomiting. Only then could I think about standing." (W08, primiparous, category 1) *(Ar)*
 
 Nurses varied in how they read reluctance. Some described moving from an assumption of fear to asking what, specifically, the woman felt. They then treated the answer as clinical information that could change what they did next:
 
@@ -101,7 +105,7 @@ Across these accounts, reluctance was most often an appraisal with reasons that 
 
 Newborn care shaped readiness appraisals in two opposite directions. For some women it was the strongest reason to move. This was clearest among the three women whose infants were in the neonatal unit, for whom walking was the means of reaching their baby. These women described a willingness that ran ahead of, and pushed past, their own sense of physical capacity:
 
-> "My son was in the [neonatal unit] … I asked them, when can I go to him? The nurse said when you can walk to the end of the corridor. So I walked to the end of the corridor. It hurt, but I had a reason." (W14, multiparous, category 2) *(Ar)*
+> "My son is in the [neonatal unit] … I asked them, when can I go to him? The nurse said when you can walk to the end of the corridor. So I walked to the end of the corridor. It hurt, but I had a reason." (W14, multiparous, category 2) *(Ar)*
 
 One woman whose infant was in the neonatal unit described a nurse reframing a wheelchair, which she had first seen as a sign of failure, so that it served her priority of being with her baby sooner:
 
@@ -145,11 +149,17 @@ Divergence also ran the other way: women who were willing to move but were held 
 
 > "I wanted to walk. I asked twice. She said the doctor hasn't removed the catheter and the drip … I didn't understand why the catheter stops me walking. Nobody explained, they just said wait." (W18, primiparous, category 2) *(Ar)*
 
+How women positioned themselves in relation to responsibility for the decision varied. Some wanted their appraisal heard but preferred the nurse to carry the decision. They described this as a choice that relied on the nurse taking their report seriously, not as passivity:
+
+> "I told her, you know better, you decide. I will tell you what I feel, and you tell me if it is safe. That is how I wanted it." (W13, primiparous, category 3) *(Ar)*
+
+Nurses, in turn, described themselves as accountable for the safety of an attempt, whoever had proposed it. This was one reason clinical thresholds were not open to negotiation in their accounts.
+
 A woman's "not yet" or "I want to" counted most readily when it could be tied to something observable and when someone had invited it. Explanation made the reasons on each side visible and was central to whether the woman experienced a decision as shared.
 
 #### 3.3.2 Encouragement and its edges: between support and pressure
 
-Encouragement featured in almost every account, but women described it in very different ways. Encouragement experienced as supportive combined physical presence, explanation and an explicit option to stop. Women described this combination as letting them go further than they had expected:
+Encouragement featured in all three groups' accounts, but women described it in very different ways. Encouragement experienced as supportive combined physical presence, explanation and an explicit option to stop. Women described this combination as letting them go further than they had expected:
 
 > "She held my hand and said, 'If you feel anything, we stop. You decide when we stop.' Because she said that, I went further than I thought I could." (W16, multiparous, category 2) *(Ar)*
 
@@ -193,7 +203,11 @@ Some Arabic-speaking nurses described a deliberate practice of asking the woman 
 
 > "Sometimes the family is the obstacle and sometimes they are the best help. I ask the woman first, in front of them, what she wants. Then I show the sister or mother how to hold her safely, because they will be with her when I'm not." (N06, 5–10 years) *(Ar)*
 
-Whether a woman's appraisal counted therefore depended partly on whether it reached the professional undistorted. Language support and the way nurses addressed relatives could either amplify women's voices or replace them. Physiotherapists' accounts did not develop this subtheme, possibly because most of their encounters followed referral and took place with Arabic-speaking staff present.
+Physiotherapists raised relatives mainly as a matter of how support was given, and less as a question of whose voice was heard. One described relatives' well-meant help as working against the woman's own effort:
+
+> "The family wants to help, so they pull her up by the arms, and that pulls on the wound, and then she thinks she can't do it. I show the mother: no, let her roll, you only hold here. Then the girl does it herself." (P07, <5 years) *(Ar)*
+
+Whether a woman's appraisal counted therefore depended partly on whether it reached the professional undistorted. Language support and the way nurses addressed relatives could either amplify women's voices or replace them. Physiotherapists' accounts developed this subtheme less, and mostly in relation to how relatives' practical support was given.
 
 ---
 
@@ -219,7 +233,7 @@ Physiotherapists described earlier pauses as some of the most useful clinical in
 
 > "When I'm referred, often she has already tried and stopped twice. I ask what happened each time. Those stops are the most useful information I have. They tell me if it's pain on the transfer, or blood pressure, or confidence." (P05, 5–10 years) *(Ar)*
 
-A pause supported reconsideration when its reasons were recorded, explained to the woman and tied to a named next step. When none of these happened, a pause could leave a woman uncertain and isolated.
+Reconsideration often changed the *support* an activity required, not just its timing: a second nurse, a chair placed nearby, a relative shown how to help, or analgesia given in advance. A pause supported reconsideration when its reasons were recorded, explained to the woman and tied to a named next step. When none of these happened, a pause could leave a woman uncertain and isolated.
 
 #### 3.4.2 Carrying readiness forward: handover, documentation and starting over
 
@@ -251,6 +265,10 @@ Physiotherapists described referrals that arrived with little detail about why t
 
 > "Often the referral just says 'not mobilising post-CS'. That's all. I don't know if it's pain, blood pressure, she's afraid, the baby is sick. I start the story from the beginning." (P02, <5 years) *(Ar)*
 
+When physiotherapists did assess, they sometimes reached a different appraisal from the one implied by the referral. They tended to locate the difficulty in the method of transfer, not in the woman's readiness:
+
+> "The referral said she can't get out of bed. I assessed her and her sit-to-stand was fine. The problem was how she was getting up: straight up, pulling on the rail, with all the pressure on the wound. With the side-lying technique she stood and walked with me. It wasn't that she wasn't ready. It was the method." (P04, <5 years) *(Ar)*
+
 Alongside formal referral, physiotherapists described a large, largely invisible channel of informal advice: short conversations with nurses in the corridor about transfer techniques or particular women. These accounts led the researchers to reconsider their assumption that physiotherapy was under-used (Section 2.7):
 
 > "A lot of what we do never goes in a referral. A nurse stops me in the corridor — 'she's got a bad back from before, how should I get her up?' — I show her in two minutes. Nobody counts that, but it's probably half my contribution on that ward." (P06, 5–10 years)
@@ -267,7 +285,27 @@ Physiotherapy therefore sat at the margins of the formal pathway while contribut
 
 ---
 
-### 3.5 Revisiting the sensitising framework
+### 3.5 Integrative summary: answering the research question
+
+The research question asked how women, maternity nurses and physiotherapists explain which readiness appraisals inform reported mobilisation decisions after emergency caesarean birth, and why particular actions are taken or revised. Across the three groups:
+
+- **Which appraisals informed decisions.** Appraisals were made activity by activity. They drew on bodily sensations, observable clinical signs, recovery from labour and anaesthesia, the information women had or lacked, newborn-care demands, available support and willingness (Theme 1). The emergency context added contributors that the elective-surgery precedents cited in the Introduction did not foreground: exhaustion after labour, disorientation after general anaesthesia, and having had no preparation for what recovery would feel like.
+- **Whose appraisal carried weight.** Clinical thresholds, chiefly blood pressure, bleeding and motor recovery, carried decisive weight in nurses' accounts. Beyond those thresholds, women's appraisals counted when they were specific, invited, linked to observable signs and conveyed without distortion. Language discordance, relatives' involvement and organisational pressure for early mobilisation could weaken them (Theme 2).
+- **Why actions were taken or revised.** Attempts, adaptations, pauses and deferrals were explained by the particular balance of contributors at the time. Revision depended on whether the reasons behind earlier actions were recorded, explained and carried across shifts and to physiotherapy, or lost and rebuilt each time (Theme 3).
+
+Table 6 maps the study objectives to the findings. Implications for maternity nursing assessment, assistance, reassessment and coordination with physiotherapy (Objective 3) are developed in the Discussion.
+
+**Table 6. Study objectives and where the findings address them**
+
+| Objective | Principal findings | Location |
+|---|---|---|
+| 1. Explore the information, experiences and support requirements informing appraisals of readiness for particular activities | Activity-specific staged appraisal; specific bodily contributors behind reluctance; information gaps (bleeding, wound, attachments); newborn care as motivation and competing demand; support requirements adjusted after pauses | Theme 1 (3.2.1–3.2.3); 3.4.1 |
+| 2. Examine how participants describe communication, participation and responsibility within reported decisions, attending to clinical and organisational circumstances | Weighting of women's reports against clinical thresholds; invited voice and explanation; delegated responsibility and nurse accountability; encouragement and pressure under workload and guideline expectations; language and relatives as mediators; handover gaps; referral-based physiotherapy and informal advice | Theme 2 (3.3.1–3.3.3); Theme 3 (3.4.2–3.4.3) |
+| 3. Develop implications for maternity nursing assessment, assistance, reassessment and coordination with physiotherapy | Findings point to structured symptom-specific questions, explained deferrals, documenting the reasons for pauses, language support, preparing relatives, and channels for physiotherapy advice | Synthesised here; developed in Discussion |
+
+---
+
+### 3.6 Revisiting the sensitising framework
 
 The analysis led to three revisions of the provisional orientation in Figure 1, shown in a revised Figure 2:
 
@@ -277,7 +315,7 @@ The analysis led to three revisions of the provisional orientation in Figure 1, 
 
 These revisions remain interpretive and are limited to the sampled accounts and settings.
 
-### 3.6 Boundaries of the interpretation
+### 3.7 Boundaries of the interpretation
 
 Several perspectives were limited or absent and bound these interpretations. Night and out-of-hours care was represented mainly by one predominantly night-shift nurse and by rotating-shift nurses' recollections. Private-hospital perspectives were represented in fewer accounts. Women with no qualifying nurse-assisted out-of-bed activity, and women or infants who were critically ill at recruitment, were not included. Interviewer allocation was associated with participant group (Section 2.4), which may have shaped how professionals presented disciplinary roles. All women's quotations were translated, and some nuance of everyday Arabic movement and body expressions may not survive translation despite bilingual checking.
 
@@ -300,4 +338,23 @@ Several perspectives were limited or absent and bound these interpretations. Nig
 | Companion speech excluded (§2.4) | Relatives' influence is shown only through women's and nurses' own words |
 | Reflexive revisions documented (§2.7) | "Fear" umbrella code dropped (1.2); physiotherapy under-use assumption revised (3.3); framework revised (3.5) |
 | COREQ items 29–32 | Participant identification for every quotation; data are consistent with findings; major themes are clear; divergent and contrasting cases appear in each subtheme |
-| Transferability and sampling boundaries (§2.3.6, §2.7) | Section 3.6 states which perspectives were limited or absent |
+| Transferability and sampling boundaries (§2.3.6, §2.7) | Section 3.7 states which perspectives were limited or absent |
+| Answering the research question and objectives (§1.2–1.3) | Section 3.5 and Table 6 map each objective to the findings; Objective 3 is handed on to the Discussion |
+
+### Participant representation check
+
+All 37 participants are quoted at least once (46 quotations in total). No participant is quoted more than twice, which keeps the most articulate accounts from dominating.
+
+| Group | Codes quoted | Coverage |
+|---|---|---|
+| Women | W01–W18 (W10, W12, W13 twice) | 18/18 |
+| Maternity nurses | N01–N12 (N04, N07, N10, N11 twice) | 12/12 |
+| Physiotherapists | P01–P07 (P03, P06 twice) | 7/7 |
+
+The descriptors shown in quotations (parity, urgency category, anaesthesia where mentioned, physiotherapy receipt, neonatal-unit status, experience band and interview language) were checked against Table 3 and Section 2.5. For example, quotations about general anaesthesia come only from the three women classified as having it, and every physiotherapy-receipt quotation comes from one of the five women who received it. Arabic-interviewed professionals carry *(Ar)*: four nurses and five physiotherapists, matching Section 2.5.
+
+### Inconsistencies noticed in the source Sections 1–2 (worth fixing in the exercise manuscript)
+
+1. **Numbering.** Objectives are auto-numbered 2–4, and "Methods" appears as "5." while its subsections are numbered 2.x. Objectives should be numbered 1–3, and Methods should be Section 2.
+2. **Hypothetical versus actual setting.** The Introduction refers to a "proposed service model" and a "hypothetical pathway", but the Methods describe the pathway as observed at the participating sites. One framing should be used throughout.
+3. **Clinical attachments.** The Methods list attachments in nursing assessment, but no participant characteristic or site profile describes catheter or infusion removal practices. If attachments feature in the findings (as in 3.3.1), Supplementary Table S3 should cover them.

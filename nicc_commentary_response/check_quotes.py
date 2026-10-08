@@ -17,7 +17,8 @@ HERE = Path(__file__).resolve().parent
 EXTERNAL = {
     'directions along which to look': 'Blumer 1954, p. 7',
     'prescriptions of what to see': 'Blumer 1954, p. 7',
-    'rests to some degree on knowing the patient': 'Tanner 2006 (abstract, conclusion 2)',
+    'sound clinical judgment rests to some degree on knowing the patient': 'Tanner 2006 (abstract, conclusion 2)',
+    'subjective experience is not a reliable indicator of judgment accuracy': 'Kahneman & Klein 2009 (abstract, final sentence)',
 }
 
 

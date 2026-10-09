@@ -1,13 +1,13 @@
 ---
 title: "2. Methods (revised)"
-subtitle: "AI-Assisted Versus Student-Generated Mind Maps for Clinical Reasoning in Pediatric Neurotrauma Nursing Education: A Three-Arm Cluster-Randomized Controlled Trial"
+subtitle: "AI-Assisted Versus Student-Generated Mind Maps for Clinical Reasoning in Pediatric Neurotrauma Nursing Education: A Three-Arm Quasi-Experimental Study"
 ---
 
 # 2. Methods
 
 ## 2.1. Study Design, Registration, and Reporting
 
-This was a three-arm, parallel-group, cluster-randomized controlled trial with baseline and post-instruction assessments. It was conducted in one cohort of third-year nursing students at a single faculty of nursing. Intact laboratory sections were the unit of randomization, small groups within sections were the unit of teaching, and individual students were the unit of outcome measurement. The trial compared three instructional strategies:
+This was a three-arm, concurrent, controlled quasi-experimental study with baseline and post-instruction assessments. Allocation was nonrandom and by intact cluster (a cluster nonrandomized controlled design). The study was conducted in one cohort of third-year nursing students at a single faculty of nursing. Intact laboratory sections were the unit of allocation, small groups within sections were the unit of teaching, and individual students were the unit of outcome measurement. The study compared three instructional strategies:
 
 (a) clinically reviewed, AI-assisted mind maps that students examined, annotated, revised, and applied (AI-assisted map arm);
 (b) mind maps that students constructed themselves (student-map arm); and
@@ -15,9 +15,21 @@ This was a three-arm, parallel-group, cluster-randomized controlled trial with b
 
 All arms were delivered within one flipped-classroom framework. They shared the same pre-class materials, contact time, teaching cases, simulation practice, debriefing method, and facilitator feedback criteria.
 
-**Scope of inference.** Each arm is a complete instructional strategy: a representation (supplied map, constructed map, or linear worksheet) combined with a defined learning activity. The trial therefore estimates the comparative effectiveness of strategies. It does not estimate the isolated effect of AI generation on student learning, for two reasons: the AI-assisted maps were reviewed and revised by experts before use, and they were paired with a different activity from map construction. The contribution of generative AI to producing the maps was evaluated in a separate materials substudy (Section 2.8.4). That substudy compared accuracy, errors corrected, and development time with expert-authored maps.
+**Why a quasi-experimental design.** Pediatric laboratory teaching is timetabled by section, and students cannot be moved between sections without disrupting the timetable and risking contamination within sections. The faculty's curriculum committee approved allocation of whole sections by a transparent, prespecified rule that could be explained to students and staff, but did not approve chance-based allocation of compulsory teaching. A nonrandomized design with concurrent controls was therefore used.
 
-**Registration and reporting.** The protocol (version 1.0, dated 15 November 2025) and the statistical analysis plan (SAP) were registered prospectively on Open Science Framework Registries on 20 December 2025, before recruitment (registration DOI: [insert]). The final SAP (version 2.0) was posted before database lock and unblinding. Any deviations from the registered protocol are listed with reasons in Supplementary Table S10. Reporting follows the CONSORT 2025 statement (Hopewell et al., 2025) and its extensions for cluster-randomized trials (Campbell et al., 2012) and multi-arm trials (Juszczak et al., 2019). It also follows the reporting guidelines for health care simulation research (Cheng et al., 2016). The instructional strategies are described using the Template for Intervention Description and Replication (TIDieR; Hoffmann et al., 2014). The completed checklists are provided in Supplementary S1. The study timeline is shown in Table 1.
+Because allocation was nonrandom, the study was designed against the main threats to internal validity of quasi-experimental designs (Shadish et al., 2002) and the bias domains of ROBINS-I (Sterne et al., 2016):
+
+- a prespecified, deterministic allocation rule applied by a person independent of the study, after consent and baseline assessment (Section 2.5);
+- facilitators crossed with arms, so instructor effects cannot be confounded with arm;
+- allocation chosen to give the best available balance on measured prognostic factors;
+- concurrent comparison groups taught in the same weeks, with a baseline measure of every outcome;
+- outcome raters masked to arm and assessment occasion (Section 2.6);
+- adjustment for confounders prespecified from a causal diagram; and
+- sensitivity analyses for measured and unmeasured confounding, including a negative-control outcome and E-values (Section 2.18.8).
+
+**Scope of inference.** Each arm is a complete instructional strategy: a representation (supplied map, constructed map, or linear worksheet) combined with a defined learning activity. The study therefore estimates the comparative effectiveness of strategies. It does not estimate the isolated effect of AI generation on student learning, for two reasons: the AI-assisted maps were reviewed and revised by experts before use, and they were paired with a different activity from map construction. The contribution of generative AI to producing the maps was evaluated in a separate materials substudy (Section 2.8.4). That substudy compared accuracy, errors corrected, and development time with expert-authored maps. Because allocation was nonrandom, between-arm differences are interpreted as causal effects only under the assumptions stated in Section 2.18.3, and their robustness to unmeasured confounding is quantified.
+
+**Registration and reporting.** The protocol (version 1.0, dated 15 November 2025) and the statistical analysis plan (SAP) were registered prospectively on Open Science Framework Registries on 20 December 2025, before recruitment (registration DOI: [insert]). The final SAP (version 2.0) was posted before database lock and unblinding. Any deviations from the registered protocol are listed with reasons in Supplementary Table S10. Reporting follows the Transparent Reporting of Evaluations with Nonrandomized Designs (TREND) statement (Des Jarlais et al., 2004). For the clustered structure, it also follows the relevant items of the CONSORT extension for cluster randomized trials (Campbell et al., 2012). Simulation elements follow the reporting guidelines for health care simulation research (Cheng et al., 2016). The instructional strategies are described using the Template for Intervention Description and Replication (TIDieR; Hoffmann et al., 2014). The completed checklists are provided in Supplementary S1. The study timeline is shown in Table 1.
 
 **Table 1.** Study timeline (academic year 2025–2026)
 
@@ -32,7 +44,7 @@ All arms were delivered within one flipped-classroom framework. They shared the 
 | 25 – 28 Jan 2026 | Training of facilitators (25–26 Jan), simulation instructors (27–28 Jan), and assessment staff (28 Jan) |
 | 25 – 29 Jan 2026 | Study information session (25 Jan); consent period (25–29 Jan) |
 | 1 – 11 Feb 2026 | Baseline: simulation and skills assessments (1–10 Feb, 8 working days); knowledge test (11 Feb) |
-| 12 Feb 2026 | Randomization of sections |
+| 12 Feb 2026 | Allocation of sections by the prespecified nonrandom rule |
 | 15 – 17 Feb 2026 | Orientation (week 0) |
 | 22 Feb – 17 Mar 2026 | Teaching sessions 1–4, one per week (weeks beginning 22 Feb, 1 Mar, 8 Mar, 15 Mar); all four sessions fell within Ramadan |
 | Late March 2026 | Official Eid al-Fitr holiday (between final teaching session and post-instruction assessment for all sections) |
@@ -51,7 +63,7 @@ Two learning theories make **opposite predictions** about the primary comparison
 
 Because the theories disagree on direction, the primary hypothesis was specified as two-sided.
 
-The **Clinical Reasoning Cycle** (Levett-Jones et al., 2010) anchored both teaching and assessment. Its eight phases are: considering the patient situation, collecting cues, processing information, identifying problems, establishing goals, taking action, evaluating outcomes, and reflecting. These phases define four shared elements of the trial:
+The **Clinical Reasoning Cycle** (Levett-Jones et al., 2010) anchored both teaching and assessment. Its eight phases are: considering the patient situation, collecting cues, processing information, identifying problems, establishing goals, taking action, evaluating outcomes, and reflecting. These phases define four shared elements of the study:
 
 1. the eight case-analysis headings used in all arms (Section 2.9);
 2. the facilitator feedback criteria;
@@ -66,11 +78,11 @@ The **Clinical Reasoning Cycle** (Levett-Jones et al., 2010) anchored both teach
 
 **Rationale for the primary comparison.** The choice between the two map strategies is the practical decision educators face when adopting AI-assisted materials: whether to supply a reviewed map or ask students to build their own. The worksheet arm represents the faculty's current case-analysis format and serves as a common reference for both mapping strategies.
 
-**Process measures.** Cognitive load and the quality of students' work products (Section 2.12) were measured to describe possible mechanisms. These are exploratory. No formal mediation analysis was planned, because the trial is not powered for one.
+**Process measures.** Cognitive load and the quality of students' work products (Section 2.12) were measured to describe possible mechanisms. These are exploratory. No formal mediation analysis was planned, because the study is not powered for one.
 
 ## 2.3. Setting and Educational Context
 
-The trial took place in the Pediatric Clinical Skills Laboratory of the Faculty of Nursing, Tanta University, Egypt. It was embedded in the compulsory third-year Pediatric Nursing course during the second semester of 2025–2026.
+The study took place in the Pediatric Clinical Skills Laboratory of the Faculty of Nursing, Tanta University, Egypt. It was embedded in the compulsory third-year Pediatric Nursing course during the second semester of 2025–2026.
 
 **Students' background.** Before the course, students had completed fundamentals of nursing, health assessment, and adult medical–surgical nursing, which included adult neurological assessment. Their earlier simulation experience consisted of task-trainer skills practice and six low- to medium-fidelity scenarios in adult nursing courses. English is the language of instruction, assessment, and course materials. Students attended clinical placements in the pediatric units of Tanta University Hospitals at the same time as laboratory teaching. Their exposure to children with head injury during placement was recorded (Section 2.11).
 
@@ -96,7 +108,7 @@ Two additional skills rooms with task trainers were used for the procedural-skil
 
 **Cohort organization.** The course divides its 450 students into 15 laboratory sections of 30. Each section is split into six small groups of five, formed by the course coordinator before the term using the faculty's routine procedure and kept constant throughout. Before the term began, the faculty timetable fixed each section's teaching day, time slot, and facilitator. Five clinical instructors facilitated the sections, three sections each. All held a master's or doctoral degree in pediatric nursing, and their mean teaching experience was 8 years.
 
-**The comparator.** Case analysis with structured worksheets is the faculty's routine format for case-based learning. In this trial, however, the worksheet arm was delivered within the same flipped and simulation-enhanced structure as the other arms. It is therefore an active comparator, not unchanged usual practice.
+**The comparator.** Case analysis with structured worksheets is the faculty's routine format for case-based learning. In this study, however, the worksheet arm was delivered within the same flipped and simulation-enhanced structure as the other arms. It is therefore an active comparator, not unchanged usual practice.
 
 ## 2.4. Participants, Eligibility, Recruitment, and Consent
 
@@ -117,7 +129,7 @@ Several safeguards protected voluntariness:
 
 - Completed forms were placed in a sealed box held by the independent researcher.
 - Teaching staff were not told who had consented until final course grades had been released.
-- Randomization took place after consent closed and after baseline assessment (Section 2.5), so students decided without knowing their allocation.
+- Allocation took place after consent closed and after baseline assessment (Section 2.5), so students decided without knowing their allocation.
 - Students were told that declining would not affect their grades or standing, and that all students would receive the full teaching as part of the curriculum.
 - Students who declined took part in all teaching. They completed the formative assessments as learning activities, without video recording, and no data were retained for them.
 - Participants could withdraw their data until database lock.
@@ -127,28 +139,33 @@ Several safeguards protected voluntariness:
 - age and sex;
 - cumulative grade point average (GPA) from the previous academic year, taken from faculty records;
 - English language course grade, taken from faculty records as an objective indicator of English proficiency, plus self-rated English proficiency on a 4-point scale;
+- the score on the non-neurological pediatric content of the course mid-semester examination, taken from faculty records after that examination and used as a negative-control outcome (Section 2.18.8);
 - number of previous simulation sessions;
 - previous use of mind maps or concept maps for study (never, occasionally, regularly);
 - frequency of generative AI use for study (never, occasionally, weekly, daily); and
 - previous exposure to children with head injury in clinical placements.
 
-**Facilitator expectations.** Before randomization, each facilitator rated how effective they expected each strategy to be on a 5-point scale. These ratings are reported descriptively as an indicator of possible allegiance.
+**Facilitator expectations.** Before allocation, each facilitator rated how effective they expected each strategy to be on a 5-point scale. These ratings are reported descriptively as an indicator of possible allegiance.
 
-## 2.5. Randomization, Allocation Concealment, and Scheduling
+## 2.5. Nonrandom Allocation, Balancing, and Scheduling
 
-**Randomization.** Sections were randomized on 12 February 2026, after baseline assessment and before orientation. The randomization was carried out by an independent statistician who had no role in recruitment, teaching, assessment, or analysis. It was stratified by facilitator: within each of the five facilitator strata, the three timetabled sections were allocated one to each arm. Facilitators were therefore crossed with arms, so instructor effects cannot be confounded with arm.
+**Unit and timing of allocation.** Allocation to strategy was nonrandom and by intact laboratory section; students were not assigned individually. The allocation rule was prespecified in the registered protocol. It was applied on 12 February 2026, after consent and baseline assessment and before orientation. The person who applied it was a methodologist with no role in recruitment, teaching, assessment, or analysis. Students could not choose or change their section or strategy.
 
-**Constraints.** Of the 6⁵ = 7,776 possible allocations, only those meeting all of the following were eligible (covariate-constrained randomization; Moulton, 2004; Ivers et al., 2012):
+**Allocation rule.** The rule had three steps.
 
-- (a) each arm was taught in the first, second, and third weekly teaching position (Sunday, Monday, Tuesday) in one or two facilitator strata, so that the order in which a facilitator taught the arms was balanced across arms;
-- (b) arm means of section-mean GPA and section-mean baseline knowledge score (PNNKT, which was available immediately after computer-based scoring) differed by less than 0.10 pooled individual-level standard deviations (SD); and
-- (c) the number of afternoon teaching slots differed by no more than one section between arms.
+1. **Facilitator crossing.** Within each of the five facilitators, the three timetabled sections were allocated one to each arm. Facilitators were therefore crossed with arms, so instructor effects cannot be confounded with arm.
+2. **Eligibility constraints.** Of the 6⁵ = 7,776 possible allocations that satisfy step 1, only those meeting all of the following were eligible:
+    - (a) each arm was taught in the first, second, and third weekly teaching position (Sunday, Monday, Tuesday) in one or two facilitators' sets of sections, so that the order in which a facilitator taught the arms was balanced across arms; and
+    - (b) the number of afternoon teaching slots differed by no more than one section between arms.
+3. **Balance-optimized selection.** Among the eligible allocations, the one with the smallest imbalance score was selected. The imbalance score was the sum, across pairs of arms, of the absolute standardized differences in section means for five prognostic factors: GPA, baseline knowledge (PNNKT, available immediately after computer-based scoring), English course grade, number of previous simulation sessions, and previous mind-map use. Ties were broken by timetable order. The rule contains no random element.
 
-Baseline clinical reasoning scores could not be used as a constraint, because they were rated only after all data had been collected (Section 2.16). One allocation was drawn at random from the eligible set using a seeded R script, with the seed recorded. Two properties of the eligible set were checked before the draw: its size, and that no pair of sections was always allocated together (Supplementary S7).
+Baseline clinical reasoning scores could not be used in the imbalance score, because they were rated only after all data had been collected (Section 2.16). The rule was implemented in a prespecified R script. The script, the number of eligible allocations, and the balance achieved are reported in Supplementary S7.
 
-**Concealment.** Allocation was revealed only to the course coordinator and the facilitators, on 12 February 2026. It was concealed from simulation instructors, assessment staff, outcome raters, data managers, and the trial statistician. Students could not choose or change their section.
+**What the rule does and does not achieve.** The rule produces close balance on measured prognostic factors and on design features of the timetable. Unlike randomization, it cannot be expected to balance unmeasured factors. Unmeasured confounding was therefore addressed in the analysis (Section 2.18.8).
 
-**Post-instruction schedule.** At randomization, the independent statistician also randomized the post-instruction assessment schedule. The 15 sections were arranged in five assessment rounds of three sections, one section from each arm per round. Both the order of rounds and the order of sections within each round were random. This design balances the post-instruction assessment date, the interval since teaching, and any risk of later information leakage across arms. The full section × day × time slot × facilitator × arm × assessment-round table is given in Supplementary Table S7.
+**Concealment of allocation.** Allocation was disclosed only to the course coordinator and the facilitators, on 12 February 2026. It was concealed from simulation instructors, assessment staff, outcome raters, data managers, and the study statistician. Because allocation was made after consent and baseline assessment, neither could be influenced by knowledge of the allocation.
+
+**Post-instruction schedule.** The post-instruction assessment schedule was also fixed by the prespecified rule. The 15 sections were arranged in five assessment rounds, each consisting of one facilitator's three sections (one section from each arm). The order of arms within rounds followed a Latin-square sequence, so that each arm was assessed first, second, and third within a round at least once. This design balances the post-instruction assessment date, the interval since teaching, and any risk of later information leakage across arms. The full section × day × time slot × facilitator × arm × assessment-round table is given in Supplementary Table S7.
 
 ## 2.6. Masking
 
@@ -159,11 +176,11 @@ Students and facilitators could not be masked to the learning activity, and the 
 - assessment proctors and skills-station staff;
 - outcome raters;
 - data managers; and
-- the trial statistician.
+- the study statistician.
 
 **Procedures to protect masking:**
 
-- The allocation list was held only by the independent statistician and the course coordinator.
+- The allocation list was held only by the methodologist who applied the allocation rule and by the course coordinator.
 - All schedules identified sections by neutral codes.
 - Students' arm-specific work products never entered the simulation rooms (Section 2.9), and facilitators were not present in the simulation rooms.
 - Before every simulation and assessment, students were reminded not to mention their learning activity. Any disclosure was logged.
@@ -367,7 +384,7 @@ Both features were verified from the students' work products (Section 2.12).
 | Feedback | Five shared criteria; about 5 min per group plus 15-min plenary per session | Same | Same |
 | Products in simulation room | Not permitted | Not permitted | Not permitted |
 | Fidelity monitoring | Audio-coded sessions; feedback logs; product analysis; LMS logs | Same | Same |
-| Outcome assessment | Individual, unseen cases from a randomized case bank; no materials or AI | Same | Same |
+| Outcome assessment | Individual, unseen cases assigned at random from a case bank; no materials or AI | Same | Same |
 
 ## 2.10. Personnel and Training
 
@@ -413,7 +430,7 @@ Contamination could arise through students, facilitators, simulation instructors
 
 - Facilitators received only the arm-specific session guide for each section and followed explicit rules against cross-arm content.
 - All case-work and plenary blocks were audio-recorded. In the sampled sessions, fidelity coders flagged any cross-arm content (Section 2.12).
-- Constrained randomization balanced the order in which facilitators taught the arms each week (Section 2.5).
+- The allocation rule balanced the order in which facilitators taught the arms each week (Section 2.5).
 
 **(c) Through simulation instructors.**
 
@@ -516,7 +533,7 @@ The cases were matched on severity spectrum, number and timing of cues, number o
 - within each section and occasion, every case was used equally often (±1); and
 - the order of the two cases was randomized.
 
-Case is modeled as a random effect in the analysis (Section 2.18). Differences in difficulty between cases are therefore absorbed by the model and do not need to be assumed away.
+Random assignment in this study applies only to measurement: assessment cases, knowledge-test forms, and the allocation of recordings to raters. Allocation of the instructional strategies was nonrandom (Section 2.5). Case is modeled as a random effect in the analysis (Section 2.18). Differences in difficulty between cases are therefore absorbed by the model and do not need to be assumed away.
 
 **Scenario design.** Each case was a 10-minute scenario on the age-appropriate manikin, with a trained standardized parent and a simulated patient monitor.
 
@@ -545,7 +562,7 @@ Item 7 was therefore scored from both the reassessment students actually perform
 
 | Outcome | Instrument and method | Score range | Timing | Raters and masking |
 |---|---|---|---|---|
-| Clinical reasoning (primary) | PN-CRER: 8 items scored 0–3 against case-specific keys; two randomly assigned unseen cases per occasion (10-min scenario + 5-min pre-recorded-prompt interview); video-recorded | 0–24 per case; occasion score = mean of two cases; higher = better | Baseline (1–10 Feb, before randomization) and post-instruction (29 Mar – 7 Apr; 12–23 days after session 4) | Three primary raters (recordings allocated at random, stratified by arm × occasion × case); 20% independently second-rated; all masked to arm and occasion |
+| Clinical reasoning (primary) | PN-CRER: 8 items scored 0–3 against case-specific keys; two randomly assigned unseen cases per occasion (10-min scenario + 5-min pre-recorded-prompt interview); video-recorded | 0–24 per case; occasion score = mean of two cases; higher = better | Baseline (1–10 Feb, before allocation) and post-instruction (29 Mar – 7 Apr; 12–23 days after session 4) | Three primary raters (recordings allocated at random, stratified by arm × occasion × case); 20% independently second-rated; all masked to arm and occasion |
 | Knowledge (secondary) | PNNKT: parallel forms A/B, 40 items each, counterbalanced; computer-based; equated | 0–40; higher = better | 11 Feb and 8 Apr (22–24 days after session 4) | Automated scoring against answer key |
 | Procedural skills (secondary) | PNPSC: 15-item checklist at a separate instructed-task station; video-recorded | 0–30; higher = better | Same visit as the reasoning cases | One primary rater; 25% second-rated; both masked to arm and occasion |
 | Critical safety error (secondary) | Case-key-defined critical errors coded during PN-CRER rating | Binary (any error per occasion) | As primary | As primary |
@@ -553,7 +570,7 @@ Item 7 was therefore scored from both the reassessment students actually perform
 
 ## 2.14. Assessment Procedures and Protection of Assessment Content
 
-**Schedule.** Baseline assessments took place from 1 to 10 February 2026 in timetable order, before randomization. Post-instruction assessments took place from 29 March to 7 April 2026 in the five randomized rounds (Section 2.5).
+**Schedule.** Baseline assessments took place from 1 to 10 February 2026 in timetable order, before allocation. Post-instruction assessments took place from 29 March to 7 April 2026 in the five prespecified rounds (Section 2.5).
 
 - Each section was assessed in a single half-day slot (08:00–12:15 or 12:45–17:00). A sixteenth slot at each occasion was reserved for make-up assessments.
 - Within a slot, the six simulation rooms ran in parallel (three set up for young-child cases and three for school-age cases), alongside the two skills rooms.
@@ -564,10 +581,10 @@ Item 7 was therefore scored from both the reassessment students actually perform
 **Protection against leakage between sections.** Three further measures limited leakage of case content between sections:
 
 - each student's cases were drawn at random from the eight-case bank;
-- the randomized round schedule balanced assessment dates across arms; and
+- the round schedule balanced assessment dates across arms; and
 - students reported any prior knowledge of the cases (Section 2.11).
 
-**Interval since teaching.** The interval between session 4 and post-instruction simulation assessment was 12–23 days. The randomized round schedule balanced this interval across arms. It was recorded for each student and used in sensitivity analyses.
+**Interval since teaching.** The interval between session 4 and post-instruction simulation assessment was 12–23 days. The round schedule balanced this interval across arms. It was recorded for each student and used in sensitivity analyses.
 
 **Recording quality and absences.** All recordings were captured with SimCapture and checked for quality on the same day. A case with failed audio or video was treated as missing. Students who missed both their scheduled slot and the make-up slot were treated as having missing data.
 
@@ -675,12 +692,12 @@ Sensitivity to change was examined as the post-instruction minus baseline differ
 **Planning assumptions.**
 
 - 10% missing outcome data, giving 27 analyzable students per section (135 per arm);
-- a baseline-adjusted intracluster correlation (ICC) of 0.03 between sections. Adjusting for a pretest substantially reduces between-cluster variance (Hedges and Hedberg, 2007). In addition, sections are administrative timetable units, not ability streams, within one cohort and curriculum, and facilitators were balanced by stratification;
+- a baseline-adjusted intracluster correlation (ICC) of 0.03 between sections. Adjusting for a pretest substantially reduces between-cluster variance (Hedges and Hedberg, 2007). In addition, sections are administrative timetable units, not ability streams, within one cohort and curriculum, and facilitators were crossed with arms;
 - an ICC of 0.05 between small groups within sections, with a mean group size of 4.5;
 - a baseline–post correlation of 0.50 at both the individual and cluster levels (Teerenstra et al., 2012); and
-- two-sided α = 0.05, using the noncentral t distribution with 8 degrees of freedom (15 clusters minus 3 arm parameters minus 4 facilitator-stratum parameters).
+- two-sided α = 0.05, using the noncentral t distribution with 8 degrees of freedom (15 clusters minus 3 arm parameters minus 4 facilitator parameters).
 
-**Result.** Under these assumptions, the trial has 84% power to detect 0.50 SD. The minimal detectable effect at 80% power is 0.47 SD (2.4 points). Because the ICC was uncertain, results were also calculated for other plausible values:
+**Result.** Under these assumptions, the study has 84% power to detect 0.50 SD. The minimal detectable effect at 80% power is 0.47 SD (2.4 points). Because the ICC was uncertain, results were also calculated for other plausible values:
 
 | Section ICC | Power for 0.50 SD | Minimal detectable effect (80% power) |
 |---|---|---|
@@ -689,7 +706,9 @@ Sensitivity to change was examined as the post-instruction minus baseline differ
 | 0.05 | 75% | 0.53 SD (2.7 points) |
 | 0.10 | 58% | 0.65 SD (3.3 points) |
 
-The ICCs observed in the trial are reported with 95% confidence intervals to inform future trials.
+The ICCs observed in the study are reported with 95% confidence intervals to inform future studies.
+
+These figures describe precision only. In a nonrandomized design, an adequately powered estimate can still be biased by unmeasured confounding. Sensitivity analyses S7–S9 (Section 2.18.8) address this risk; power does not.
 
 **Supporting comparisons.** The H2 comparisons use the same design but are adjusted for multiplicity, so their power is lower. They are interpreted mainly through their confidence intervals.
 
@@ -699,13 +718,13 @@ The calculation script is provided in Supplementary S9.
 
 ### 2.18.1. General Principles
 
-The analysis followed the registered SAP. Analyses were conducted in R version 4.3.1 using the following packages: lme4, lmerTest and pbkrtest for mixed models with Kenward–Roger degrees of freedom; emmeans for contrasts; jomo and mitml for multilevel multiple imputation; lavaan for confirmatory factor analysis; gtheory for generalizability analysis; and irr for agreement statistics. Package versions are listed in Supplementary S9.
+The analysis followed the registered SAP. Analyses were conducted in R version 4.3.1 using the following packages: lme4, lmerTest and pbkrtest for mixed models with Kenward–Roger degrees of freedom; emmeans for contrasts; jomo and mitml for multilevel multiple imputation; lavaan for confirmatory factor analysis; WeightIt and cobalt for propensity-score weighting and balance diagnostics; EValue for E-values; gtheory for generalizability analysis; and irr for agreement statistics. Package versions are listed in Supplementary S9.
 
 All tests are two-sided at α = 0.05. Estimates are reported with 95% confidence intervals. There were no interim analyses. Analyses were run with masked arm codes (Section 2.6).
 
 ### 2.18.2. Participant Flow and Baseline Description
 
-Sections and students are reported at each stage in a CONSORT flow diagram. Baseline characteristics are summarized by arm at both the individual and section levels. Balance is described with standardized mean differences rather than significance tests.
+Sections and students are reported at each stage in a TREND flow diagram. Baseline characteristics and baseline outcome scores are summarized by arm at both the individual and section levels. Balance is described with standardized mean differences (SMD) rather than significance tests (Austin, 2009). An absolute SMD above 0.10 is reported as an imbalance. Covariate adjustment was prespecified (Section 2.18.4) and was not changed in response to observed imbalance.
 
 ### 2.18.3. Primary Estimand
 
@@ -713,11 +732,19 @@ The primary estimand was defined following the ICH E9(R1) framework:
 
 | Attribute | Definition |
 |---|---|
-| Population | Consenting students in randomized sections |
+| Population | Consenting students in allocated sections |
 | Treatment condition | The allocated instructional strategy |
 | Variable | Post-instruction PN-CRER occasion score |
 | Intercurrent events | Non-attendance, use of another arm's materials, and use of generative AI, all handled under a treatment-policy strategy |
 | Population-level summary | Adjusted mean difference between the AI-assisted map and student-map arms |
+
+**Identification assumptions.** Because allocation was nonrandom, the adjusted difference has a causal interpretation only under three assumptions:
+
+- *Conditional exchangeability.* Given the measured confounders, the arms are comparable.
+- *Positivity.* Every combination of confounder values is represented in every arm.
+- *Consistency.* Each arm delivered one well-defined strategy, supported by fidelity monitoring.
+
+Positivity was checked by examining the overlap of propensity-score distributions. Departures from exchangeability were examined with the analyses in Section 2.18.8.
 
 ### 2.18.4. Primary Model
 
@@ -726,12 +753,19 @@ The primary model was a linear mixed-effects model of post-instruction PN-CRER s
 **Fixed effects:**
 
 - arm;
-- facilitator stratum (the stratification factor);
-- baseline PN-CRER score (each student's mean of the available baseline cases, grand-mean centered);
-- GPA and baseline PNNKT score (the variables used in constrained randomization; Li et al., 2016);
-- English course grade;
+- facilitator (a design factor crossed with arm);
+- the prespecified individual-level confounders, selected from a causal diagram drawn before data collection (Supplementary S11) as common causes of section allocation and post-instruction reasoning performance:
+    - baseline PN-CRER score (each student's mean of the available baseline cases, grand-mean centered);
+    - GPA;
+    - baseline PNNKT score;
+    - English course grade;
+    - number of previous simulation sessions;
+    - previous mind-map use; and
+    - frequency of previous generative AI use;
 - case age group and case order; and
 - rater.
+
+Section-level timetable features (teaching position and time slot) were balanced by the allocation rule. They were added in sensitivity analysis S3 rather than in the primary model, to preserve the few degrees of freedom available at the section level.
 
 **Random intercepts:**
 
@@ -740,11 +774,11 @@ The primary model was a linear mixed-effects model of post-instruction PN-CRER s
 - student; and
 - case (crossed with the other random effects).
 
-**Inference.** Degrees of freedom were estimated with the Kenward–Roger method, which suits trials with few clusters (Kenward and Roger, 1997; Leyrat et al., 2018). The primary contrast (H1: AI-assisted map vs student-map) was tested without multiplicity adjustment, because it is the single primary comparison. The two supporting contrasts (H2: each mapping arm vs the worksheet arm) were adjusted with a multivariate-t (Dunnett-type) correction. Students with only one valid post-instruction case contribute through the likelihood.
+**Inference.** Degrees of freedom were estimated with the Kenward–Roger method, which suits designs with few clusters (Kenward and Roger, 1997; Leyrat et al., 2018). The primary contrast (H1: AI-assisted map vs student-map) was tested without multiplicity adjustment, because it is the single primary comparison. The two supporting contrasts (H2: each mapping arm vs the worksheet arm) were adjusted with a multivariate-t (Dunnett-type) correction. Students with only one valid post-instruction case contribute through the likelihood.
 
 ### 2.18.5. Secondary Outcomes
 
-The PNNKT and PNPSC scores were analyzed with linear mixed models of the same structure. Each model was adjusted for the baseline score of that outcome, facilitator stratum, GPA, and English course grade, with random intercepts for section and small group. The PNPSC model also included rater.
+The PNNKT and PNPSC scores were analyzed with linear mixed models of the same structure. Each model was adjusted for the baseline score of that outcome, facilitator, and the same prespecified confounders as the primary model, with random intercepts for section and small group. The PNPSC model also included rater.
 
 Critical safety errors were analyzed with a logistic generalized linear mixed model at the case level. The model included random intercepts for section, small group, student, and case. Results are reported as odds ratios and as marginal risk differences.
 
@@ -773,7 +807,9 @@ The following sensitivity analyses were prespecified:
 - **S4. Two-rater scores:** using the mean of the two raters for double-rated recordings.
 - **S5. Cluster-level analysis:** comparing covariate-adjusted section-level means (Hayes and Moulton, 2017).
 - **S6. Floor and ceiling effects:** a censored (tobit) mixed model, if more than 15% of scores were at the floor or ceiling at either occasion.
-- **S7. Randomization-based inference:** a permutation test across the set of eligible allocations.
+- **S7. Propensity-score weighting:** a doubly robust analysis. A multinomial propensity score for arm was estimated from the individual-level confounders, with section as a random effect. The primary model was then refitted with overlap weights for multiple treatments (Li and Li, 2019). Overlap weights give greatest weight to students who could plausibly have been in any arm, and they produce exact mean balance on the covariates in the propensity model. Covariate balance after weighting is reported.
+- **S8. Negative-control outcome:** the same model was fitted to students' scores on the non-neurological pediatric content of the course mid-semester examination (taken from faculty records with consent). This content was taught identically to all sections and was not targeted by any strategy. A between-arm difference in this outcome would indicate residual confounding, for example by differences in motivation or ability between sections (Lipsitch et al., 2010).
+- **S9. Unmeasured confounding:** E-values were calculated for the primary estimate and for the confidence limit closer to the null (VanderWeele and Ding, 2017). The standardized difference was converted to an approximate risk ratio for this purpose. The E-value is the minimum strength of association that an unmeasured confounder would need with both arm and outcome to fully explain the observed difference.
 
 ### 2.18.9. Moderation (Exploratory)
 
@@ -813,7 +849,7 @@ A random 10% of records were verified against source documents.
 
 ## 2.20. Ethical Considerations
 
-**Approval and principles.** The study was approved by the Ethics Committee of the Faculty of Nursing, Tanta University (EC-2025-089, 15 December 2025; approved study period to 31 December 2026). It was conducted in accordance with the Declaration of Helsinki (World Medical Association, 2024) and the Ottawa Statement on cluster randomized trials (Weijer et al., 2012). The dean and the course director gave gatekeeper permission for randomization at the section level.
+**Approval and principles.** The study was approved by the Ethics Committee of the Faculty of Nursing, Tanta University (EC-2025-089, 15 December 2025; approved study period to 31 December 2026). It was conducted in accordance with the Declaration of Helsinki (World Medical Association, 2024). It also followed the principles of the Ottawa Statement (Weijer et al., 2012). That statement was written for cluster randomized trials, but its principles apply equally to cluster-allocated nonrandomized designs. The dean and the course director gave gatekeeper permission for allocation at the section level.
 
 **Consent model.** Individual consent was obtained for data collection, video recording, and the use of recordings. Section-level delivery of the strategies did not require individual consent, for three reasons:
 
@@ -845,11 +881,13 @@ Safeguards for voluntariness are described in Section 2.4.
 
 - American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). *Standards for educational and psychological testing*. AERA.
 - Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). *A taxonomy for learning, teaching, and assessing*. Longman.
+- Austin, P. C. (2009). Balance diagnostics for comparing the distribution of baseline covariates between treatment groups in propensity-score matched samples. *Statistics in Medicine, 28*(25), 3083–3107.
 - Bang, H., Ni, L., & Davis, C. E. (2004). Assessment of blinding in clinical trials. *Controlled Clinical Trials, 25*(2), 143–156.
 - Beaton, D. E., Bombardier, C., Guillemin, F., & Ferraz, M. B. (2000). Guidelines for the process of cross-cultural adaptation of self-report measures. *Spine, 25*(24), 3186–3191.
 - Brennan, R. L. (2001). *Generalizability theory*. Springer.
 - Campbell, M. K., Piaggio, G., Elbourne, D. R., & Altman, D. G. (2012). Consort 2010 statement: Extension to cluster randomised trials. *BMJ, 345*, e5661.
 - Cheng, A., Kessler, D., Mackinnon, R., et al. (2016). Reporting guidelines for health care simulation research: Extensions to the CONSORT and STROBE statements. *Advances in Simulation, 1*, 25.
+- Des Jarlais, D. C., Lyles, C., Crepaz, N., & the TREND Group. (2004). Improving the reporting quality of nonrandomized evaluations of behavioral and public health interventions: The TREND statement. *American Journal of Public Health, 94*(3), 361–366.
 - Eppich, W., & Cheng, A. (2015). Promoting Excellence and Reflective Learning in Simulation (PEARLS). *Simulation in Healthcare, 10*(2), 106–115.
 - Fiorella, L., & Mayer, R. E. (2016). Eight ways to promote generative learning. *Educational Psychology Review, 28*(4), 717–741.
 - Haladyna, T. M., Downing, S. M., & Rodriguez, M. C. (2002). A review of multiple-choice item-writing guidelines for classroom assessment. *Applied Measurement in Education, 15*(3), 309–333.
@@ -857,11 +895,8 @@ Safeguards for voluntariness are described in Section 2.4.
 - Hedges, L. V. (2007). Effect sizes in cluster-randomized designs. *Journal of Educational and Behavioral Statistics, 32*(4), 341–370.
 - Hedges, L. V., & Hedberg, E. C. (2007). Intraclass correlation values for planning group-randomized trials in education. *Educational Evaluation and Policy Analysis, 29*(1), 60–87.
 - Hoffmann, T. C., Glasziou, P. P., Boutron, I., et al. (2014). Better reporting of interventions: TIDieR checklist and guide. *BMJ, 348*, g1687.
-- Hopewell, S., Chan, A.-W., Collins, G. S., et al. (2025). CONSORT 2025 statement: Updated guideline for reporting randomised trials. *BMJ*, e081123.
 - International Council for Harmonisation. (2019). *E9(R1) addendum on estimands and sensitivity analysis in clinical trials*.
-- Ivers, N. M., Halperin, I. J., Barnsley, J., et al. (2012). Allocation techniques for balance at baseline in cluster randomized trials: A methodological review. *Trials, 13*, 120.
 - James, K. E., Bloch, D. A., Lee, K. K., Kraemer, H. C., & Fuller, R. K. (1996). An index for assessing blindness in a multi-centre clinical trial. *Statistics in Medicine, 15*(13), 1421–1434.
-- Juszczak, E., Altman, D. G., Hopewell, S., & Schulz, K. (2019). Reporting of multi-arm parallel-group randomized trials: Extension of the CONSORT 2010 statement. *JAMA, 321*(16), 1610–1620.
 - Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The expertise reversal effect. *Educational Psychologist, 38*(1), 23–31.
 - Kane, M. T. (2013). Validating the interpretations and uses of test scores. *Journal of Educational Measurement, 50*(1), 1–73.
 - Kenward, M. G., & Roger, J. H. (1997). Small sample inference for fixed effects from restricted maximum likelihood. *Biometrics, 53*(3), 983–997.
@@ -870,12 +905,15 @@ Safeguards for voluntariness are described in Section 2.4.
 - Lasater, K. (2007). Clinical judgment development: Using simulation to create an assessment rubric. *Journal of Nursing Education, 46*(11), 496–503.
 - Leppink, J., Paas, F., Van der Vleuten, C. P. M., Van Gog, T., & Van Merriënboer, J. J. G. (2013). Development of an instrument for measuring different types of cognitive load. *Behavior Research Methods, 45*(4), 1058–1072.
 - Leyrat, C., Morgan, K. E., Leurent, B., & Kahan, B. C. (2018). Cluster randomized trials with a small number of clusters: Which analyses should be used? *International Journal of Epidemiology, 47*(1), 321–331.
-- Li, F., Lokhnygina, Y., Murray, D. M., Heagerty, P. J., & DeLong, E. R. (2016). An evaluation of constrained randomization for the design and analysis of group-randomized trials. *Statistics in Medicine, 35*(10), 1565–1579.
+- Li, F., & Li, F. (2019). Propensity score weighting for causal inference with multiple treatments. *Annals of Applied Statistics, 13*(4), 2389–2415.
+- Lipsitch, M., Tchetgen Tchetgen, E., & Cohen, T. (2010). Negative controls: A tool for detecting confounding and bias in observational studies. *Epidemiology, 21*(3), 383–388.
 - Lynn, M. R. (1986). Determination and quantification of content validity. *Nursing Research, 35*(6), 382–385.
-- Moulton, L. H. (2004). Covariate-based constrained randomization of group-randomized trials. *Clinical Trials, 1*(3), 297–305.
 - Polit, D. F., Beck, C. T., & Owen, S. V. (2007). Is the CVI an acceptable indicator of content validity? *Research in Nursing & Health, 30*(4), 459–467.
+- Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). *Experimental and quasi-experimental designs for generalized causal inference*. Houghton Mifflin.
+- Sterne, J. A. C., Hernán, M. A., Reeves, B. C., et al. (2016). ROBINS-I: A tool for assessing risk of bias in non-randomised studies of interventions. *BMJ, 355*, i4919.
 - Sweller, J., van Merriënboer, J. J. G., & Paas, F. (2019). Cognitive architecture and instructional design: 20 years later. *Educational Psychology Review, 31*(2), 261–292.
 - Teerenstra, S., Eldridge, S., Graff, M., de Hoop, E., & Borm, G. F. (2012). A simple sample size formula for analysis of covariance in cluster randomized trials. *Statistics in Medicine, 31*(20), 2169–2178.
+- VanderWeele, T. J., & Ding, P. (2017). Sensitivity analysis in observational research: Introducing the E-value. *Annals of Internal Medicine, 167*(4), 268–274.
 - Weijer, C., Grimshaw, J. M., Eccles, M. P., et al. (2012). The Ottawa Statement on the ethical design and conduct of cluster randomized trials. *PLoS Medicine, 9*(11), e1001346.
 - World Medical Association. (2024). Declaration of Helsinki: Ethical principles for medical research involving human participants. *JAMA*. (Published online October 2024.)
 - Retained from the original manuscript: Bayzat and Dinc (2025); Chan et al. (2025); Decker et al. (2025); Kochanek et al. (2019); Levett-Jones et al. (2010); Liaw et al. (2018); NICE (2023); Persico et al. (2025); Watts et al. (2021).

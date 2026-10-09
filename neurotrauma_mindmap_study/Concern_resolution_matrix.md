@@ -9,9 +9,9 @@ Codes match the earlier review: A = internal contradictions, B = methodological 
 | A1 | Table 2 says one rater; text says three raters plus a fourth | Now four raters throughout: R1–R3 score all recordings (allocated at random, stratified by arm × occasion × case); R4 second-rates 20% | §2.16, Table 3 |
 | A2 | "Isolates map source" contradicts the Introduction | Scope-of-inference paragraph states the comparison is between strategies, not of AI per se; the AI contribution is assessed in the materials substudy | §2.1, §2.8.4 |
 | A3 | Post-test dates 24–30 Mar vs 24 Mar – 1 Apr | One timeline: 29 Mar – 7 Apr (simulation); 8 Apr (knowledge test) | Table 1, §2.14 |
-| A4 | Five weeks, 15 Feb – 15 Mar window, and 9–22-day interval do not fit together | Week 0 is 15–17 Feb; sessions in weeks of 22 Feb, 1 Mar, 8 Mar and 15 Mar; interval 12–23 days, derived from dates and balanced by randomized rounds | Table 1, §2.5, §2.14 |
+| A4 | Five weeks, 15 Feb – 15 Mar window, and 9–22-day interval do not fit together | Week 0 is 15–17 Feb; sessions in weeks of 22 Feb, 1 Mar, 8 Mar and 15 Mar; interval 12–23 days, derived from dates and balanced across arms by the prespecified round schedule | Table 1, §2.5, §2.14 |
 | A5 | Rating started the same day assessment ended | Rater training 12–13 Apr; rating 14 Apr – 30 Jun | Table 1, §2.16 |
-| A6 | Order of consent and allocation unclear | Consent closes 29 Jan → baseline → randomization 12 Feb; students consent without knowing allocation | §2.4, §2.5 |
+| A6 | Order of consent and allocation unclear | Consent closes 29 Jan → baseline → nonrandom allocation by prespecified rule on 12 Feb; students consent without knowing allocation | §2.4, §2.5 |
 | A7 | Seven taught headings vs eight rubric items | Eight headings taught in all arms, including Reflection | §2.9 |
 | A8 | Fixed cues vs scripted responses; scoring of item 7 | Semi-responsive design defined; item 7 scored from observed reassessment plus stated plan | §2.13 |
 | A9 | Power figures do not follow from the stated assumptions | Recomputed with noncentral t (8 df), small-group clustering, ANCOVA and 10% attrition; minimal detectable effect reported across ICCs | §2.17 |
@@ -27,9 +27,9 @@ Codes match the earlier review: A = internal contradictions, B = methodological 
 
 | # | Concern | Resolution | Where |
 |---|---|---|---|
-| B1 | Nonrandom rotation | Covariate-constrained cluster randomization stratified by facilitator, by an independent statistician after baseline | §2.5 |
+| B1 | Ad hoc nonrandom rotation | Design remains quasi-experimental. Allocation now follows a prespecified, deterministic rule applied by an independent methodologist after consent and baseline: facilitators crossed with arms, eligibility constraints, then selection of the best-balanced allocation on five prognostic factors. The rationale for not randomizing is stated, and threats are mapped to ROBINS-I domains | §2.1, §2.5 |
 | B2 | Facilitator contamination | Arm-specific guides only; explicit rules; audio coding for cross-arm content; sensitivity analysis S2 | §2.10–2.12, §2.18.8 |
-| B3 | Teaching order cannot be balanced | Constraint: each arm taught first/second/third by 1–2 facilitators; position added in S3 | §2.5, §2.18.8 |
+| B3 | Teaching order cannot be balanced | Allocation constraint: each arm taught first/second/third by 1–2 facilitators; position added in S3 | §2.5, §2.18.8 |
 | B4 | AI-map content aligned with scoring keys | Assessment cases written by a separate subgroup, never shown to teaching staff; node-origin reporting; materials substudy | §2.7, §2.8 |
 | B5 | Student-map ≈ worksheet | Cross-links required in map arms and absent in worksheets; verified from products | §2.9, §2.12 |
 | B6 | Novelty and allegiance effects | Facilitator expectation survey; acceptability measured; worksheet framed honestly as an active comparator | §2.4, §2.12, §2.3 |
@@ -44,8 +44,8 @@ Codes match the earlier review: A = internal contradictions, B = methodological 
 | B15 | SD of one case vs two-case mean | Precision analysis defined on the occasion score; analysis at case level | §2.17, §2.18.4 |
 | B16 | Floor effects and baseline-SD effect size | d_T uses total variance; tobit sensitivity analysis if more than 15% at floor or ceiling | §2.18.6, §2.18.8 |
 | B17 | Few cluster-level degrees of freedom | Degrees of freedom stated (8); only individual-level covariates, apart from the stratification factor | §2.17, §2.18.4 |
-| B18 | Covariate selection (Altman, 1991) | Covariates follow the constrained-randomization variables and prognostic factors; standardized mean differences, not p-values | §2.18.2, §2.18.4 |
-| B19 | Kenward–Roger plus wild bootstrap | Single framework: Kenward–Roger; parametric bootstrap for d_T; permutation test as sensitivity analysis | §2.18.6, §2.18.8 |
+| B18 | Covariate selection (Altman, 1991) | Confounders prespecified from a causal diagram; standardized mean differences, not p-values; adjustment not changed after looking at balance; identification assumptions stated | §2.18.2, §2.18.4 |
+| B19 | Kenward–Roger plus wild bootstrap | Single framework: Kenward–Roger with parametric bootstrap for d_T | §2.18.6, §2.18.8 |
 | B20 | Missing-data plan (MCAR test, 5% rule) | MAR likelihood, multilevel MI, tipping-point analysis | §2.18.7 |
 | B21 | Bang's index designed for two arms | James' index overall plus Bang's index for each arm vs the rest | §2.6 |
 | B22 | Masked statistician vs Dunnett control | All pairwise contrasts estimated masked; key held by data manager | §2.6 |
@@ -53,6 +53,7 @@ Codes match the earlier review: A = internal contradictions, B = methodological 
 | B24 | lme4 lacks Kenward–Roger | Packages listed (lmerTest, pbkrtest, emmeans, jomo, lavaan, gtheory, irr) | §2.18.1 |
 | B25 | Fleiss' kappa with "add" decisions | Kappa on retain/modify/delete only; additions reported separately | §2.8.3 |
 | B26 | Drift check by self-re-scoring; subgroup by AI use | Embedded benchmark recordings with recalibration rule; subgroup analyses grounded in theory (H3) | §2.16, §2.18.9 |
+| B27 | Residual and unmeasured confounding (nonrandom allocation) | Doubly robust overlap-weighted analysis (S7), negative-control outcome (S8), E-values (S9) | §2.18.8 |
 
 ## C. Missing information
 

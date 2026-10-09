@@ -64,7 +64,7 @@ module.exports = {
         'engage with the feedback asymmetry they describe and show how it connects with our findings on nursing surveillance and silent override; and',
         'set out where our recommendations converge with theirs, including symmetric, log-based capture of alert outputs, responses and outcomes, nurse-facing performance reports that include missed events, and the evaluation designs needed to test whether nurses’ trust tracks the system’s reliability.',
       ],
-      'Our response refers to the commentary in its text. Should the journal’s style require a formal citation of the commentary, we would be grateful if the Editorial Office could add it.',
+      'Because the commentary will be published alongside our response and its bibliographic details are not yet available to us, we refer to it in the text as “the commentators” and have not listed it in the references. Should the journal’s style require a formal citation, we would be grateful if the Editorial Office could add it as reference 1 at its first mention in the Introduction and renumber the remaining references accordingly.',
       'We would be happy to make any editorial changes you require.',
       'With best wishes,',
     ],

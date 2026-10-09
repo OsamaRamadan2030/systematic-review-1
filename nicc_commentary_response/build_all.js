@@ -107,18 +107,19 @@ function buildResponse() {
   const c = [];
   c.push(new Paragraph({ spacing: { after: 120 }, children: [new TextRun({ text: 'RESPONSE TO COMMENTARY', font: FONT, size: 20, bold: true })] }));
   c.push(new Paragraph({ spacing: { line: 360, after: 240 }, children: [new TextRun({ text: R.TITLE, font: FONT, size: 32, bold: true })] }));
-  const authors = [['Reda Samy', '1'], ['Osama Mohamed Elsayed Ramadan', '2'], ['Ghada Elsaid Ali Elsayed', '3,4']];
+  // Author order for this response: Ramadan (first and corresponding), Samy, Elsayed.
+  const authors = [['Osama Mohamed Elsayed Ramadan', '1*'], ['Reda Samy', '2'], ['Ghada Elsaid Ali Elsayed', '3,4']];
   c.push(new Paragraph({ spacing: { line: 360, after: 120 }, children: authors.flatMap(([n, s], i) => [
     new TextRun({ text: n, font: FONT, size: SIZE }), new TextRun({ text: s, font: FONT, size: SIZE, superScript: true }),
     ...(i < authors.length - 1 ? [new TextRun({ text: ' | ', font: FONT, size: SIZE })] : [])]) }));
   [
-    ['1', 'Department of Medical Surgical Nursing, College of Nursing, Jouf University, Sakaka, Saudi Arabia'],
-    ['2', 'Department of Maternal and Child Health Nursing, College of Nursing, Jouf University, Sakaka, Saudi Arabia'],
+    ['1', 'Department of Maternal and Child Health Nursing, College of Nursing, Jouf University, Sakaka, Saudi Arabia'],
+    ['2', 'Department of Medical Surgical Nursing, College of Nursing, Jouf University, Sakaka, Saudi Arabia'],
     ['3', 'Department of Community and Mental Health Nursing, College of Nursing, Najran University, Najran, Saudi Arabia'],
     ['4', 'Health Research Centre, Najran University, Najran, Saudi Arabia'],
   ].forEach(([s, t]) => c.push(new Paragraph({ spacing: { line: 276, after: 60 }, children: [
     new TextRun({ text: s, font: FONT, size: 20, superScript: true }), new TextRun({ text: t, font: FONT, size: 20 })] })));
-  c.push(P('Correspondence: Osama Mohamed Elsayed Ramadan (omramadan@ju.edu.sa)', { align: AlignmentType.LEFT, size: 20, after: 120 }));
+  c.push(P('*Corresponding author: Osama Mohamed Elsayed Ramadan, Department of Maternal and Child Health Nursing, College of Nursing, Jouf University, Sakaka, Saudi Arabia. Email: omramadan@ju.edu.sa', { align: AlignmentType.LEFT, size: 20, after: 120 }));
   c.push(P(R.RESPONSE_TO, { align: AlignmentType.LEFT, size: 20, italics: true, after: 120 }));
   c.push(P(`Word count: ${mainWords} words (main text including headings; excluding title, author details, end statements and references). Title: ${titleWords} words.`, { align: AlignmentType.LEFT, size: 20, after: 240 }));
   R.BODY.forEach(([h, ps]) => { c.push(H(h)); ps.forEach(p => c.push(P(p))); });

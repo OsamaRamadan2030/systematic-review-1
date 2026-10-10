@@ -1,0 +1,183 @@
+{
+ "pilot_items_retained": 83,
+ "pilot_kr20_A": 0.87,
+ "pilot_kr20_B": 0.91,
+ "pilot_diff_A": 0.62,
+ "pilot_diff_B": 0.63,
+ "eq_nA": 225,
+ "eq_nB": 225,
+ "eq_mA": 22.0,
+ "eq_sA": 7.73,
+ "eq_mB": 21.5,
+ "eq_sB": 8.57,
+ "eq_slope": 0.902,
+ "eq_icpt": 2.611,
+ "kr20_base_A": 0.87,
+ "kr20_base_B": 0.89,
+ "alloc_total": 7776,
+ "alloc_admissible": 270,
+ "alloc_max_smd": 0.178,
+ "attend": {
+  "AI": [
+   141,
+   7,
+   2
+  ],
+  "SM": [
+   139,
+   9,
+   2
+  ],
+  "WS": [
+   140,
+   8,
+   2
+  ]
+ },
+ "missing": {
+  "AI": {
+   "illness": 3,
+   "travel": 2,
+   "placement": 1,
+   "withdrawal": 0
+  },
+  "SM": {
+   "illness": 2,
+   "travel": 3,
+   "placement": 2,
+   "withdrawal": 1
+  },
+  "WS": {
+   "illness": 3,
+   "travel": 2,
+   "placement": 1,
+   "withdrawal": 1
+  }
+ },
+ "cvi": {
+  "PN-CRER": {
+   "items": 32,
+   "revised": 3,
+   "r1_below": 3,
+   "icvi_min": 0.88,
+   "scvi_ave": 0.97,
+   "scvi_ua": 0.75,
+   "kappa_min": 0.87
+  },
+  "PNNKT": {
+   "items": 96,
+   "revised": 7,
+   "r1_below": 7,
+   "icvi_min": 0.88,
+   "scvi_ave": 0.97,
+   "scvi_ua": 0.77,
+   "kappa_min": 0.87
+  },
+  "PNPSC": {
+   "items": 15,
+   "revised": 1,
+   "r1_below": 1,
+   "icvi_min": 0.88,
+   "scvi_ave": 0.96,
+   "scvi_ua": 0.67,
+   "kappa_min": 0.87
+  },
+  "cases": {
+   "items": 8,
+   "revised": 1,
+   "r1_below": 1,
+   "icvi_min": 1.0,
+   "scvi_ave": 1.0,
+   "scvi_ua": 1.0,
+   "kappa_min": 1.0
+  }
+ },
+ "n_case_recordings": 1758,
+ "n_proc_recordings": 879,
+ "icc_mon": [
+  0.87,
+  0.84,
+  0.89
+ ],
+ "dom_exact": 54.3,
+ "dom_adj": 98.1,
+ "case_total_sd": 4.32,
+ "common_n_rec": 120,
+ "common_n_stu": 60,
+ "icc_common": [
+  0.85,
+  0.79,
+  0.88
+ ],
+ "g_comp": {
+  "p": [
+   8.93,
+   55.6
+  ],
+  "c": [
+   2.45,
+   15.3
+  ],
+  "r": [
+   0.09,
+   0.6
+  ],
+  "pc": [
+   2.38,
+   14.8
+  ],
+  "pr": [
+   0.12,
+   0.8
+  ],
+  "cr": [
+   0.0,
+   0.0
+  ],
+  "e": [
+   2.08,
+   13.0
+  ]
+ },
+ "g_rel": [
+  0.79,
+  0.65,
+  0.87
+ ],
+ "g_abs": [
+  0.71,
+  0.54,
+  0.79
+ ],
+ "g_boot_n": 200,
+ "g_rel_4cases": 0.88,
+ "icc_proc": [
+  0.94,
+  0.92,
+  0.95
+ ],
+ "icc_lcjr": [
+  0.92,
+  0.89,
+  0.94
+ ],
+ "r_lcjr": [
+  0.73,
+  0.67,
+  0.78
+ ],
+ "lcjr_n_students": 219,
+ "fid_agree": 95.1,
+ "fid_kappa": 0.79,
+ "fid_items": 144,
+ "map_nodes": {
+  "unchanged": 148,
+  "modified": 41,
+  "added": 25,
+  "deleted": 19,
+  "final": 214
+ },
+ "power": 0.84,
+ "mdd": 0.47,
+ "DE": 1.96
+}

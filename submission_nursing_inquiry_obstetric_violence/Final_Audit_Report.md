@@ -1,4 +1,4 @@
-# Final Audit Report: Caught between conscience and culture (Nursing Inquiry)
+# Final Audit Report: Beyond moral distress (Nursing Inquiry)
 
 ## Verdict
 **Ready to submit once the authors resolve the five items under "Requires author input".** The most important are the four references missing co-author names and the confirmation of the two factual corrections.
@@ -50,7 +50,7 @@ All 11 quotations in the response record were checked by script against the clea
 - Statement of Significance box removed (not used by Nursing Inquiry).
 - Tables and figure moved after the references.
 - Discussion given subheadings 4.1–4.5.
-- Title revised to carry the new key concepts.
+- Title revised to "Beyond moral distress: Collective defences and the moral negotiation of obstetric violence by nurses and midwives in Saudi Arabia" (running title "Beyond moral distress in maternity care").
 
 ## Inconsistencies found between files (all fixed)
 - COREQ 22 said "four further interviews after the 14th"; the manuscript says interviews 15–18 refined existing interpretations. Aligned.

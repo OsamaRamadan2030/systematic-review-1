@@ -1,7 +1,7 @@
 // Builds the blank bilingual (English/Arabic) informed consent form for the
 // midwives' heat study (Healthcare, MDPI). Text in [square brackets] is a
 // placeholder and is highlighted yellow so it can be checked against the
-// IRB-approved version before upload.
+// IRB-approved version before upload. All details come from the published manuscript.
 // Run: node heat_midwives_consent/build_consent_form.js
 const fs = require("fs");
 const path = require("path");
@@ -81,13 +81,13 @@ const spacer = (n = 80) => new Paragraph({ spacing: { after: n }, children: [] }
 const ethics = {
   en: [
     { header: true, cells: ["Approving committee", "Reference", "Approval date"] },
-    { cells: ["Institutional Review Board, Majmaah University", "MUREC/COM-4 April 2025/305", "[April 2025: insert exact date]"] },
+    { cells: ["Institutional Review Board, Majmaah University", "MUREC/COM-4 April 2025/305", "April 2025"] },
     { cells: ["Institutional Review Board, King Abdulaziz Specialist Hospital, Al Jouf Health Cluster", "Committee registration H-13-S-161; approval no. 5670", "9 May 2025"] },
     { cells: ["General Directorate of Health Affairs, Hail Health Cluster", "KACST IRB registration H-11-08L-074; IRB log no. 2025-66", "1 June 2025"] },
   ],
   ar: [
     { header: true, cells: ["لجنة الموافقة", "المرجع", "تاريخ الموافقة"] },
-    { cells: ["مجلس المراجعة المؤسسية، جامعة المجمعة", "MUREC/COM-4 April 2025/305", "[أبريل 2025: أدخل التاريخ الدقيق]"] },
+    { cells: ["مجلس المراجعة المؤسسية، جامعة المجمعة", "MUREC/COM-4 April 2025/305", "أبريل 2025"] },
     { cells: ["مجلس المراجعة المؤسسية، مستشفى الملك عبدالعزيز التخصصي، تجمع الجوف الصحي", "تسجيل اللجنة H-13-S-161؛ رقم الموافقة 5670", "9 مايو 2025"] },
     { cells: ["المديرية العامة للشؤون الصحية، تجمع حائل الصحي", "تسجيل KACST رقم H-11-08L-074؛ رقم السجل 2025-66", "1 يونيو 2025"] },
   ],
@@ -99,13 +99,14 @@ function english() {
   const out = [];
   out.push(title("PARTICIPANT INFORMATION SHEET AND INFORMED CONSENT FORM", false, 28));
   out.push(p("Study title: When Does Heat Matter Beyond the Cooled Ward? Midwives’ Clinical Judgments Across the Maternity Care Pathway in Saudi Arabia: An Interpretive Description", { align: AlignmentType.CENTER, bold: true, size: 22, after: 60 }));
-  out.push(p("Information sheet version [x.x], dated [dd/mm/2025]   |   Language: English (an Arabic version is provided)", { align: AlignmentType.CENTER, italics: true, size: 19, after: 160 }));
+  out.push(p("Language: English (an Arabic version is provided)", { align: AlignmentType.CENTER, italics: true, size: 19, after: 160 }));
 
   out.push(h("Research team", { rule: true }));
   out.push(table([
-    { cells: ["Principal investigator", "[Name, title, department, institution]\nTel: [number]   Email: [email]"] },
-    { cells: ["Corresponding researcher", "Dr. Nada Alqarawi, College of Nursing, Qassim University. Email: n.alqarawi@qu.edu.sa"] },
-    { cells: ["Interviewer", "[Name], PhD-prepared academic nurse trained in qualitative interviewing. She does not work in your team and has no supervisory or evaluative role over you."] },
+    { cells: ["Principal investigator", "Athar Odah Alshammari, Department of Maternity and Child Health, Nursing College, University of Hail, Hail, Saudi Arabia\nEmail: athar.alshammari@uoh.edu.sa"] },
+    { cells: ["Corresponding researcher", "Nada Alqarawi, College of Community, Psychiatric and Mental Health Nursing, Qassim University, Buraydah, Saudi Arabia. Email: n.alqarawi@qu.edu.sa"] },
+    { cells: ["Co-investigators", "Afrah Madyan Alshammari, Mutairah Alamlah Alshammari and Manar Fayez Al-ruwaili (College of Nursing, Jouf University); Areej Abunar (Faculty of Nursing, King Abdulaziz University); Osama Mohamed Elsayed Ramadan (Faculty of Nursing, Cairo University); Heba Tallah Elashmawy Mohamed Shaban (College of Nursing, Majmaah University)"] },
+    { cells: ["Interviewer", "A female member of the research team: a PhD-prepared academic nurse trained in qualitative interviewing. She does not work in your team and has no supervisory or evaluative role over you."] },
   ].map((r) => ({ cells: r.cells.map((c) => c.split("\n")), opts: {} })), [2600, W - 2600], false));
   out.push(spacer());
   out.push(h("Ethics approval", { rule: true }));
@@ -126,7 +127,7 @@ function english() {
   out.push(p("Maternity nurses without midwifery classification, and midwives who line-manage potential participants, cannot take part. About 20–25 midwives from three regions of northern and central Saudi Arabia will be interviewed.", { before: 60 }));
 
   out.push(h("3. Do I have to take part?"));
-  out.push(p("No. Taking part is entirely voluntary and is not related to your employment, appraisal, contract or licensing. Your managers will not nominate you and will not be told whether you took part. You may decline to answer any question, pause or stop the interview at any time, and withdraw from the study without giving a reason and without any penalty. If you withdraw, your recording and transcript will be destroyed. Data already de-identified and combined in the analysis by [insert point, e.g. two weeks after your interview] may not be removable."));
+  out.push(p("No. Taking part is entirely voluntary and is not related to your employment, appraisal, contract or licensing. Your managers will not nominate you and will not be told whether you took part. You may decline to answer any question, pause or stop the interview at any time, and withdraw from the study without giving a reason and without any penalty. If you withdraw, your recording and transcript will be destroyed. Once your data have been de-identified and combined with other participants’ data in the analysis, it may no longer be possible to remove them."));
 
   out.push(h("4. What will happen if I take part?"));
   ["You will take part in one individual interview with the interviewer named above, lasting about 60 minutes (it may be shorter or longer depending on what you wish to share).",
@@ -141,7 +142,7 @@ function english() {
   out.push(p("The interview will be audio-recorded. Audio recording is needed to take part. One team member will transcribe the recording word-for-word in the language spoken, and another will check the transcript against the audio. Short extracts from Arabic interviews may be translated into English and checked by a second bilingual researcher. The interviewer may also write brief field notes. Transcripts will not be returned to you."));
 
   out.push(h("6. Are there any risks or disadvantages?"));
-  out.push(p("Risks are expected to be minimal. The interview will take some of your time. Talking about clinical decisions or working conditions may feel uncomfortable or raise concerns about how your practice may be viewed; you may skip any question or stop at any time. Because the number of participants is small, there is a small risk that someone could recognize you from contextual details. The steps described in Section 8 are designed to reduce this risk. [Insert any limits to confidentiality required by the approving committees, e.g. disclosure of an immediate risk to patient safety.]"));
+  out.push(p("Risks are expected to be minimal. The interview will take some of your time. Talking about clinical decisions or working conditions may feel uncomfortable or raise concerns about how your practice may be viewed; you may skip any question or stop at any time. Because the number of participants is small, there is a small risk that someone could recognize you from contextual details. The steps described in Section 8 are designed to reduce this risk."));
 
   out.push(h("7. Are there any benefits? Will I be paid?"));
   out.push(p("There is no direct benefit to you. Your experience may help improve guidance, documentation and staff support in maternity services during hot periods. You will not receive payment or reimbursement, and taking part will not cost you anything."));
@@ -153,14 +154,14 @@ function english() {
     "Names of facilities, units, places and other identifying details will be removed or made general.",
     "Published reports will describe participants only in aggregate (for example, numbers by experience band), not as individual profiles.",
     "Transcripts will not be made public. De-identified extracts may be shared with other researchers only on reasonable request and subject to ethics approval.",
-    "Data will be kept for [x] years after the study ends and then securely destroyed in line with [institution] policy."].forEach((t) => out.push(p(t, { bullet: true, after: 40 })));
+    "Data will be kept securely for the period required by the approving ethics committees and institutional policy, and then securely destroyed."].forEach((t) => out.push(p(t, { bullet: true, after: 40 })));
 
   out.push(h("9. What will happen to the results?"));
   out.push(p("The results will be published in scientific journals and presented at conferences. These may include short de-identified quotations of your words (translated into English if you spoke Arabic), labelled only with your code number. Quotations will not be used without your consent below."));
 
   out.push(h("10. Who can I contact?"));
-  out.push(p("For questions about the study: [Principal investigator name], Tel: [number], Email: [email]."));
-  out.push(p("For questions about your rights as a participant, or to raise a concern: [Chair/Secretary, Institutional Review Board, Majmaah University], Tel: [number], Email: [email]; or the ethics committee of your health cluster listed above."));
+  out.push(p("For questions about the study: Athar Odah Alshammari (principal investigator), Email: athar.alshammari@uoh.edu.sa; or Nada Alqarawi (corresponding researcher), Email: n.alqarawi@qu.edu.sa."));
+  out.push(p("For questions about your rights as a participant, or to raise a concern: the Institutional Review Board of Majmaah University, or the ethics committee of your health cluster listed above."));
   out.push(p("Thank you for considering taking part in this study.", { italics: true }));
 
   // ---- Part B ----
@@ -171,7 +172,7 @@ function english() {
   out.push(p("Please initial each box to show that you agree.", { bold: true }));
 
   const stmts = [
-    "I have read (or have had read to me) the Participant Information Sheet version [x.x] dated [dd/mm/2025]. I received it at least 48 hours before the interview, I have had the opportunity to ask questions, and my questions have been answered satisfactorily.",
+    "I have read (or have had read to me) the Participant Information Sheet (Part A) of this document. I received it at least 48 hours before the interview, I have had the opportunity to ask questions, and my questions have been answered satisfactorily.",
     "I confirm that I am a registered midwife classified by the Saudi Commission for Health Specialties, with at least 12 months of direct maternity care in a participating service and at least one completed hot season in this region.",
     "I understand that my participation is voluntary and unrelated to my employment, and that I am free to decline any question or withdraw at any time without giving a reason and without any effect on my work or legal rights.",
     "I understand that my managers will not be told whether I took part.",
@@ -204,7 +205,7 @@ function english() {
     { cells: ["Researcher obtaining consent", "", "", ""] },
   ].map((r, i) => i === 0 ? r : { cells: r.cells, opts: { size: 20 } }), [2600, 2700, 2638, 1700], false));
   out.push(spacer(80));
-  out.push(p("For videoconference interviews: [describe how the signed form was returned before the interview, e.g. scanned copy sent by secure email to the research team].", { italics: true, size: 19 }));
+  out.push(p("For videoconference interviews, the signed consent form is returned to the research team before the interview begins.", { italics: true, size: 19 }));
   return out;
 }
 
@@ -214,13 +215,20 @@ function arabic() {
   const out = [];
   out.push(title("ورقة معلومات المشاركة ونموذج الموافقة المستنيرة", true, 28));
   out.push(p("عنوان الدراسة: متى تكون للحرارة أهمية خارج الجناح المُكيَّف؟ الأحكام السريرية للقابلات عبر مسار رعاية الأمومة في المملكة العربية السعودية: دراسة وصفية تفسيرية", { ...r, align: AlignmentType.CENTER, bold: true, size: 22, after: 60 }));
-  out.push(p("ورقة المعلومات: الإصدار [x.x] بتاريخ [يوم/شهر/2025]   |   اللغة: العربية (تتوفر نسخة باللغة الإنجليزية)", { ...r, align: AlignmentType.CENTER, italics: true, size: 19, after: 160 }));
+  out.push(p("اللغة: العربية (تتوفر نسخة باللغة الإنجليزية)", { ...r, align: AlignmentType.CENTER, italics: true, size: 19, after: 160 }));
 
   out.push(h("فريق البحث", { ...r, rule: true }));
   out.push(table([
-    { cells: [["الباحث الرئيس"], ["[الاسم، اللقب، القسم، الجهة]", "هاتف: [الرقم]   البريد الإلكتروني: [البريد]"]] },
-    { cells: [["الباحثة المراسلة"], ["د. ندى القرعاوي، كلية التمريض، جامعة القصيم. البريد الإلكتروني: n.alqarawi@qu.edu.sa"]] },
-    { cells: [["القائمة بالمقابلة"], ["[الاسم]، ممرضة أكاديمية حاصلة على الدكتوراه ومدرَّبة على إجراء المقابلات النوعية. لا تعمل ضمن فريقك وليس لها أي دور إشرافي أو تقييمي عليك."]] },
+    { cells: [["الباحث الرئيس"], ["Athar Odah Alshammari، قسم الأمومة والطفولة، كلية التمريض، جامعة حائل، حائل، المملكة العربية السعودية", "البريد الإلكتروني: athar.alshammari@uoh.edu.sa"]] },
+    { cells: [["الباحثة المراسلة"], ["Nada Alqarawi، قسم تمريض المجتمع والتمريض النفسي والصحة النفسية، كلية التمريض، جامعة القصيم، بريدة، المملكة العربية السعودية. البريد الإلكتروني: n.alqarawi@qu.edu.sa"]] },
+    { cells: [["الباحثون المشاركون"], [
+      "Afrah Madyan Alshammari (كلية التمريض، جامعة الجوف)",
+      "Mutairah Alamlah Alshammari (كلية التمريض، جامعة الجوف)",
+      "Manar Fayez Al-ruwaili (كلية التمريض، جامعة الجوف)",
+      "Areej Abunar (كلية التمريض، جامعة الملك عبدالعزيز)",
+      "Osama Mohamed Elsayed Ramadan (كلية التمريض، جامعة القاهرة)",
+      "Heba Tallah Elashmawy Mohamed Shaban (كلية التمريض، جامعة المجمعة)"]] },
+    { cells: [["القائمة بالمقابلة"], ["عضوة في فريق البحث: ممرضة أكاديمية حاصلة على الدكتوراه ومدرَّبة على إجراء المقابلات النوعية. لا تعمل ضمن فريقك وليس لها أي دور إشرافي أو تقييمي عليك."]] },
   ], [2600, W - 2600], true));
   out.push(spacer());
   out.push(h("الموافقة الأخلاقية", { ...r, rule: true }));
@@ -241,7 +249,7 @@ function arabic() {
   out.push(p("لا يمكن مشاركة ممرضات الأمومة غير الحاصلات على تصنيف القبالة، ولا القابلات اللواتي يتولين الإدارة المباشرة لمشاركات محتملات. ستُجرى مقابلات مع نحو 20–25 قابلة من ثلاث مناطق في شمال ووسط المملكة العربية السعودية.", { ...r, before: 60 }));
 
   out.push(h("3. هل يجب عليّ المشاركة؟", r));
-  out.push(p("لا. المشاركة تطوعية بالكامل ولا علاقة لها بوظيفتكِ أو تقييم أدائكِ أو عقدكِ أو ترخيصكِ المهني. لن يرشحكِ مديروكِ ولن يُبلَّغوا بمشاركتكِ من عدمها. يمكنكِ الامتناع عن الإجابة عن أي سؤال، أو إيقاف المقابلة مؤقتًا أو إنهاؤها في أي وقت، والانسحاب من الدراسة دون إبداء أسباب ودون أي عواقب. في حال انسحابكِ سيتم إتلاف التسجيل والنص المكتوب الخاص بكِ. وقد يتعذر حذف البيانات التي أُزيلت منها المعلومات التعريفية ودُمجت في التحليل بعد [أدخل الموعد، مثل: أسبوعين من تاريخ المقابلة].", r));
+  out.push(p("لا. المشاركة تطوعية بالكامل ولا علاقة لها بوظيفتكِ أو تقييم أدائكِ أو عقدكِ أو ترخيصكِ المهني. لن يرشحكِ مديروكِ ولن يُبلَّغوا بمشاركتكِ من عدمها. يمكنكِ الامتناع عن الإجابة عن أي سؤال، أو إيقاف المقابلة مؤقتًا أو إنهاؤها في أي وقت، والانسحاب من الدراسة دون إبداء أسباب ودون أي عواقب. في حال انسحابكِ سيتم إتلاف التسجيل والنص المكتوب الخاص بكِ. وبعد إزالة المعلومات التعريفية من بياناتكِ ودمجها مع بيانات المشاركات الأخريات في التحليل، قد يتعذر حذفها.", r));
 
   out.push(h("4. ماذا سيحدث إذا شاركتُ؟", r));
   ["ستشاركين في مقابلة فردية واحدة مع القائمة بالمقابلة المذكورة أعلاه، تستغرق نحو 60 دقيقة (وقد تقل أو تزيد بحسب ما ترغبين في مشاركته).",
@@ -256,7 +264,7 @@ function arabic() {
   out.push(p("سيتم تسجيل المقابلة صوتيًا، والتسجيل الصوتي شرط للمشاركة. ستقوم إحدى عضوات الفريق بتفريغ التسجيل حرفيًا باللغة التي جرت بها المقابلة، وستقوم أخرى بمراجعة النص مقابل التسجيل. قد تُترجم مقتطفات قصيرة من المقابلات العربية إلى الإنجليزية وتراجعها باحثة ثانية ثنائية اللغة. وقد تدوِّن القائمة بالمقابلة ملاحظات ميدانية موجزة. لن تُعاد النصوص المكتوبة إليكِ.", r));
 
   out.push(h("6. هل توجد أي مخاطر أو سلبيات؟", r));
-  out.push(p("يُتوقع أن تكون المخاطر في حدها الأدنى. ستستغرق المقابلة جزءًا من وقتكِ. وقد يسبب الحديث عن القرارات السريرية أو ظروف العمل شعورًا بعدم الارتياح أو قلقًا بشأن كيفية النظر إلى ممارستكِ؛ ويمكنكِ تخطي أي سؤال أو التوقف في أي وقت. ونظرًا لقلة عدد المشاركات، هناك احتمال ضئيل أن يتعرف أحد عليكِ من تفاصيل السياق، والإجراءات الموضحة في البند 8 مصممة لتقليل هذا الاحتمال. [أدخل أي حدود للسرية تشترطها لجان الموافقة، مثل الإفصاح عن خطر مباشر على سلامة المرضى.]", r));
+  out.push(p("يُتوقع أن تكون المخاطر في حدها الأدنى. ستستغرق المقابلة جزءًا من وقتكِ. وقد يسبب الحديث عن القرارات السريرية أو ظروف العمل شعورًا بعدم الارتياح أو قلقًا بشأن كيفية النظر إلى ممارستكِ؛ ويمكنكِ تخطي أي سؤال أو التوقف في أي وقت. ونظرًا لقلة عدد المشاركات، هناك احتمال ضئيل أن يتعرف أحد عليكِ من تفاصيل السياق، والإجراءات الموضحة في البند 8 مصممة لتقليل هذا الاحتمال.", r));
 
   out.push(h("7. هل توجد فوائد؟ وهل سأحصل على مقابل مادي؟", r));
   out.push(p("لا توجد فائدة مباشرة لكِ. وقد تسهم تجربتكِ في تحسين الإرشادات والتوثيق ودعم العاملين في خدمات الأمومة خلال الفترات الحارة. لن تحصلي على أي مقابل مادي أو تعويض، ولن تتحملي أي تكلفة مقابل المشاركة.", r));
@@ -268,14 +276,14 @@ function arabic() {
     "ستُحذف أسماء المنشآت والوحدات والأماكن وأي تفاصيل تعريفية أخرى أو تُعمَّم.",
     "ستصف التقارير المنشورة المشاركات بصورة إجمالية فقط (مثل الأعداد حسب فئات الخبرة)، وليس بملفات فردية.",
     "لن تُتاح النصوص للعامة. وقد تُشارَك مقتطفات خالية من المعلومات التعريفية مع باحثين آخرين فقط عند تقديم طلب معقول وبعد الحصول على موافقة أخلاقية.",
-    "ستُحفظ البيانات لمدة [x] سنوات بعد انتهاء الدراسة ثم تُتلف بشكل آمن وفق سياسة [الجهة]."].forEach((t) => out.push(p(t, { ...r, bullet: true, after: 40 })));
+    "ستُحفظ البيانات بشكل آمن للمدة التي تحددها لجان الأخلاقيات المعتمدة والسياسات المؤسسية، ثم تُتلف بشكل آمن."].forEach((t) => out.push(p(t, { ...r, bullet: true, after: 40 })));
 
   out.push(h("9. ماذا سيحدث للنتائج؟", r));
   out.push(p("ستُنشر النتائج في مجلات علمية وتُعرض في مؤتمرات، وقد تتضمن اقتباسات قصيرة من كلامكِ خالية من المعلومات التعريفية (مترجمة إلى الإنجليزية إذا كانت المقابلة بالعربية)، ولا يُشار إليها إلا برمزكِ الرقمي. لن تُستخدم الاقتباسات دون موافقتكِ أدناه.", r));
 
   out.push(h("10. بمن يمكنني التواصل؟", r));
-  out.push(p("للاستفسار عن الدراسة: [اسم الباحث الرئيس]، هاتف: [الرقم]، البريد الإلكتروني: [البريد].", r));
-  out.push(p("للاستفسار عن حقوقكِ كمشاركة أو لتقديم شكوى: [رئيس/أمين مجلس المراجعة المؤسسية، جامعة المجمعة]، هاتف: [الرقم]، البريد الإلكتروني: [البريد]؛ أو لجنة الأخلاقيات في التجمع الصحي التابعة له والمذكورة أعلاه.", r));
+  out.push(p("للاستفسار عن الدراسة: Athar Odah Alshammari (الباحث الرئيس)، البريد الإلكتروني: athar.alshammari@uoh.edu.sa؛ أو Nada Alqarawi (الباحثة المراسلة)، البريد الإلكتروني: n.alqarawi@qu.edu.sa.", r));
+  out.push(p("للاستفسار عن حقوقكِ كمشاركة أو لتقديم شكوى: مجلس المراجعة المؤسسية بجامعة المجمعة، أو لجنة الأخلاقيات في التجمع الصحي التابعة له والمذكورة أعلاه.", r));
   out.push(p("شكرًا لكِ على النظر في المشاركة في هذه الدراسة.", { ...r, italics: true }));
 
   out.push(new Paragraph({ bidirectional: true, children: [new PageBreak()] }));
@@ -284,7 +292,7 @@ function arabic() {
   out.push(p("رمز المشاركة (يعبئه فريق البحث): P____        رمز المنطقة: ____", { ...r, align: AlignmentType.CENTER, bold: true, size: 20, after: 140 }));
   out.push(p("يُرجى كتابة الأحرف الأولى من اسمكِ في كل خانة للدلالة على موافقتكِ.", { ...r, bold: true }));
   const stmts = [
-    "قرأتُ (أو قُرئت عليّ) ورقة معلومات المشاركة الإصدار [x.x] بتاريخ [يوم/شهر/2025]. وقد استلمتُها قبل المقابلة بما لا يقل عن 48 ساعة، وأُتيحت لي فرصة طرح الأسئلة، وتمت الإجابة عنها بشكل مُرضٍ.",
+    "قرأتُ (أو قُرئت عليّ) ورقة معلومات المشاركة (الجزء أ) من هذه الوثيقة. وقد استلمتُها قبل المقابلة بما لا يقل عن 48 ساعة، وأُتيحت لي فرصة طرح الأسئلة، وتمت الإجابة عنها بشكل مُرضٍ.",
     "أؤكد أنني قابلة مسجلة ومصنفة لدى الهيئة السعودية للتخصصات الصحية، ولديّ خبرة لا تقل عن 12 شهرًا في الرعاية المباشرة للأمومة في خدمة مشاركة، وأكملتُ موسمًا حارًا واحدًا على الأقل في هذه المنطقة.",
     "أفهم أن مشاركتي تطوعية ولا علاقة لها بوظيفتي، وأن لي الحرية في الامتناع عن أي سؤال أو الانسحاب في أي وقت دون إبداء أسباب ودون أي أثر على عملي أو حقوقي النظامية.",
     "أفهم أن مديريّ لن يُبلَّغوا بمشاركتي من عدمها.",
@@ -317,7 +325,7 @@ function arabic() {
     { cells: ["الباحثة التي حصلت على الموافقة", "", "", ""] },
   ], [2600, 2700, 2638, 1700], true));
   out.push(spacer(80));
-  out.push(p("للمقابلات عبر الاتصال المرئي: [صِف كيفية إعادة النموذج الموقَّع قبل المقابلة، مثل إرسال نسخة ممسوحة ضوئيًا عبر بريد إلكتروني آمن إلى فريق البحث].", { ...r, italics: true, size: 19 }));
+  out.push(p("للمقابلات عبر الاتصال المرئي: تُعاد نسخة نموذج الموافقة الموقَّع إلى فريق البحث قبل بدء المقابلة.", { ...r, italics: true, size: 19 }));
   return out;
 }
 
@@ -325,7 +333,7 @@ const footer = (rtl) => new Footer({
   children: [new Paragraph({
     alignment: AlignmentType.CENTER, bidirectional: rtl,
     children: [
-      new TextRun({ text: rtl ? "نموذج الموافقة المستنيرة — الإصدار [x.x] — صفحة " : "Informed consent form — version [x.x] — page ", size: 16, font: FONT, color: "666666", rightToLeft: rtl }),
+      new TextRun({ text: rtl ? "نموذج الموافقة المستنيرة — صفحة " : "Informed consent form — page ", size: 16, font: FONT, color: "666666", rightToLeft: rtl }),
       new TextRun({ children: [PageNumber.CURRENT], size: 16, font: FONT, color: "666666" }),
     ],
   })],

@@ -28,7 +28,7 @@ The reported F values could not be reproduced from the reported descriptive stat
 
 You flagged JH-HLM and HADS-Depression. The same check shows **HADS-Anxiety and NIHSS also fail**, so all four were corrected. Leaving two of four on a different basis would have been inconsistent. The adjusted differences and CIs that Table 4 needed come from the same model, so they must agree with F.
 
-The unadjusted posttest F is a useful floor. For NIHSS it is 28.9, so a reported 67.82 would need a pretest–posttest r of about .8, but the paired tests imply r ≈ .43–.53.
+The unadjusted posttest F is a useful floor. For NIHSS it is 28.9, so a reported 67.82 would need a pretest–posttest r of about .67, but the paired tests imply r ≈ .43–.53.
 
 ### A2. Final values (Table 4, Results, Abstract)
 

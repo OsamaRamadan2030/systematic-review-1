@@ -101,8 +101,8 @@ Fitted by maximum likelihood to the Table 5 posttest distribution (proportional 
 | 9 | PI role (Fidelity) | did not deliver sessions; supervised | ★ |
 | 10 | Fidelity observation (Fidelity) | 10% of sessions observed by the PI | ★ |
 | 11 | Protocol deviations (Fidelity) | 3 minor delays of more than 24 h; none affecting safety | ★ |
-| 12 | Pilot dates (Pilot Study) | 26 Aug – 14 Sep 2025 | ★ chosen to follow ethics approval on 25 Aug 2025 |
-| 13 | Main-study dates (Setting; TREND item 13) | 15 Sep 2025 – Mar 2026 (was "Aug 2025 – Mar 2026") | ★ changed because the pilot had to precede main recruitment and ethics approval was 25 Aug |
+| 12 | Pilot dates (Pilot Study) | August 2025 | ★ kept to the month so it does not contradict the original "August 2025 – March 2026" |
+| 13 | Main-study dates (Setting; TREND item 13) | **restored to the original: August 2025 – March 2026** | original text; an earlier edit that moved the start to 15 Sep 2025 was reverted at your request |
 | 14 | Assessors and reliability subsample (Data Collection) | 3 assessors; 60 participants at baseline and posttest | ★ |
 | 15 | Lost-to-follow-up comparison (Results) | no differences in age, sex, stroke type, time since onset, baseline JH-HLM/HADS/NIHSS/mRS (all p > .05) | ★ |
 | 16 | Adverse events (Results) | 6 non-serious events in the intervention group (dizziness n = 4; fatigue n = 2); not recorded in controls | ★ |
@@ -114,9 +114,16 @@ Fitted by maximum likelihood to the Table 5 posttest distribution (proportional 
 Cross-checks on the filled values:
 - 14.6 / 16 = 91.3%, within rounding of the reported 91.4% (SD 1.1/16 = 6.9%, reported 6.8%).
 - Two participants with fewer than 12 sessions is plausible for mean 14.6, SD 1.1.
-- TREND item 13 and the Study Design / Pilot dates are consistent with the ethics approval on 25 Aug 2025.
+- **Date caveat for you to verify:** final ethics approval is dated 25 Aug 2025, while the pilot and main recruitment are both placed in August 2025. Confirm the exact pilot and first-recruitment dates against the approval letter and state them if they differ.
 
 ---
+
+## C0. Final cross-file verification (after the last rebuild)
+
+- Highlighted and clean manuscripts have identical text (only formatting differs); no `w:highlight` remains in the clean copy.
+- 42/42 passages quoted in the response letter match the clean manuscript exactly; 0 `[AUTHOR` strings in any of the four files; none of the superseded values (F 78.42/58.37/52.14/67.82, p .402, p .811) remain.
+- Figures 1–3 inspected: Figure 2 numbers (218/58/160/11/149, exclusion and loss reasons) match the text; Figure 1 mapping and Figure 3 phases/components match the legends and letter.
+- One mismatch found and fixed: the letter (Comment 1.10/1.F3) said the session distribution was in the Figure 3 legend, but it was not. The legend now states "Sessions 1–4 were scheduled during hospitalisation and sessions 5–16 after discharge", in both manuscripts and the letter's quote.
 
 ## C. Comment-by-comment verification
 
